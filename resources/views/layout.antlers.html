@@ -6,8 +6,11 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>{{ title ?? site:name }}</title>
         <link rel="stylesheet" href="{{ mix src='css/tailwind.css' }}">
+        <link rel="stylesheet" href="https://use.typekit.net/zyq5uaj.css">
     </head>
-    <body class="bg-gray-100 font-sans leading-normal text-gray-800" style="background-color: rgb(219, 219, 219);">
+    <body class="bg-gray-100 font-sans leading-normal text-gray-800" style="background-color: rgb(219, 219, 219); font-family: sofia-pro,sans-serif;
+    font-weight: 400;
+    font-style: normal;">
         <div class="mx-auto px-2 lg:min-h-screen flex flex-col items-center justify-center">
             {{ template_content }}
         </div>
