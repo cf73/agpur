@@ -1,0 +1,7 @@
+title: Products
+taxonomies:
+  - cable_type
+revisions: false
+date_behavior:
+  past: public
+  future: private

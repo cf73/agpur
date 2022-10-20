@@ -1,20 +1,81 @@
-<div style="width: 100%; height: 20vh; background-color: rgb(9, 9, 23); position: fixed; top: 0px; display: flex; align-items: center; justify-content: center;">
-    <img src="/assets/Logo.png" alt="AgPur Interconnects" width="40%" height="auto">
-</div>
+<img src="/assets/Logo.png" alt="AgPur Interconnects" width="40%" height="auto">
+
 
 <img src="{{hero_image}}" width="100%" height="auto" alt="Heracles Interconnects" style="margin-bottom: 60px; margin-top: 20vh;">
 
+<div class="container">
 
-
-    <div style="text-align: center; font-size: larger;">
-        <p>Ernest A. Meunier</p>
-        <p>781 526 3860</p>
-        <p>ernest_meunier@msn.com</p>
+    <div class="row">
+        <div class="col-sm-8 offset-md-2">
+            <div>
+                <p>Ernest A. Meunier</p>
+                <p>781 526 3860</p>
+                <p>ernest_meunier@msn.com</p>
+            </div>
+            
+            <div style="margin-top: 60px;">
+                <p>{{history_of_agpur}}</p>
+            </div>
+        </div>
     </div>
+
+    <section>
+        <div class="row">
+            <div class="col-sm-12">
+                <h1>Core Technologies</h1>
+            </div>
+        </div>
+        <div class="row">
+            {{collection:core_technologies}}
+            <div class="col-md-4">
+                <img style="height: 250px; width:100%; background-color:antiquewhite;" src="{{image}}" alt="">
+                <h3>{{title}}</h3>
+            </div>
+            {{/collection:core_technologies}}
+        </div>
+    </section>
+
+    <section>
+        <div class="row" style="margin-top: 60px;">
+            <div class="col-sm-12">
+                <h1>Interconnects</h1>
+            </div>
+            <div class="col-sm-12">
+                <h2>Blurb about the interconnects</h2>
+            </div>
+        </div>
     
-    <div style="max-width: 700px; padding: 0 30px; margin-top: 60px;">
-        <p>{{history_of_agpur}}</p>
-    </div>
+        <div class="row">
+            {{collection:products taxonomy:cable_type="interconnect"}}
+            <div class="col-md-3">
+                <img style="height: 150px; width:100%; background-color:antiquewhite;" src="{{image}}" alt="">
+                <h3>{{title}}</h3>
+                <p>{{description}}</p>
+            </div>
+            {{/collection:products}}
+        </div>
+    </section>
+    
+    <section>
+        <div class="row" style="margin-top: 60px;">
+            <div class="col-sm-12">
+                <h1>Speaker Cables</h1>
+            </div>
+            <div class="col-sm-12">
+                <h2>Blurb about the speaker cables</h2>
+            </div>
+        </div>
+        <div class="row">
+            {{collection:products taxonomy:cable_type="speaker-cable"}}
+            <div class="col-md-3">
+                <img style="height: 150px; width:100%; background-color:antiquewhite;" src="{{image}}" alt="">
+                <h3>{{title}}</h3>
+                <p>{{description}}</p>
+            </div>
+            {{/collection:products}}
+        </div>
 
-
-<h1 style="margin: 120px auto;">New website coming soon!</h1>
+    </section>
+    
+    
+</div>
