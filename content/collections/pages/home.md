@@ -9,16 +9,6 @@ history_of_agpur:
     content:
       -
         type: text
-        marks:
-          -
-            type: bold
-        text: 'The sound of NO CABLE!'
-      -
-        type: hard_break
-      -
-        type: hard_break
-      -
-        type: text
         text: 'ArgentPur started as a minimalist assault on the requirements of audio signal transmission.'
       -
         type: hard_break
@@ -84,7 +74,7 @@ history_of_agpur:
         type: text
         text: "NO CABLE! The sound and raison d'etre for ArgentPur!"
 updated_by: 63f13f7c-2a11-499f-b033-ad0f353c2031
-updated_at: 1662572374
+updated_at: 1666466685
 hero_image: heracleshero.jpg
 ---
 ## Welcome to your new brand Statamic site!

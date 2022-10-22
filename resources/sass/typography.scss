@@ -1,5 +1,33 @@
 body {
     color: $base;
-    font-size: 1.4em;
-    line-height: 1.4;
+    font-size: 1.3em;
+    line-height: 1.5;
+    font-family: sofia-pro,sans-serif;
+    font-variant-ligatures: common-ligatures;
+}
+h1 {
+    font-size: 13rem;
+    font-weight: 600;
+    letter-spacing: -0.06em;
+    line-height: 1;
+    text-align: center;
+}
+h2 {
+    font-size: 5rem;
+    font-weight: 600;
+    letter-spacing: -0.03em;
+}
+h3 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+}
+.caption {
+    font-size: 1rem;
+    letter-spacing: 0.03em;
+    line-height: 1.75;
+    font-weight: 700;
+}
+.light {
+    color: $light;
 }
