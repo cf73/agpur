@@ -74,8 +74,8 @@ history_of_agpur:
         type: text
         text: "NO CABLE! The sound and raison d'etre for ArgentPur!"
 updated_by: 63f13f7c-2a11-499f-b033-ad0f353c2031
-updated_at: 1666466685
-hero_image: heracleshero.jpg
+updated_at: 1667071513
+hero_image: hero.png
 ---
 ## Welcome to your new brand Statamic site!
 
