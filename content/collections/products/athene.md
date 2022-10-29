@@ -5,5 +5,6 @@ title: ATHENE
 description: 'comprise 18AWG Ag in a variable strand array for extremely high clarity and resolution. A Goldilocks choice....'
 cable_type: interconnect
 updated_by: 63f13f7c-2a11-499f-b033-ad0f353c2031
-updated_at: 1665073428
+updated_at: 1666840109
+image: athene.jpg
 ---
