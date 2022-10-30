@@ -16,6 +16,13 @@ header {
         margin-bottom: 0;
     }
 }
+.padded {
+    padding: 0 99px;
+}
+.product {
+    border: 1px solid rgba(209, 209, 209, 1);
+    margin-bottom: 30px;
+}
 .logo {
     position: absolute;
     top: 70vh;
@@ -32,6 +39,9 @@ header {
 body {
     background-color: black;
 }
+.spacer_small {
+    margin-bottom: 60px;
+}
 .spacer {
     margin-bottom: 90px;
 }
@@ -47,4 +57,13 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top center;
+}
+.description {
+    background-color: $blackglass;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    padding: 0 60px;
+    border-right: 1px solid rgba(209, 209, 209, 1);
 }

@@ -15,6 +15,7 @@ h1 {
   line-height: 96px;
   letter-spacing: 0.02em;
   text-align: left;
+  text-transform: uppercase;
 }
 
 h2 {
@@ -49,10 +50,15 @@ h3 {
   font-weight: 800;
   font-size: 96px;
   line-height: 96px;
+  color: #D1DEFE;
 }
 
 .light {
   color: #FAFAFA;
+}
+
+.highlight {
+  color: #BC4F4F;
 }
 
 header {
@@ -75,6 +81,15 @@ header p {
   margin-bottom: 0;
 }
 
+.padded {
+  padding: 0 99px;
+}
+
+.product {
+  border: 1px solid rgb(209, 209, 209);
+  margin-bottom: 30px;
+}
+
 .logo {
   position: absolute;
   top: 70vh;
@@ -95,6 +110,10 @@ body {
   background-color: black;
 }
 
+.spacer_small {
+  margin-bottom: 60px;
+}
+
 .spacer {
   margin-bottom: 90px;
 }
@@ -112,4 +131,14 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
+}
+
+.description {
+  background-color: rgba(0, 0, 0, 0.88);
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  padding: 0 60px;
+  border-right: 1px solid rgb(209, 209, 209);
 }
