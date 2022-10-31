@@ -28,15 +28,15 @@
                 {{/collection:tech_highlights}}
             </div>
         </div>
-        <div class="row spacer" style="margin-top:-30vh; z-index:999; position:relative;">
-            <div class="col-md-6 offset-md-1">
+        <div class="row spacer" style="margin-top:-50vh; z-index:99; position:relative;">
+            <div class="col-md-5 offset-md-2">
                 <div class="techcard">
-                    <h2 class="highlight">Core technologies</h2>
+                    <h2 class="highlight" style="margin: 0 50px 48px 50px;">Core technologies</h2>
                     <div class="swiper coretech">
                         <div class="swiper-wrapper">
                             {{collection:core_technologies}}
                             <div class="swiper-slide">
-                                <div style="padding: 60px;">
+                                <div style="padding: 0 50px;">
                                     <h3>{{title}}</h3>
                                     <p class="caption">{{description}}</p>
                                 </div>
@@ -147,6 +147,10 @@
         slidesPerView: 1,
         centeredSlides: true,
         spaceBetween: 30,
-        grabCursor: true,
+        effect: "fade",
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
     });
   </script>

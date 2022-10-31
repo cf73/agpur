@@ -12,8 +12,11 @@ header {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    color: $bluetint;
+    border-bottom: solid thin $bluetint;
     & p {
         margin-bottom: 0;
+        padding: 0 15px;
     }
 }
 .padded {
@@ -69,5 +72,21 @@ body {
 }
 .techcard {
     background-color: $blackglass;
-    padding: 60px;
+    padding: 60px 10px;
+    // border: solid thin $bluetint;
+}
+.swiper {
+    overflow: visible;
+    overflow-x: hidden;
+}
+.swiper-pagination-bullet {
+    background: $silver;
+}
+.swiper-button-next, .swiper-button-prev {
+    color: $silver;
+    top: 0%;
+    z-index: 120;
+}
+.swiper-button-next, .swiper-rtl .swiper-button-prev {
+    right: calc(var(--swiper-navigation-size)/ 44 * 477);
 }

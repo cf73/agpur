@@ -76,9 +76,12 @@ header {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  color: #D1DEFE;
+  border-bottom: solid thin #D1DEFE;
 }
 header p {
   margin-bottom: 0;
+  padding: 0 15px;
 }
 
 .padded {
@@ -145,5 +148,24 @@ body {
 
 .techcard {
   background-color: rgba(0, 0, 0, 0.88);
-  padding: 60px;
+  padding: 60px 10px;
+}
+
+.swiper {
+  overflow: visible;
+  overflow-x: hidden;
+}
+
+.swiper-pagination-bullet {
+  background: #D1D1D1;
+}
+
+.swiper-button-next, .swiper-button-prev {
+  color: #D1D1D1;
+  top: 0%;
+  z-index: 120;
+}
+
+.swiper-button-next, .swiper-rtl .swiper-button-prev {
+  right: calc(var(--swiper-navigation-size) / 44 * 477);
 }
