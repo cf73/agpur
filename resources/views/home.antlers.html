@@ -19,21 +19,39 @@
         </div>
     </section>
 
-    <section id="core-technologies">
-        <div class="row spacer">
-            <div class="col-sm-12">
-                <h1 class="light">Optimal decisions</h1>
+    <section id="techhighlights">
+        <div class="swiper techhighlights">
+            <div class="swiper-wrapper">
+                {{collection:tech_highlights}}
+                <div class="swiper-slide" style="height: 80vh; width: 100%; background-image: url('{{image}}'); background-size: cover; background-position: top center; background-repeat: no-repeat;">
+                </div>
+                {{/collection:tech_highlights}}
             </div>
         </div>
-        <div class="row">
-            {{collection:core_technologies}}
-            <div class="col-md-4">
-                <img style="width:100%; background-color:antiquewhite;" src="{{image}}" alt="">
-                <h3>{{title}}</h3>
-                <p>{{description}}</p>
+        <div class="row spacer" style="margin-top:-30vh; z-index:999; position:relative;">
+            <div class="col-md-6 offset-md-1">
+                <div class="techcard">
+                    <h2 class="highlight">Core technologies</h2>
+                    <div class="swiper coretech">
+                        <div class="swiper-wrapper">
+                            {{collection:core_technologies}}
+                            <div class="swiper-slide">
+                                <div style="padding: 60px;">
+                                    <h3>{{title}}</h3>
+                                    <p class="caption">{{description}}</p>
+                                </div>
+                            </div>
+                            {{/collection:core_technologies}}
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
             </div>
-            {{/collection:core_technologies}}
         </div>
+       
+        
     </section>
 
     <section id="interconnects" style="padding-bottom: 30px;" class="padded spacer">
@@ -101,3 +119,34 @@
         </div>
     </footer>
 </div>
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+ <!-- Initialize Swiper -->
+ <script>
+    var swiper = new Swiper(".coretech", {
+        slidesPerView: 1,
+        centeredSlides: true,
+        spaceBetween: 30,
+        grabCursor: true,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+    });
+  </script>
+
+   <!-- Initialize Swiper -->
+ <script>
+    var swiper = new Swiper(".techhighlights", {
+        slidesPerView: 1,
+        centeredSlides: true,
+        spaceBetween: 30,
+        grabCursor: true,
+    });
+  </script>
