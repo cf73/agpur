@@ -4,6 +4,6 @@ blueprint: product
 title: 'AgPur 11'
 cable_type: speaker-cable
 updated_by: 63f13f7c-2a11-499f-b033-ad0f353c2031
-updated_at: 1666985721
-image: agpur-spades.jpg
+updated_at: 1667326781
+image: agpur-12.jpg
 ---
