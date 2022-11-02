@@ -74,8 +74,9 @@
         <div class="row spacer_small">
             <div class="col-sm-8">
                 <h1 class="highlight">Interconnects</h1>
-                <p>Discover greater reality, layering, atmospherics, and naturalness
-                    ArgentPur offers three tiers of internconnects, available both single ended and balanced XLR.</p>
+                {{taxonomy:cable_type title:is="interconnect"}}
+                    {{description}}
+                {{/taxonomy:cable_type}}
             </div>
         </div>
         {{collection:products taxonomy:cable_type="interconnect"}}
@@ -108,8 +109,9 @@
         <div class="row spacer_small">
             <div class="col-sm-8">
                 <h1 class="highlight">Speaker Cables</h1>
-                <p>Discover greater reality, layering, atmospherics, and naturalness
-                    ArgentPur offers four lines of speaker cables, allowing perfect matching to room and equipment.</p>
+                {{taxonomy:cable_type title:contains="speaker"}}
+                    {{description}}
+                {{/taxonomy:cable_type}}
             </div>
         </div>
         {{collection:products taxonomy:cable_type="speaker-cable"}}
