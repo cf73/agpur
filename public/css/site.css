@@ -54,7 +54,7 @@ h3 {
 }
 
 .light {
-  color: #FAFAFA;
+  color: #D1D1D1;
 }
 
 .highlight {
@@ -168,4 +168,37 @@ body {
 
 .swiper-button-next, .swiper-rtl .swiper-button-prev {
   right: calc(var(--swiper-navigation-size) / 44 * 477);
+}
+
+.truncate {
+  max-height: 300px;
+  overflow: hidden;
+  position: relative;
+  transition: all 1s;
+}
+
+.fader {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
+  height: 156px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+#expand {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 99;
+  cursor: pointer;
+}
+
+#collapse {
+  cursor: pointer;
+}
+
+.hide {
+  display: none;
+  transition: all 1s;
 }

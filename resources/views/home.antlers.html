@@ -12,8 +12,11 @@
                 <h2>The sound of no cable</h2>
             </div>
             <div class="col-md-6 offset-md-3">
-                <div>
-                    <p>{{history_of_agpur}}</p>
+                <div id="history" class="truncate">
+                    {{history_of_agpur}}
+                    <div id="expand" class="caption light">+ show more</div>
+                    <div id="collapse" class="caption light hide">- show less</div>
+                    <div class="fader"></div>
                 </div>
             </div>
         </div>
@@ -165,3 +168,20 @@
         },
     });
   </script>
+
+<script>
+    $(document).ready(function(){
+        $('#expand').click(function(){
+            $("#history").removeClass("truncate");
+            $("#collapse").removeClass("hide");
+            $("#expand").addClass("hide");
+            $(".fader").addClass("hide");
+        });
+        $('#collapse').click(function(){
+            $("#history").addClass("truncate");
+            $("#collapse").addClass("hide");
+            $("#expand").removeClass("hide");
+            $(".fader").removeClass("hide");
+        });
+    });
+</script>
