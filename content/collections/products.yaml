@@ -1,7 +1,13 @@
 title: Products
+template: default
+layout: layout
 taxonomies:
   - cable_type
 revisions: false
+sort_dir: asc
 date_behavior:
   past: public
   future: private
+structure:
+  root: false
+  max_depth: 1
