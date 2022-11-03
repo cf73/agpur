@@ -61,4 +61,41 @@ sections:
           create: true
           validate:
             - required
+      -
+        handle: base-price
+        field:
+          type: money
+          display: 'Base price'
+          instructions_position: above
+          listable: hidden
+          visibility: visible
+          always_save: false
+          read_only: false
+          validate:
+            - required
+      -
+        handle: price_per_meter
+        field:
+          read_only: false
+          display: 'Price per meter'
+          type: money
+          icon: generic
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
+          validate:
+            - required
+      -
+        handle: tax_category
+        field:
+          type: tax_category
+          display: 'Tax Category'
+          max_items: 1
+          mode: select
+      -
+        handle: price
+        field:
+          type: money
+          display: Price
 title: Product

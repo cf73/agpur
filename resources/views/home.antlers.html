@@ -2,12 +2,13 @@
     <div class="logo">
         <img src="/assets/big-logo.svg" alt="{{title}}" height="162px">
     </div>
+    <div class="fader"></div>
 </section>
 
 <div class="container-fluid">
     
     <section id="intro">
-        <div class="row spacer">
+        <div class="row spacer_big">
             <div class="col-sm-10 offset-md-2 spacer_very-small">
                 <h2 class="highlight">The sound of no cable</h2>
             </div>
@@ -25,6 +26,8 @@
     <section id="techhighlights" class="spacer">
         <div class="swiper techhighlights">
             <div class="swiper-wrapper">
+                <div class="fader"></div>
+                <div class="fader inverted"></div>
                 {{collection:tech_highlights}}
                 <div class="swiper-slide" style="height: 80vh; width: 100%; background-image: url('{{image}}'); background-size: cover; background-position: top center; background-repeat: no-repeat;">
                 </div>
@@ -32,7 +35,7 @@
             </div>
         </div>
         <div class="row spacer" style="margin-top:-50vh; z-index:99; position:relative;">
-            <div class="col-md-5 offset-md-2">
+            <div class="col-md-5 offset-md-1">
                 <div class="techcard">
                     <h2 class="highlight" style="margin: 0 50px 48px 50px;">Core technologies</h2>
                     <div class="swiper coretech">
@@ -105,7 +108,7 @@
         </div>
     </section>
 
-    <section id="speaker-cables" class="padded">
+    <section id="speaker-cables" class="padded spacer_big">
         <div class="row spacer_small">
             <div class="col-sm-8">
                 <h1 class="highlight">Speaker Cables</h1>
@@ -123,6 +126,39 @@
             <div class="col-md-7" style="padding: 0;">
                 <img style="width:100%; height: auto; background-color:antiquewhite;" src="{{image}}" alt="">
             </div>
+        </div>
+        {{/collection:products}}
+    </section>
+
+    <section id="testimonial" class="padded">
+        <div class="row">
+            <div class="col-sm-10 offset-md-2">
+                <div class="testimonial spacer">
+                    {{collection:testimonials offset="2" limit="1"}}
+                        <p class="spacer_very-small">{{text}}</p>
+                        <h3>&mdash; {{attribution}}</h3>
+                    {{/collection:testimonials}}
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing" class="padded">
+        <div class="row">
+            <div class="col-sm-12">
+                <h2>Pricing</h2>
+                {{pricing_blurb}}
+            </div>
+        </div>
+        {{collection:products taxonomy:cable_type="speaker-cable"}}
+        <div class="row">
+            <div class="col-md-1">
+                {{title}}
+            </div>
+            <div class="col-md-2">
+                {{base-price}}
+            </div>
+            
         </div>
         {{/collection:products}}
     </section>

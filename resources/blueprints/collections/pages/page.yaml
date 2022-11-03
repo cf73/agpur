@@ -57,6 +57,18 @@ sections:
           instructions_position: above
           visibility: visible
           always_save: false
+      -
+        handle: pricing_blurb
+        field:
+          character_limit: '500'
+          antlers: false
+          display: 'Pricing blurb'
+          type: textarea
+          icon: textarea
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
   sidebar:
     display: Sidebar
     fields:

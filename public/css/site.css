@@ -21,7 +21,7 @@ h1 {
 h2 {
   font-style: normal;
   font-weight: 800;
-  font-size: 22px;
+  font-size: 30px;
   line-height: 24px;
   /* identical to box height, or 109% */
   letter-spacing: 0.145em;
@@ -97,6 +97,7 @@ header p {
   position: absolute;
   top: 70vh;
   left: 12vw;
+  z-index: 99;
 }
 
 .box {
@@ -125,16 +126,20 @@ body {
   margin-bottom: 90px;
 }
 
+.spacer_big {
+  margin-bottom: 200px;
+}
+
 #hero-area {
   margin-bottom: 90px;
-  height: 90vh;
+  height: 83vh;
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
+  position: relative;
 }
 
 #interconnects {
-  background-image: url("/assets/interconnects-background.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;
@@ -171,7 +176,7 @@ body {
 }
 
 .swiper-button-next:after, .swiper-button-prev:after {
-  font-size: 18px !important;
+  font-size: 24px !important;
   font-weight: 900;
 }
 
@@ -189,6 +194,12 @@ body {
   bottom: 0;
   left: 0;
   width: 100%;
+  z-index: 9;
+}
+
+.inverted {
+  transform: rotate(180deg);
+  top: 0;
 }
 
 #expand {

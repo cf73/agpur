@@ -16,7 +16,7 @@ return [
 
     'sites' => [
         'default' => [
-            'currency' => 'GBP',
+            'currency' => 'USD',
 
             'shipping' => [
                 'methods' => [
