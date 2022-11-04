@@ -58,9 +58,23 @@ sections:
           visibility: visible
           always_save: false
       -
+        handle: pricing_header
+        field:
+          input_type: text
+          antlers: false
+          display: 'Pricing Header'
+          type: text
+          icon: text
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
+          validate:
+            - required
+      -
         handle: pricing_blurb
         field:
-          character_limit: '500'
+          character_limit: '1500'
           antlers: false
           display: 'Pricing blurb'
           type: textarea
