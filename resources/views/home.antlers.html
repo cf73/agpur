@@ -60,7 +60,7 @@
         
     </section>
 
-    <section id="testimonial" class="padded">
+    <section id="testimonial" class="padded" style="z-index: 999; position: relative;">
         <div class="row">
             <div class="col-sm-10 offset-md-2">
                 <div class="testimonial spacer">
@@ -85,8 +85,23 @@
         {{collection:products taxonomy:cable_type="interconnect"}}
         <div class="row product" style="padding: 0;">
             <div class="col-md-5 description">
-                <h2 class="highlight">{{title}}</h2>
-                <p class="caption">{{description}}</p>
+                <div>
+                    <h2 class="highlight">{{title}}</h2>
+                    <p class="caption">{{description}}</p>
+                </div>
+                <div class="row">
+                    <div class="col-sm-5">
+                        <p>1 meter</p>
+                    </div>
+                    <div class="col-sm-3 offset-sm-1">
+                        ${{price_for_1_meter}}
+                    </div>
+                    <div class="col-sm-3">
+                        ${{price_for_1_meter_xlr}}
+                    </div>
+                </div>
+                1 meter:
+                <h3>Show all prices</h3>
             </div>
             <div class="col-md-7" style="padding: 0;">
                 <img style="width:100%; height: auto; background-color:antiquewhite;" src="{{image}}" alt="">
@@ -150,13 +165,16 @@
                 {{pricing_blurb}}
             </div>
         </div>
-        {{collection:products taxonomy:cable_type="speaker-cable"}}
+        {{collection:products taxonomy:cable_type="interconnect}}
         <div class="row">
             <div class="col-md-1">
                 {{title}}
             </div>
             <div class="col-md-2">
-                {{base-price}}
+                <p>{{base-price}} + {{price_per_additional_meter}}</p>
+            </div>
+            <div class="col-md-1">
+                {{price_for_0_5m}}
             </div>
             
         </div>
