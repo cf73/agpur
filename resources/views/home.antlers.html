@@ -85,26 +85,104 @@
         {{collection:products taxonomy:cable_type="interconnect"}}
         <div class="row product" style="padding: 0;">
             <div class="col-md-5 description">
-                <div>
+                <div class="spacer_very-small">
                     <h2 class="highlight">{{title}}</h2>
                     <p class="caption">{{description}}</p>
                 </div>
-                <div class="row">
-                    <div class="col-sm-5">
-                        <p>1 meter</p>
+                <div class="spacer_very-small">
+                    <div class="row">
+                        <div class="col-sm-5">
+                    
+                        </div>
+                        <div class="col-sm-3 offset-sm-1" style="text-align: right;">
+                            <h3>RCA</h3>
+                        </div>
+                        <div class="col-sm-3" style="text-align: right;">
+                            <h3>XLR</h3>
+                        </div>
                     </div>
-                    <div class="col-sm-3 offset-sm-1">
-                        ${{price_for_1_meter}}
+                    <div class="row">
+                        <div class="col-sm-5">
+                            <p>0.5 meter</p>
+                        </div>
+                        <div class="col-sm-3 offset-sm-1" style="text-align: right;">
+                            ${{price_for_0_5m}}
+                        </div>
+                        <div class="col-sm-3" style="text-align: right;">
+                            ${{price_for_0_5_meter_xlr}}
+                        </div>
                     </div>
-                    <div class="col-sm-3">
-                        ${{price_for_1_meter_xlr}}
+                    <div class="row">
+                        <div class="col-sm-5">
+                            <p>1 meter</p>
+                        </div>
+                        <div class="col-sm-3 offset-sm-1" style="text-align: right;">
+                            ${{price_for_1_meter}}
+                        </div>
+                        <div class="col-sm-3" style="text-align: right;">
+                            ${{price_for_1_meter_xlr}}
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-5">
+                            <p>1.5 meter</p>
+                        </div>
+                        <div class="col-sm-3 offset-sm-1" style="text-align: right;">
+                            ${{price_for_1_5_meter}}
+                        </div>
+                        <div class="col-sm-3" style="text-align: right;">
+                            ${{price_for_1_5_meter_xlr}}
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-5">
+                            <p>2 meter</p>
+                        </div>
+                        <div class="col-sm-3 offset-sm-1" style="text-align: right;">
+                            ${{price_for_2_meter}}
+                        </div>
+                        <div class="col-sm-3" style="text-align: right;">
+                            ${{price_for_2_meter_xlr}}
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-5">
+                            <p>3 meter</p>
+                        </div>
+                        <div class="col-sm-3 offset-sm-1" style="text-align: right;">
+                            ${{price_for_3_meter}}
+                        </div>
+                        <div class="col-sm-3" style="text-align: right;">
+                            ${{price_for_3_meter_xlr}}
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-5">
+                            <p>4 meter</p>
+                        </div>
+                        <div class="col-sm-3 offset-sm-1" style="text-align: right;">
+                            ${{price_for_4_meter}}
+                        </div>
+                        <div class="col-sm-3" style="text-align: right;">
+                            ${{price_for_4_meter_xlr}}
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-5">
+                            <p>5 meter</p>
+                        </div>
+                        <div class="col-sm-3 offset-sm-1" style="text-align: right;">
+                            ${{price_for_5_meter}}
+                        </div>
+                        <div class="col-sm-3" style="text-align: right;">
+                            ${{price_for_5_meter_xlr}}
+                        </div>
                     </div>
                 </div>
-                1 meter:
-                <h3>Show all prices</h3>
+                <a href="mailto:info@argentpur.audio?subject=Order%20Request:%20{{title}}" class="spacer_very-small"><button class="caption highlight">Order your custom-made {{title}} cables</button></a>
+                <div class="caption">Please note that we are currently taking orders manually and all cables are made by hand to order in Boston, MA.</div>
             </div>
-            <div class="col-md-7" style="padding: 0;">
-                <img style="width:100%; height: auto; background-color:antiquewhite;" src="{{image}}" alt="">
+            <div class="col-md-7" style="padding: 0; background-image: url('{{image}}'); background-size: cover; background-repeat: no-repeat; background-position: top right; min-height: 61vh;">
             </div>
         </div>
         {{/collection:products}}
@@ -239,6 +317,12 @@
             $(".fader").addClass("hide");
         });
         $('#collapse').click(function(){
+            $("#history").addClass("truncate");
+            $("#collapse").addClass("hide");
+            $("#expand").removeClass("hide");
+            $(".fader").removeClass("hide");
+        });
+        $('#harmonie-pricing').click(function(){
             $("#history").addClass("truncate");
             $("#collapse").addClass("hide");
             $("#expand").removeClass("hide");
