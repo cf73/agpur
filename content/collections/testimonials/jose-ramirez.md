@@ -1,7 +1,7 @@
 ---
 id: 7725860f-4dfe-4069-ab6f-e79b0b7754ca
 blueprint: testimonial
-title: 'Jose Ramirez,  Conrad Fulbrook,'
+title: 'Jose Ramirez,  Conrad Fulbrook, Dr Steven Karlin'
 text: |-
   Jose: "These are very very good. I'm going to wire my three rooms at Capfest with them."
 
@@ -18,7 +18,10 @@ text: |-
   "These reset the yardstick, and do so with a knowing smirk and a wink...they're masterful. People pay $20k+ for this kind of upgrade."
   "It seems weird that the whole system doesn't leap off the rack and start dancing in the room--it feels so alive and "well"--as in totally healthy, (with) no trace of artificiality; just pure musicality and joy."
   "The (Heracles) has a ton more air, leading edge shgarpness (in a good way), are less warm and more neutral in tone/color cast, and sound bigger and even more transparent.":
-attribution: 'Jose Ramirez, DR VINYL; Conrad Fulbrook, early adopter and website design'
+
+  Steve Karlin
+  "They made my (baby) Spendors explosive! You can have your subwoofer back.)
+attribution: 'Jose Ramirez, DR VINYL; Conrad Fulbrook, early adopter and website design  Dr Steven Karlin, psychiatrist (ret), painter, and early adopter'
 updated_by: a00f84a2-73c3-4b20-bc6b-8ff14df49968
-updated_at: 1667838795
+updated_at: 1667838958
 ---
