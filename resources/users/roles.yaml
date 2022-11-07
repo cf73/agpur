@@ -1,4 +1,37 @@
-# admin:
-#   title: Administrator
-#   permissions:
-#     - super
+editor:
+  title: Editor
+  permissions:
+    - 'access cp'
+    - 'view core_technologies entries'
+    - 'edit core_technologies entries'
+    - 'create core_technologies entries'
+    - 'delete core_technologies entries'
+    - 'publish core_technologies entries'
+    - 'reorder core_technologies entries'
+    - 'edit other authors core_technologies entries'
+    - 'publish other authors core_technologies entries'
+    - 'delete other authors core_technologies entries'
+    - 'view pages entries'
+    - 'edit pages entries'
+    - 'view products entries'
+    - 'edit products entries'
+    - 'create products entries'
+    - 'delete products entries'
+    - 'publish products entries'
+    - 'reorder products entries'
+    - 'edit other authors products entries'
+    - 'publish other authors products entries'
+    - 'delete other authors products entries'
+    - 'view testimonials entries'
+    - 'edit testimonials entries'
+    - 'reorder testimonials entries'
+    - 'edit other authors testimonials entries'
+    - 'view speaker_cables entries'
+    - 'edit speaker_cables entries'
+    - 'create speaker_cables entries'
+    - 'delete speaker_cables entries'
+    - 'publish speaker_cables entries'
+    - 'reorder speaker_cables entries'
+    - 'edit other authors speaker_cables entries'
+    - 'publish other authors speaker_cables entries'
+    - 'delete other authors speaker_cables entries'
