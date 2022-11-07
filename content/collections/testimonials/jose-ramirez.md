@@ -17,11 +17,11 @@ text: |-
   "...easiest A/B test (with TQS) I've ever done. These are far and away better...transcendentally better than anything I've ever heard. All the cliches apply: hearing things in the mix I never knew were there, layers of color and space and detail that never showed up before; like being in a room vs listening through a window."
   "These reset the yardstick, and do so with a knowing smirk and a wink...they're masterful. People pay $20k+ for this kind of upgrade."
   "It seems weird that the whole system doesn't leap off the rack and start dancing in the room--it feels so alive and "well"--as in totally healthy, (with) no trace of artificiality; just pure musicality and joy."
-  "The (Heracles) has a ton more air, leading edge shgarpness (in a good way), are less warm and more neutral in tone/color cast, and sound bigger and even more transparent.":
+  "The (Heracles) has a ton more air, leading edge sharpness (in a good way), are less warm and more neutral in tone/color cast, and sound bigger and even more transparent.":
 
   Steve Karlin
   "They made my (baby) Spendors explosive! You can have your subwoofer back....
 attribution: 'Jose Ramirez, DR VINYL; Conrad Fulbrook, MA RISD, early adopter and website design  Dr Steven Karlin, psychiatrist (ret), painter, and early adopter'
 updated_by: a00f84a2-73c3-4b20-bc6b-8ff14df49968
-updated_at: 1667843623
+updated_at: 1667845150
 ---
