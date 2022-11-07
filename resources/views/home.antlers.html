@@ -2,7 +2,7 @@
     <div class="logo">
         <img src="/assets/big-logo.svg" alt="{{title}}" height="162px">
     </div>
-    <div class="fader"></div>
+    <!-- <div class="fader"></div> -->
 </section>
 
 <div class="container-fluid">
@@ -77,12 +77,10 @@
         <div class="row spacer_small">
             <div class="col-sm-8">
                 <h1 class="highlight">Interconnects</h1>
-                {{taxonomy:cable_type title:is="interconnect"}}
-                    {{description}}
-                {{/taxonomy:cable_type}}
+                {{interconnects_blurb}}
             </div>
         </div>
-        {{collection:products taxonomy:cable_type="interconnect"}}
+        {{collection:products}}
         <div class="row product" style="padding: 0;">
             <div class="col-md-5 description">
                 <div class="spacer_very-small">
@@ -203,9 +201,7 @@
         <div class="row spacer_small">
             <div class="col-sm-8">
                 <h1 class="highlight">Speaker Cables</h1>
-                {{taxonomy:cable_type title:contains="speaker"}}
-                    {{description}}
-                {{/taxonomy:cable_type}}
+                {{speaker_cables_blurb}}
             </div>
         </div>
         {{collection:speaker_cables}}

@@ -74,7 +74,7 @@ history_of_agpur:
         type: text
         text: "NO CABLE! The sound and raison d'etre for ArgentPur!"
 updated_by: 63f13f7c-2a11-499f-b033-ad0f353c2031
-updated_at: 1667772982
+updated_at: 1667783359
 hero_image: hero.png
 pricing_header: 'Custom Orders, Returns, Demo Policy'
 returns_policy:
@@ -108,4 +108,6 @@ returns_policy:
       -
         type: text
         text: 'AgPur Flyovers are also 2.5M standard length, but terminated with all bananas. Standard constructions may be exchanged for full credit toward AgPur Speaker Cables within one year! Custom lengths and terminations are not returnable."'
+interconnects_blurb: 'Discover greater reality, layering, atmospherics, and naturalness ArgentPur offers three tiers of internconnects, available both single ended and balanced XLR.'
+speaker_cables_blurb: 'Discover greater reality, layering, atmospherics, and naturalness ArgentPur offers four lines of speaker cables, allowing perfect matching to room and equipment.'
 ---

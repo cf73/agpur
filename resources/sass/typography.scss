@@ -56,3 +56,10 @@ h3 {
 .highlight {
     color: $highlight;
 }
+a {
+    color: inherit;
+    &:hover {
+        text-decoration: none;
+        color: $highlight;
+    }
+}
