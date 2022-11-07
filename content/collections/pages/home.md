@@ -23,14 +23,14 @@ history_of_agpur:
         type: hard_break
       -
         type: text
-        text: 'In order of preference, the available media for the Ag conductors to rest within are: a vacuum (rather impractical), air, and then the low dielectric involvement insulative barriers when necessary. The best of these is arguably the fluorocarbon groups.'
+        text: 'In order of preference, the available media for the Ag conductors to rest within are: a vacuum (rather impractical), air, and then the low dielectric effect insulative barriers when necessary. The best of these is arguably the fluorocarbon groups.'
       -
         type: hard_break
       -
         type: hard_break
       -
         type: text
-        text: "To minimize dielectric effect further, each individual\_ Ag strand used in ArgentPur is manually threaded through its own fluorocarbon tube that is 5-10x larger in size so that contact between the Ag conductor and its protective carrier is dramatically reduced indeed.\_ Capacitance and inductance are thus minimized, with no \"signal-hopping\" destructive interference across the frequency spectra."
+        text: "To minimize dielectric effect further, each individual\_ Ag strand used in ArgentPur is manually threaded through its own fluorocarbon tube that is 5-10x larger in size so that contact between the Ag conductor and its protective carrier is dramatically reduced by this air column. Capacitance and inductance are thus controlled, with no \"signal-hopping\" destructive interference across the frequency spectra. (See Core Technologies below.)"
       -
         type: hard_break
       -
@@ -74,7 +74,7 @@ history_of_agpur:
         type: text
         text: "NO CABLE! The sound and raison d'etre for ArgentPur!"
 updated_by: a00f84a2-73c3-4b20-bc6b-8ff14df49968
-updated_at: 1667849804
+updated_at: 1667861251
 hero_image: hero.png
 pricing_header: 'Custom Orders, Returns, Demo Policy'
 returns_policy:
