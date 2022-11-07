@@ -23,14 +23,14 @@ history_of_agpur:
         type: hard_break
       -
         type: text
-        text: 'In order of preference, the available media for the Ag conductors to rest within are: a vacuum (rather impractical), air, and then the low dielectric involvement insulative barriers when necessary. The best of these is arguably the fluorocarbon (TeflonTM) groups.'
+        text: 'In order of preference, the available media for the Ag conductors to rest within are: a vacuum (rather impractical), air, and then the low dielectric involvement insulative barriers when necessary. The best of these is arguably the fluorocarbon groups.'
       -
         type: hard_break
       -
         type: hard_break
       -
         type: text
-        text: "To minimize dielectric effect further, each individual\_ Ag strand used in ArgentPur is manually threaded through its own fluorocarbon tube that is 400-1000% larger, so that contact between the Ag conductor and its protective carrier is dramatically reduced indeed.\_ Capacitance and inductance are therefore minimized, with no \"signal-hopping\" destructive interference across the frequency spectra possible."
+        text: "To minimize dielectric effect further, each individual\_ Ag strand used in ArgentPur is manually threaded through its own fluorocarbon tube that is 5-10x larger, so that contact between the Ag conductor and its protective carrier is dramatically reduced indeed.\_ Capacitance and inductance are thus minimized, with no \"signal-hopping\" destructive interference across the frequency spectra possible."
       -
         type: hard_break
       -
@@ -44,21 +44,21 @@ history_of_agpur:
         type: hard_break
       -
         type: text
-        text: 'Speaker cables are terminated either in very burly Ag-plated spades or Ag-plated banana plugs for continuity of Ag conductance.'
+        text: 'Speaker cables are terminated in very burly Ag-plated spades and Ag-plated banana plugs for complete continuity of Ag conductance.'
       -
         type: hard_break
       -
         type: hard_break
       -
         type: text
-        text: 'NO lower-conductivity rhodium, gold, nickel, nor copper surfaces are in the transmission paths! Only 105.999% transmission pure Ag!'
+        text: 'NO lower-conductivity rhodium, gold, nickel, nor copper surfaces are in the signal paths! Only 105.9995% transmission pure Ag!'
       -
         type: hard_break
       -
         type: hard_break
       -
         type: text
-        text: 'NO other hefty cheap "fillers" like PE or PVC are used to add unnecessary weight nor girth in marketing ruses to enhance gravitas. Pure Ag cascading through air-filled Teflon to Ag-tipped connectors.'
+        text: 'NO other hefty cheap "fillers" like PE or PVC are used to add unnecessary weight nor girth in marketing ruses to enhance gravitas. Pure Ag cascading through air-filled Teflon to Ag-tipped connectors!'
       -
         type: hard_break
       -
@@ -73,8 +73,8 @@ history_of_agpur:
       -
         type: text
         text: "NO CABLE! The sound and raison d'etre for ArgentPur!"
-updated_by: 63f13f7c-2a11-499f-b033-ad0f353c2031
-updated_at: 1667783359
+updated_by: a00f84a2-73c3-4b20-bc6b-8ff14df49968
+updated_at: 1667833687
 hero_image: hero.png
 pricing_header: 'Custom Orders, Returns, Demo Policy'
 returns_policy:
@@ -83,7 +83,7 @@ returns_policy:
     content:
       -
         type: text
-        text: 'Standard ArgentPur constructions for Speaker Cables are 2.5M length, terminated with premium bananas and spades. Standard Interconnects are 1M length.'
+        text: 'Standard ArgentPur constructions for Speaker Cables are 2.5M length, terminated with premium bananas AND spades. Standard Interconnects are 1M length.'
   -
     type: paragraph
     content:
@@ -108,6 +108,6 @@ returns_policy:
       -
         type: text
         text: 'AgPur Flyovers are also 2.5M standard length, but terminated with all bananas. Standard constructions may be exchanged for full credit toward AgPur Speaker Cables within one year! Custom lengths and terminations are not returnable."'
-interconnects_blurb: 'Discover greater reality, layering, atmospherics, and naturalness ArgentPur offers three tiers of internconnects, available both single ended and balanced XLR.'
-speaker_cables_blurb: 'Discover greater reality, layering, atmospherics, and naturalness ArgentPur offers four lines of speaker cables, allowing perfect matching to room and equipment.'
+interconnects_blurb: 'ArgentPur offers three tiers of Interconnects, available both single ended (RCA) and balanced (XLR).'
+speaker_cables_blurb: "ArgentPur Speaker Cables are available in 4 sizes according to current capacity. Choose only the gauge you require for your loudspeakers' sensitivity and length required."
 ---
