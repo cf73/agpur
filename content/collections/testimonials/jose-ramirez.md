@@ -20,8 +20,8 @@ text: |-
   "The (Heracles) has a ton more air, leading edge shgarpness (in a good way), are less warm and more neutral in tone/color cast, and sound bigger and even more transparent.":
 
   Steve Karlin
-  "They made my (baby) Spendors explosive! You can have your subwoofer back.)
-attribution: 'Jose Ramirez, DR VINYL; Conrad Fulbrook, early adopter and website design  Dr Steven Karlin, psychiatrist (ret), painter, and early adopter'
+  "They made my (baby) Spendors explosive! You can have your subwoofer back....
+attribution: 'Jose Ramirez, DR VINYL; Conrad Fulbrook, MA RISD, early adopter and website design  Dr Steven Karlin, psychiatrist (ret), painter, and early adopter'
 updated_by: a00f84a2-73c3-4b20-bc6b-8ff14df49968
-updated_at: 1667838958
+updated_at: 1667842571
 ---
