@@ -1,7 +1,7 @@
 ---
 id: 7725860f-4dfe-4069-ab6f-e79b0b7754ca
 blueprint: testimonial
-title: 'Jose Ramirez, DR VINYL. Conrad Fulbrook, early adopter and website design'
+title: 'Jose Ramirez,  Conrad Fulbrook,'
 text: |-
   Jose: "These are very very good. I'm going to wire my three rooms at Capfest with them."
 
@@ -20,5 +20,5 @@ text: |-
   "The (Heracles) has a ton more air, leading edge shgarpness (in a good way), are less warm and more neutral in tone/color cast, and sound bigger and even more transparent.":
 attribution: 'Jose Ramirez, DR VINYL; Conrad Fulbrook, early adopter and website design'
 updated_by: a00f84a2-73c3-4b20-bc6b-8ff14df49968
-updated_at: 1667838770
+updated_at: 1667838795
 ---
