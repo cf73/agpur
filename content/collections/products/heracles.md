@@ -7,6 +7,20 @@ description: |-
   and a thunderous, totally coherent full-frequency presentation for reference level systems.
 cable_type: interconnect
 updated_by: a00f84a2-73c3-4b20-bc6b-8ff14df49968
-updated_at: 1667835373
+updated_at: 1667842114
 image: hera-16-1.jpg
+price_for_0_5m: 2150
+price_for_0_5_meter_xlr: 2650
+price_for_1_meter: 2800
+price_for_1_meter_xlr: 3500
+price_for_1_5_meter: 3450
+price_for_1_5_meter_xlr: 4350
+price_for_2_meter: 4100
+price_for_2_meter_xlr: 5200
+price_for_3_meter: 5400
+price_for_3_meter_xlr: 6400
+price_for_4_meter: 6700
+price_for_4_meter_xlr: 8500
+price_for_5_meter: 8000
+price_for_5_meter_xlr: 10300
 ---
