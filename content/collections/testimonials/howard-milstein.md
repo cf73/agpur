@@ -10,5 +10,5 @@ text: |-
   "...sounding as good as anything on the market.... I still can't believe it is so...and that goes for almost every other cable I have tried. (My past reviews have a subtle disdain for silver-plated copper.) Your pricing for the gauge that I have (AgPur12) is quite amazing compared to other high end companies! I'm enjoying this cable more than anything I have in a long while...it is perfect in the upper mid-high frequencies at this point in my evaluation(,) with a smooth ambient effect and much detail and huge soundstaging. Nothing ever SHOUTS AT YOU...they are that musical!!"
 attribution: 'Howard Milstein, The Sound Advocate'
 updated_by: a00f84a2-73c3-4b20-bc6b-8ff14df49968
-updated_at: 1667837365
+updated_at: 1667843465
 ---
