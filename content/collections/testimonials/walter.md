@@ -8,5 +8,5 @@ text: |-
   "...the RCA cables: So far, so great! Nice bass extension couples with a huge soundstage."
 attribution: 'Walter Swanbon, Fidelis. Richard Colburn, ex-Audioquest, ex-Audience, now Fidelis'
 updated_by: a00f84a2-73c3-4b20-bc6b-8ff14df49968
-updated_at: 1667843502
+updated_at: 1667848970
 ---
