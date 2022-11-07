@@ -4,14 +4,14 @@ blueprint: core_technology
 title: 'Connectors – All Silver-plated'
 description: |-
   Speakers
-  Terminations include robust, twin-screw, Ag-plated spades, as well as appropriate compact or extra-large bananas. Standard construction of AgPur cables incorporates both spades and bananas.
+  Terminations include very robust, twin-screw, Ag-plated spades, as well as appropriate high-friction compact or looser extra-large bananas. Standard construction of AgPur cables incorporates BOTH spades and bananas
 
   Interconnects
   1.	XLR
   Harmonie is terminated with Neutrik Pro Ag locking connectors.
   Athène and Heracles use an Ag-plated fluorocarbon dielectric premium XLR. Locking Neutriks are a no-cost substitution for pro or studio use. 
   2.	RCA
-  Single-ended AgPUR interconnecting cables use a minimal mass RCA plug made of silver-plated tellurium/copper contacts. This design preserves an all Ag conductor path, providing total signal coherence.
-updated_by: 63f13f7c-2a11-499f-b033-ad0f353c2031
-updated_at: 1667246583
+  Single-ended AgPUR interconnecting cables use a minimal mass RCA plug made of silver-plated tellurium/copper contacts. This design preserves an all Ag conductor path, providing total signal coherence. Alternatively, WBT 0152Ag are used, especially for Pro or studio use.
+updated_by: a00f84a2-73c3-4b20-bc6b-8ff14df49968
+updated_at: 1667834282
 ---
