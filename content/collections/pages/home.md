@@ -30,14 +30,14 @@ history_of_agpur:
         type: hard_break
       -
         type: text
-        text: "To minimize dielectric effect further, each individual\_ Ag strand used in ArgentPur is manually threaded through its own fluorocarbon tube that is 5-10x larger, so that contact between the Ag conductor and its protective carrier is dramatically reduced indeed.\_ Capacitance and inductance are thus minimized, with no \"signal-hopping\" destructive interference across the frequency spectra possible."
+        text: "To minimize dielectric effect further, each individual\_ Ag strand used in ArgentPur is manually threaded through its own fluorocarbon tube that is 5-10x larger in size so that contact between the Ag conductor and its protective carrier is dramatically reduced indeed.\_ Capacitance and inductance are thus minimized, with no \"signal-hopping\" destructive interference across the frequency spectra."
       -
         type: hard_break
       -
         type: hard_break
       -
         type: text
-        text: "Premium WBT0152Ag are used to terminate the Athene and Heracles RCA designs.\_ A wonderful Ag/Teflon XLR is used for the balanced designs; locking Neutriks available for pro use."
+        text: "Premium WBT0152Ag are used to terminate the Athene and Heracles RCA designs.\_ A wonderful Ag/Teflon XLR is used for the balanced designs; locking Neutriks are available for pro use."
       -
         type: hard_break
       -
@@ -74,7 +74,7 @@ history_of_agpur:
         type: text
         text: "NO CABLE! The sound and raison d'etre for ArgentPur!"
 updated_by: a00f84a2-73c3-4b20-bc6b-8ff14df49968
-updated_at: 1667833687
+updated_at: 1667841673
 hero_image: hero.png
 pricing_header: 'Custom Orders, Returns, Demo Policy'
 returns_policy:
