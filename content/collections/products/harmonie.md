@@ -2,10 +2,10 @@
 id: ba0a8fed-e6d1-4eae-9666-85de571f4d88
 blueprint: product
 title: HARMONIE
-description: 'comprise 19AWG Ag in a simple twisted-pair geometry finished as a tri-braid. It is evenly balanced, affordable, with fine clarity, staging, and octave-to-octave coherence.'
+description: 'comprise 19AWG (0.65mm2) Ag in a simple twisted-pair geometry finished as a tri-braid. It is evenly balanced, affordable, with fine clarity, staging, and octave-to-octave coherence.'
 cable_type: interconnect
 updated_by: a00f84a2-73c3-4b20-bc6b-8ff14df49968
-updated_at: 1667834362
+updated_at: 1667835318
 image: neutrik-harmonie-1.jpg
 base_price: 750
 price_per_additional_meter: 600
