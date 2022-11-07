@@ -2,8 +2,8 @@
 id: 0be159ae-8fb9-4ece-b3ca-78e88fe1d4e7
 blueprint: testimonial
 title: Walter
-text: 'Uncoloured, unfiltered, highly revealing of source material and room treatments.'
+text: 'Uncolored, unfiltered, highly revealing of source material and room treatments.'
 attribution: 'Walter Swanbon, Fidelis'
-updated_by: a00f84a2-73c3-4b20-bc6b-8ff14df49968
-updated_at: 1667787856
+updated_by: 63f13f7c-2a11-499f-b033-ad0f353c2031
+updated_at: 1667803140
 ---
