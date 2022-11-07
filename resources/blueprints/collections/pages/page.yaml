@@ -62,7 +62,7 @@ sections:
         field:
           input_type: text
           antlers: false
-          display: 'Pricing Header'
+          display: 'Returns policy title'
           type: text
           icon: text
           listable: hidden
@@ -72,13 +72,31 @@ sections:
           validate:
             - required
       -
-        handle: pricing_blurb
+        handle: returns_policy
         field:
-          character_limit: '1500'
+          collapse: false
+          always_show_set_button: false
+          previews: true
+          buttons:
+            - bold
+            - italic
+            - removeformat
+            - anchor
+          save_html: false
+          toolbar_mode: fixed
+          link_noopener: false
+          link_noreferrer: false
+          target_blank: false
+          reading_time: false
+          fullscreen: true
+          allow_source: true
+          enable_input_rules: true
+          enable_paste_rules: true
           antlers: false
-          display: 'Pricing blurb'
-          type: textarea
-          icon: textarea
+          remove_empty_nodes: false
+          display: 'Returns policy'
+          type: bard
+          icon: bard
           listable: hidden
           instructions_position: above
           visibility: visible

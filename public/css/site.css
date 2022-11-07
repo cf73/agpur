@@ -22,7 +22,7 @@ h2 {
   font-style: normal;
   font-weight: 800;
   font-size: 30px;
-  line-height: 24px;
+  line-height: 36px;
   /* identical to box height, or 109% */
   letter-spacing: 0.145em;
   text-transform: uppercase;
@@ -84,6 +84,22 @@ header p {
   padding: 0 15px;
 }
 
+footer {
+  width: 100%;
+  padding: 60px;
+  background-color: rgba(0, 0, 0, 0.88);
+  box-shadow: 0px -10px 214px 28px rgba(193, 193, 193, 0.2196078431);
+  z-index: 9999;
+  display: flex;
+  flex-direction: row;
+  color: #D1DEFE;
+  border-top: solid thin #D1DEFE;
+}
+footer p {
+  margin-bottom: 0;
+  padding: 0 15px;
+}
+
 .padded {
   padding: 0 99px;
 }
@@ -112,7 +128,7 @@ header p {
 
 body {
   background-color: black;
-  color: #D1DEFE;
+  color: #D1D1D1;
 }
 
 .spacer_small {
@@ -152,7 +168,7 @@ body {
   flex-direction: column;
   align-items: left;
   justify-content: space-between;
-  padding: 60px;
+  padding: 30px 60px 8px 60px;
   border-right: 1px solid rgb(209, 209, 209);
 }
 
@@ -223,5 +239,10 @@ body {
 button {
   padding: 12px;
   background-color: #000000;
-  border: solid #BC4F4F thin;
+  border: solid #D1DEFE thin;
+  color: #D1DEFE;
+}
+
+.pricegrid .caption {
+  line-height: 12px;
 }
