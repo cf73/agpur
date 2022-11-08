@@ -57,6 +57,11 @@ footer {
     @media (min-width: $md) {
         max-width: 529px;
         top: 70%;
+        left: 15px;
+    }
+    @media (min-width: $lg) {
+        max-width: 529px;
+        top: 70%;
         left: 12vw;
     }
     & img {
@@ -123,8 +128,14 @@ body {
     position: relative;
     z-index: 99;
     // border: solid thin $bluetint;
-    @media (min-width: $md) {
+    @media (min-width: $lg) {
         margin-top: -50vh;
+    }
+}
+.productpic {
+    min-height: 35vh;
+    @media (min-width: $md) {
+        min-height: 75vh;
     }
 }
 .swiper {

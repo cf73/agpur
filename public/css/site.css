@@ -166,6 +166,13 @@ footer p {
   .logo {
     max-width: 529px;
     top: 70%;
+    left: 15px;
+  }
+}
+@media (min-width: 992px) {
+  .logo {
+    max-width: 529px;
+    top: 70%;
     left: 12vw;
   }
 }
@@ -247,9 +254,18 @@ body {
   position: relative;
   z-index: 99;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .techcard {
     margin-top: -50vh;
+  }
+}
+
+.productpic {
+  min-height: 35vh;
+}
+@media (min-width: 768px) {
+  .productpic {
+    min-height: 75vh;
   }
 }
 
