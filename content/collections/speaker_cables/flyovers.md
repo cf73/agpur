@@ -10,7 +10,7 @@ price_for_2_5_meter: 1550
 price_for_3_meter: 1750
 price_for_4_meter: 2050
 updated_by: a00f84a2-73c3-4b20-bc6b-8ff14df49968
-updated_at: 1667906665
+updated_at: 1667906685
 description: |-
   AgPur226 Flyovers provide a very affordable taste of the finest twisted pairs of solid, pure Ag used in all ArgentPur formulations, conveniently terminated in bananas. When overlaid onto existing high-performance cables (especially all-copper), they usually add soundstage air and detail to an already acceptable presentation...especially with reference-level components upstream and superlative software files and/or superb vinyl.
 
