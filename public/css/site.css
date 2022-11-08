@@ -169,7 +169,7 @@ footer p {
     left: 15px;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
   .logo {
     max-width: 529px;
     top: 70%;
@@ -254,7 +254,7 @@ body {
   position: relative;
   z-index: 99;
 }
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
   .techcard {
     margin-top: -50vh;
   }

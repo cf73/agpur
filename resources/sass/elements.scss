@@ -59,7 +59,7 @@ footer {
         top: 70%;
         left: 15px;
     }
-    @media (min-width: $lg) {
+    @media (min-width: $xl) {
         max-width: 529px;
         top: 70%;
         left: 12vw;
@@ -128,7 +128,7 @@ body {
     position: relative;
     z-index: 99;
     // border: solid thin $bluetint;
-    @media (min-width: $lg) {
+    @media (min-width: $xl) {
         margin-top: -50vh;
     }
 }
