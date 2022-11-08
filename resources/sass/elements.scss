@@ -6,7 +6,6 @@ header {
     box-shadow: 0px 10px 214px 28px #c1c1c138;
     position: fixed;
     top: 0;
-    padding: 0px 90px 0px 90px;
     z-index: 9999;    
     display: flex;
     flex-direction: row;
@@ -35,17 +34,34 @@ footer {
     }
 }
 .padded {
-    padding: 0 99px;
+    padding:0;
+    @media (min-width: $md) {
+        padding: 0 99px;
+    }
 }
 .product {
     border: 1px solid rgba(209, 209, 209, 1);
+    margin: 0 15px;
     margin-bottom: 30px;
+    @media (min-width: $md) {
+        margin: 0;
+        margin-bottom: 30px;
+    }
 }
 .logo {
     position: absolute;
-    top: 70vh;
-    left: 12vw;
+    top: 90%;
+    left: 15px;
     z-index: 99;
+    width: calc(100% - 30px);
+    @media (min-width: $md) {
+        max-width: 529px;
+        top: 70%;
+        left: 12vw;
+    }
+    & img {
+        width: 100%;
+    }
 }
 .box {
     padding: 90px;
@@ -56,7 +72,7 @@ footer {
     border-radius: 17px;
 }
 body {
-    background-color: black;
+    background-color: #0c1012;
     color: $silver;
 }
 .spacer_small {
@@ -72,12 +88,18 @@ body {
     margin-bottom: 200px;
 }
 #hero-area {
-    margin-bottom: 90px;
-    height: 93vh;
+    margin-bottom: 120px;
+    height: 33vh;
+    margin-top: 88px;
     background-repeat: no-repeat;
-    background-position: top center;
+    background-position: center;
     background-size: cover;
     position: relative;
+    @media (min-width: $md) {
+        margin-bottom: 30px;
+        height: 82vh;
+        margin-top: 0;
+    }
 }
 #interconnects {
     background-size: cover;
@@ -90,17 +112,39 @@ body {
     flex-direction: column;
     align-items: left;
     justify-content: space-between;
-    padding:30px 60px 8px 60px;
-    border-right: 1px solid rgba(209, 209, 209, 1);
+    padding:30px 15px 8px 15px;
+    @media (min-width: $md) {
+        padding:30px 60px 8px 60px;
+    }
 }
 .techcard {
     background-color: $blackglass;
     padding: 60px 10px;
+    position: relative;
+    z-index: 99;
     // border: solid thin $bluetint;
+    @media (min-width: $md) {
+        margin-top: -50vh;
+    }
 }
 .swiper {
     overflow: visible;
     overflow-x: hidden;
+}
+.swiper-slide {
+    height: 35%;
+}
+.reel {
+    height: 40vh;
+    @media (min-width: $md) {
+        height: 80vh;
+    }
+}
+.hideonmobile {
+    display: none;
+    @media (min-width: $md) {
+        display: block;
+    }
 }
 .swiper-pagination-bullet {
     background: $highlight;
@@ -125,7 +169,9 @@ body {
 }
 .fader {
     background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%);
-    height: 156px;
+    background: linear-gradient(180deg, rgba(17, 21, 24, 0) 0%, #111518 100%);
+    background: linear-gradient(180deg, rgba(12, 16, 18, 0) 0%, #0C1012 100%);
+    height: 300px;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -155,6 +201,7 @@ button {
     background-color: #000000;
     border: solid $bluetint thin;
     color: $bluetint;
+    width: 100%;
 }
 .pricegrid {
     & .caption {
