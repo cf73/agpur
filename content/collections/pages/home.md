@@ -30,7 +30,7 @@ history_of_agpur:
         type: hard_break
       -
         type: text
-        text: "To minimize dielectric effect further, each individual\_ Ag strand used in ArgentPur is manually threaded through its own fluorocarbon tube that is 5-10x larger in size so that contact between the Ag conductor and its protective carrier is dramatically reduced by this air column. Capacitance and inductance are thus controlled, with no \"signal-hopping\" destructive interference across the frequency spectra. (See Core Technologies below.)"
+        text: "To minimize dielectric effect further, each individual\_ Ag strand used in ArgentPur is manually threaded through its own fluorocarbon tube that is 5-10x larger in size so that contact between the Ag conductor and its protective carrier is dramatically reduced by this roomy air column. Capacitance and inductance are thus controlled, with no \"signal-hopping\" destructive interference across the frequency spectra. (See Core Technologies below.)"
       -
         type: hard_break
       -
@@ -74,7 +74,7 @@ history_of_agpur:
         type: text
         text: "NO CABLE! The sound and raison d'etre for ArgentPur!"
 updated_by: a00f84a2-73c3-4b20-bc6b-8ff14df49968
-updated_at: 1668000816
+updated_at: 1668000953
 hero_image: hero.png
 pricing_header: 'Custom Orders, Returns, Demo Policy'
 returns_policy:
