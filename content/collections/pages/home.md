@@ -16,7 +16,7 @@ history_of_agpur:
         type: hard_break
       -
         type: text
-        text: 'Pure silver (Ag) has a 106% conductivity compared to the maximum theoretical transmission of copper at a technically defined 100%. So even umpteen-nines Cu can''t remotely approach pure silver. The market is flooded with silver plated copper conductors. To many, these have compromised qualities that limit top octave clarity, coherence, and may lead some to describe them as "bright" or having "glare". Pure silver has no such compromises, and indeed has NO SOUND of its own.'
+        text: 'Pure silver (Ag) has a 106% conductivity compared to the maximum theoretical transmission of copper at a technically defined 100%. So even umpteen-nines Cu can''t remotely approach pure silver. The market is flooded with silver plated copper conductors. To many, these have compromised qualities that limit top octave clarity, coherence, and may lead some to describe them as "bright," "etched," or having "glare". Pure silver has no such compromises, and indeed has NO SOUND of its own.'
       -
         type: hard_break
       -
@@ -30,14 +30,14 @@ history_of_agpur:
         type: hard_break
       -
         type: text
-        text: "To minimize dielectric effect further, each individual\_ Ag strand used in ArgentPur is manually threaded through its own fluorocarbon tube that is 5-10x larger in size so that contact between the Ag conductor and its protective carrier is dramatically reduced by this roomy air column. Capacitance and inductance are thus controlled, with no \"signal-hopping\" destructive interference across the frequency spectra. (See Core Technologies below.)"
+        text: "To minimize dielectric effect further, each individual\_ Ag strand used in ArgentPur is manually threaded through its own fluorocarbon tube that is 5-10x larger so that contact between the Ag conductor strand and its protective carrier is dramatically reduced by this roomy air space. Capacitance and inductance are thus minimized, with the benefit of no \"signal-hopping\" destructive interference across the frequency spectra. (See Core Technologies below.)"
       -
         type: hard_break
       -
         type: hard_break
       -
         type: text
-        text: "Premium WBT0152Ag are used to terminate the Athene and Heracles RCA designs.\_ A wonderful Ag/Teflon XLR is used for the balanced designs; locking silver Neutriks are available for pro use."
+        text: "Premium WBT0152Ag are used to terminate the Athene and Heracles RCA designs.\_ A wonderful Ag/Teflon XLR is used for the balanced designs, with locking silver Neutriks available for pro use."
       -
         type: hard_break
       -
@@ -65,7 +65,7 @@ history_of_agpur:
         type: hard_break
       -
         type: text
-        text: 'NO performance claims are made differentiating among the AgPur speaker cable offerings, as load sensitivity and length requirements should guide Ag AWG mass selection among the four models. How refreshing!'
+        text: 'NO performance claims are made differentiating among the AgPur Speaker Cable iterations, as load sensitivity and length requirements should guide Ag AWG mass selection among the four models. How refreshing!'
       -
         type: hard_break
       -
@@ -74,7 +74,7 @@ history_of_agpur:
         type: text
         text: "NO CABLE! The sound and raison d'etre for ArgentPur!"
 updated_by: a00f84a2-73c3-4b20-bc6b-8ff14df49968
-updated_at: 1668000953
+updated_at: 1668001339
 hero_image: hero.png
 pricing_header: 'Custom Orders, Returns, Demo Policy'
 returns_policy:
