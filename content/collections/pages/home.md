@@ -37,7 +37,7 @@ history_of_agpur:
         type: hard_break
       -
         type: text
-        text: "Premium WBT0152Ag are used to terminate the Athene and Heracles RCA designs.\_ A wonderful Ag/Teflon XLR is used for the balanced designs, with locking silver Neutriks available for pro use."
+        text: "Premium locking WBT0152Ag are an optional RCA used to terminate the Athene and Heracles RCA designs.\_ A wonderful Ag/Teflon XLR is used for the balanced designs, with locking silver Neutriks available for pro use."
       -
         type: hard_break
       -
@@ -74,7 +74,7 @@ history_of_agpur:
         type: text
         text: "NO CABLE! The sound and raison d'etre for ArgentPur!"
 updated_by: a00f84a2-73c3-4b20-bc6b-8ff14df49968
-updated_at: 1668001339
+updated_at: 1669910710
 hero_image: hero.png
 pricing_header: 'Custom Orders, Returns, Demo Policy'
 returns_policy:
@@ -121,5 +121,5 @@ returns_policy:
         type: text
         text: 'Dealer enquiries welcome.'
 interconnects_blurb: 'ArgentPur offers three tiers of Interconnects, available both single ended (RCA) and balanced (XLR).'
-speaker_cables_blurb: "ArgentPur Speaker Cables are available in 4 sizes according to current capacity. Choose among the gauges to match your loudspeakers' sensitivity and length requirements."
+speaker_cables_blurb: "ArgentPur Speaker Cables are available in 5 sizes according to current capacity. Choose among the gauges to match your loudspeakers' sensitivity and length requirements."
 ---
