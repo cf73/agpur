@@ -265,7 +265,7 @@ body {
 }
 @media (min-width: 768px) {
   .productpic {
-    min-height: 75vh;
+    min-height: 60vh;
   }
 }
 
