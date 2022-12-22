@@ -37,14 +37,20 @@ history_of_agpur:
         type: hard_break
       -
         type: text
-        text: "Premium locking WBT0152Ag are an optional RCA used to terminate the Athene and Heracles RCA designs.\_ A wonderful Ag/Teflon XLR is used for the balanced designs, with locking silver Neutriks available for pro use."
+        text: 'Premium low-mass, silver-plated tellurium-infused non-metallic RCAs are used for the single-ended designs. WBT0152AG locking RCAs are available for Pro or studio use at no extra cost.'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: "\_A wonderful Ag/Teflon XLR is used for the balanced designs. Neutrik silver-plated locking connectors are also available for Pro or studio use, again, at no extra cost."
       -
         type: hard_break
       -
         type: hard_break
       -
         type: text
-        text: 'Speaker cables are terminated in very burly Ag-plated spades and Ag-plated banana plugs for complete continuity of Ag conductance.'
+        text: 'Speaker cables are terminated in very burly Ag-plated spades and Ag-plated banana plugs for complete continuity of Ag conductivity.'
       -
         type: hard_break
       -
@@ -74,7 +80,7 @@ history_of_agpur:
         type: text
         text: "NO CABLE! The sound and raison d'etre for ArgentPur!"
 updated_by: a00f84a2-73c3-4b20-bc6b-8ff14df49968
-updated_at: 1669910710
+updated_at: 1671745447
 hero_image: hero.png
 pricing_header: 'Custom Orders, Returns, Demo Policy'
 returns_policy:
