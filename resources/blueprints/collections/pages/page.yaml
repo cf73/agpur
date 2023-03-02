@@ -80,6 +80,17 @@ sections:
           visibility: visible
           always_save: false
       -
+        handle: power_cables_blurb
+        field:
+          antlers: false
+          display: 'Power cables blurb'
+          type: textarea
+          icon: textarea
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
+      -
         handle: pricing_header
         field:
           input_type: text
