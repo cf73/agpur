@@ -46,6 +46,16 @@ sections:
           type: slug
           localizable: true
       -
+        handle: base_price
+        field:
+          display: 'Base price'
+          type: integer
+          icon: integer
+          listable: hidden
+          instructions_position: above
+          visibility: visible
+          always_save: false
+      -
         handle: price_per_meter
         field:
           display: 'Price per meter'
