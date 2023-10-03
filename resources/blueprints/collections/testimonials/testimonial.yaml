@@ -10,18 +10,6 @@ sections:
           validate:
             - required
       -
-        handle: text
-        field:
-          character_limit: '100'
-          antlers: false
-          display: Text
-          type: textarea
-          icon: textarea
-          listable: hidden
-          instructions_position: above
-          visibility: visible
-          always_save: false
-      -
         handle: testimonial_prose
         field:
           collapse: false
