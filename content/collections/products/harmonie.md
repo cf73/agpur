@@ -1,11 +1,11 @@
 ---
 id: ba0a8fed-e6d1-4eae-9666-85de571f4d88
 blueprint: product
-title: HARMONIEs
+title: HARMONIE
 description: 'ArgentPur Harmonie comprise 19AWG (0.65mm2) Ag in a simple twisted-pair geometry finished as a tri-braid. It is evenly balanced, affordable, with fine clarity, staging, and octave-to-octave coherence.'
 cable_type: interconnect
 updated_by: 63f13f7c-2a11-499f-b033-ad0f353c2031
-updated_at: 1696445190
+updated_at: 1696445203
 image: neutrik-harmonie-1.jpg
 base_price: 750
 price_per_additional_meter: 600
