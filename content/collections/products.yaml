@@ -1,8 +1,8 @@
 title: Interconnects
-template: default
+template: productdetail
 layout: layout
 revisions: false
-route: '/interconnects/{slug}'
+route: '/interconnects/{{slug}}'
 sort_dir: asc
 date_behavior:
   past: public
