@@ -1,0 +1,5 @@
+title: 'Category page'
+sections:
+  main:
+    display: Main
+    fields: {  }
