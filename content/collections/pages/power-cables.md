@@ -1,6 +1,7 @@
 ---
 id: 00f10ad3-a283-478a-80c0-cb5055c185fc
 blueprint: category_page
+template: product-category
 title: 'Power Cables'
 description:
   -

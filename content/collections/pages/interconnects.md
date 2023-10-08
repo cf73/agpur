@@ -1,6 +1,7 @@
 ---
 id: 42720ef5-4dab-496c-b91a-39be6fd69f57
 blueprint: category_page
+template: product-category
 title: Interconnects
 description:
   -

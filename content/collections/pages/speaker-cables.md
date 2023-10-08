@@ -1,6 +1,7 @@
 ---
 id: 341dfbed-cf28-471f-a849-f9435d99841e
 blueprint: category_page
+template: product-category
 title: 'Speaker Cables'
 description:
   -
