@@ -1,0 +1,45 @@
+header {
+    height: 88px;
+    width: 100%;
+    background-color: $blackglass;
+    backdrop-filter: blur(6px);
+    box-shadow: 0px 10px 214px 28px #c1c1c138;
+    position: fixed;
+    top: 0;
+    z-index: 9999;    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: $bluetint;
+    border-bottom: solid thin $bluetint;
+    & p {
+        margin-bottom: 0;
+        padding: 0 15px;
+    }
+}
+.main-nav {
+    margin: 0;
+}
+.dropdown {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 10px;
+}
+.dropdown-child {
+    display: none;
+    padding: 12px 16px;
+    width: 200px;
+    position: absolute;
+    top: 1em;
+    left: -15px;
+  }
+  .dropdown-child * {
+    margin: .25em 0;
+  }
+.dropdown:hover .dropdown-child {
+    display: block;
+    background-color: $blackglass;
+    backdrop-filter: blur(6px);
+}
+  

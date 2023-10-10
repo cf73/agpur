@@ -1,0 +1,134 @@
+<div class="row product">
+    <div class="col-xl-12 productpic" style="padding: 0; background-image: url('{{image}}'); background-size: cover; background-repeat: no-repeat; background-position: top center;"></div>
+    <div class="col-xl-5 details">
+        <div class="description">
+            <h2 class="highlight">{{title}}</h2>
+            <p>{{description}}</p>
+        </div>
+        <div class="pricing">
+            <p>Standard length (1M)  pricing from ${{price_for_1_meter}} for RCA, or ${{price_for_1_meter_xlr}} for XLR. Available in lengths from less than 0.5m to 5m</p>
+            <p>Custom lengths available. Core price is ${{base_price}}, plus ${{price_per_meter}} per meter.</p>
+            <p>Popular lengths are available to configure below.</p>
+        </div>
+        <!-- <div class="pricegrid spacer_very-small">
+            <div class="row">
+                <div class="col-5"></div>
+                <div class="col-3 offset-sm-1" style="text-align: right;">
+                    <h3>RCA</h3>
+                </div>
+                <div class="col-3" style="text-align: right;">
+                    <h3>XLR</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-5">
+                    <p class="caption">0.5 meter</p>
+                </div>
+                <div class="col-3 offset-sm-1" style="text-align: right;">
+                    <p class="caption">${{price_for_0_5m}}</p>
+                </div>
+                <div class="col-3" style="text-align: right;">
+                    <p class="caption">${{price_for_0_5_meter_xlr}}</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-5">
+                    <p class="caption">1 meter</p>
+                </div>
+                <div class="col-3 offset-sm-1" style="text-align: right;">
+                    <p class="caption">${{price_for_1_meter}}</p>
+                </div>
+                <div class="col-3" style="text-align: right;">
+                    <p class="caption">${{price_for_1_meter_xlr}}</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-5">
+                    <p class="caption">1.5 meter</p>
+                </div>
+                <div class="col-3 offset-sm-1" style="text-align: right;">
+                    <p class="caption">${{price_for_1_5_meter}}</p>
+                </div>
+                <div class="col-3" style="text-align: right;">
+                    <p class="caption">${{price_for_1_5_meter_xlr}}</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-5">
+                    <p class="caption">2 meter</p>
+                </div>
+                <div class="col-3 offset-sm-1" style="text-align: right;">
+                    <p class="caption">${{price_for_2_meter}}</p>
+                </div>
+                <div class="col-3" style="text-align: right;">
+                    <p class="caption">${{price_for_2_meter_xlr}}</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-5">
+                    <p class="caption">3 meter</p>
+                </div>
+                <div class="col-3 offset-sm-1" style="text-align: right;">
+                    <p class="caption">${{price_for_3_meter}}</p>
+                </div>
+                <div class="col-3" style="text-align: right;">
+                    <p class="caption">${{price_for_3_meter_xlr}}</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-5">
+                    <p class="caption">4 meter</p>
+                </div>
+                <div class="col-3 offset-sm-1" style="text-align: right;">
+                    <p class="caption">${{price_for_4_meter}}</p>
+                </div>
+                <div class="col-3" style="text-align: right;">
+                    <p class="caption">${{price_for_4_meter_xlr}}</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-5">
+                    <p class="caption">5 meter</p>
+                </div>
+                <div class="col-3 offset-sm-1" style="text-align: right;">
+                    <p class="caption">${{price_for_5_meter}}</p>
+                </div>
+                <div class="col-3" style="text-align: right;">
+                    <p class="caption">${{price_for_5_meter_xlr}}</p>
+                </div>
+            </div>
+        </div> -->
+        <button class="snipcart-add-item"
+        data-item-id="{{slug}}"
+        data-item-price="0"
+        data-item-description="{{description}}"
+        data-item-image="{{image}}"
+        data-item-name="{{title}}"
+        data-item-custom1-name="Demo Policy"
+        data-item-custom1-type="readonly"
+        data-item-custom1-value="27 day trial available for demo length of 1M."
+        data-item-custom2-name="Length"
+        data-item-custom2-value="1M RCA"
+        data-item-custom2-options="
+        0.5M RCA[{{price_for_0_5m}}]|
+        0.5M XLR[{{price_for_0_5_meter_xlr}}]|
+        1M RCA[{{price_for_1_meter}}]|
+        1M XLR[{{price_for_1_meter_xlr}}]|
+        1.5M RCA[{{price_for_1_5_meter}}]|
+        1.5M XLR[{{price_for_1_5_meter_xlr}}]|
+        2M RCA[{{price_for_2_meter}}]|
+        2M XLR[{{price_for_2_meter_xlr}}]|
+        3M RCA[{{price_for_3_meter}}]|
+        3M XLR[{{price_for_3_meter_xlr}}]|
+        4M RCA[{{price_for_4_meter}}]|
+        4M XLR[{{price_for_4_meter_xlr}}]|
+        5M RCA[{{price_for_5_meter}}]|
+        5M XLR[{{price_for_5_meter_xlr}}]|
+        ">
+        Configure
+        </button>
+        <!-- <a href="mailto:ernest_meunier@msn.com?subject=Order%20Request:%20{{title}}" class="spacer_very-small"><button class="caption light">Order <span class="">{{title}}</span></button></a> -->
+        <!-- <div class="caption">Please note that we are currently taking orders manually, as all cables are made by hand in Boston.</div> -->
+    </div>
+</div>

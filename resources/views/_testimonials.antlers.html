@@ -1,0 +1,27 @@
+<section id="testimonials" class="spacer padded top-spacer">
+  <div class="row">
+    <div class="col-sm-12">
+      <h1>Testimonials</h1>
+      <div class="swiper productSwiper spacer" style="padding-top: 78px; margin-top: -78px;">
+          <div class="swiper-wrapper">
+              {{collection:testimonials}}
+                  {{if no_results}}
+                      <p class="light">There are no testimonials currently.</p>
+                  {{else}}
+                      <div class="swiper-slide">
+                        <div class="card-testimonial">
+                          <p>{{testimonial_prose}}</p>
+                          <p>&mdash; {{attribution}}</p>
+                        </div>
+                      </div>
+                  {{/if}}
+              {{/collection:testimonials}}
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-pagination"></div>
+      </div>
+    </div>
+  </div>
+</section>
+

@@ -1,0 +1,36 @@
+<section id="techhighlights" class="spacer">
+    <div class="swiper techhighlights">
+        <div class="swiper-wrapper">
+            <div class="fader hideonmobile"></div>
+            <div class="fader hideonmobile inverted"></div>
+            {{collection:tech_highlights}}
+            <div class="swiper-slide reel" style="width: 100%; background-image: url('{{image}}'); background-size: cover; background-position: top center; background-repeat: no-repeat;">
+            </div>
+            {{/collection:tech_highlights}}
+        </div>
+    </div>
+    <div class="row spacer">
+        <div class="col-xl-5 offset-xl-1">
+            <div class="techcard">
+                <h2 class="highlight" style="margin: 0 50px 48px 50px;">Core technologies</h2>
+                <div class="swiper coretech">
+                    <div class="swiper-wrapper">
+                        {{collection:core_technologies}}
+                        <div class="swiper-slide" style="padding-bottom: 30px;">
+                            <div style="padding: 0 50px;">
+                                <h3>{{title}}</h3>
+                                <p class="caption">{{description}}</p>
+                            </div>
+                        </div>
+                        {{/collection:core_technologies}}
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+    
+</section>

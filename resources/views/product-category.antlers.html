@@ -1,0 +1,16 @@
+<section class="padded spacer_big top-spacer">
+    <div class="row">
+        <div class="col-sm-12">
+            <h1>{{title}}</h1>
+            <h3>{{description}}</h3>
+        </div>
+    </div>
+    <div class="row">
+        {{ collection :from="mount" }}
+            <a href="{{url}}">
+                <li>{{title}}</li>
+            </a>
+        {{ /collection}}
+    </div>
+
+</section>
