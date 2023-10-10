@@ -3,6 +3,7 @@ template: default
 layout: layout
 mount: 00f10ad3-a283-478a-80c0-cb5055c185fc
 revisions: false
+route: 'power-cables/{slug}'
 sort_dir: asc
 date_behavior:
   past: public
