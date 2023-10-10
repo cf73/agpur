@@ -3,6 +3,7 @@ template: default
 layout: layout
 mount: 341dfbed-cf28-471f-a849-f9435d99841e
 revisions: false
+route: 'speaker-cables/{slug}'
 sort_dir: asc
 date_behavior:
   past: public
