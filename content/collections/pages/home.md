@@ -80,7 +80,7 @@ history_of_agpur:
         type: text
         text: "NO CABLE! The sound and raison d'etre for ArgentPur!"
 updated_by: 63f13f7c-2a11-499f-b033-ad0f353c2031
-updated_at: 1697216888
+updated_at: 1697217250
 hero_image: hero.png
 pricing_header: 'Custom Orders, Returns, Demo Policy'
 returns_policy:
@@ -132,4 +132,5 @@ power_cables_blurb: 'Power Cables consist of matrices of twisted pairs of solid 
 speaker_cables_hero_image: speaker-cables-hero-1697216580.png
 interconnects_hero_image: interconnects-hero-1697216583.png
 power_cables_hero_image: power-cables-hero.png
+amps_hero_image: amps-hero.png
 ---
