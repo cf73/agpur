@@ -80,7 +80,7 @@ history_of_agpur:
         type: text
         text: "NO CABLE! The sound and raison d'etre for ArgentPur!"
 updated_by: 63f13f7c-2a11-499f-b033-ad0f353c2031
-updated_at: 1697216787
+updated_at: 1697216888
 hero_image: hero.png
 pricing_header: 'Custom Orders, Returns, Demo Policy'
 returns_policy:
