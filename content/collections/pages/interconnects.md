@@ -12,6 +12,6 @@ description:
         text: 'ArgentPur offers three tiers of Interconnects, available both single ended (RCA) and balanced (XLR).'
 parent: d773d704-5699-4af1-a19e-bc6f8f1ecc29
 updated_by: 63f13f7c-2a11-499f-b033-ad0f353c2031
-updated_at: 1697473819
-background_image: cf73_around_a_third_of_the_image_is_gentle_undulating_lines_of__cba8b511-af95-4c26-9344-881e93860126.png
+updated_at: 1698362529
+background_image: cf73_heracles_athene_and_harmonie_are_made_of_silver_metal_show_8a5739a1-cfb7-4469-a04d-a8a9204d3c3a.png
 ---
