@@ -33,21 +33,6 @@ tabs:
               validate:
                 - required
           -
-            handle: base_price_for_standard_length_rca
-            field:
-              input_type: text
-              antlers: false
-              type: text
-              display: 'Base price for standard length RCA'
-              icon: text
-              listable: hidden
-              instructions_position: above
-              visibility: visible
-              replicator_preview: true
-              hide_display: false
-              validate:
-                - required
-          -
             handle: description
             field:
               character_limit: '700'
@@ -95,6 +80,19 @@ tabs:
               visibility: visible
               replicator_preview: true
               hide_display: false
+          -
+            handle: base_price_for_standard_length_rca
+            field:
+              type: integer
+              display: 'Base price for standard length RCA'
+              icon: integer
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+              validate:
+                - required
           -
             handle: image
             field:
