@@ -81,19 +81,6 @@ tabs:
               replicator_preview: true
               hide_display: false
           -
-            handle: base_price_for_standard_length_rca
-            field:
-              type: integer
-              display: 'Base price for standard length RCA'
-              icon: integer
-              listable: hidden
-              instructions_position: above
-              visibility: visible
-              replicator_preview: true
-              hide_display: false
-              validate:
-                - required
-          -
             handle: image
             field:
               mode: list
