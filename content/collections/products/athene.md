@@ -5,7 +5,7 @@ title: ATHENE
 description: 'Athene adds more solid Ag to total 18AWG (0.9mm2) Ag in a variable strand array for extremely high clarity and resolution. A Goldilocks choice....'
 cable_type: interconnect
 updated_by: 63f13f7c-2a11-499f-b033-ad0f353c2031
-updated_at: 1696015636
+updated_at: 1698365100
 image: athene.jpg
 price_for_0_5m: 1550
 price_for_0_5_meter_xlr: 1900
@@ -23,4 +23,6 @@ price_for_5_meter: 5600
 price_for_5_meter_xlr: 7300
 base_price: 1100
 price_per_meter: 900
+medallion: cf73_harmonie_silver_medallion_30dcdef1-bbba-406e-adb7-b1df67842a9e.png
+base_price_for_standard_length_rca: 1350
 ---
