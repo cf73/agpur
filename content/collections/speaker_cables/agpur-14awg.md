@@ -11,6 +11,7 @@ price_for_2_meter: 3300
 price_for_2_5_meter: 3875
 price_for_3_meter: 4450
 price_for_4_meter: 5600
-updated_by: a00f84a2-73c3-4b20-bc6b-8ff14df49968
-updated_at: 1669910254
+updated_by: 63f13f7c-2a11-499f-b033-ad0f353c2031
+updated_at: 1699042777
+graph: agpur14.png
 ---
