@@ -26,6 +26,7 @@ tabs:
               hide_display: false
               validate:
                 - required
+              character_limit: '70'
           -
             handle: description
             field:
