@@ -13,6 +13,20 @@ tabs:
               validate:
                 - required
           -
+            handle: brief_description
+            field:
+              antlers: false
+              type: textarea
+              display: 'Brief Description'
+              icon: textarea
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+              validate:
+                - required
+          -
             handle: description
             field:
               collapse: false
@@ -158,20 +172,6 @@ tabs:
               visibility: visible
               replicator_preview: true
               hide_display: false
-          -
-            handle: brief_description
-            field:
-              antlers: false
-              type: textarea
-              display: 'Brief Description'
-              icon: textarea
-              listable: hidden
-              instructions_position: above
-              visibility: visible
-              replicator_preview: true
-              hide_display: false
-              validate:
-                - required
   sidebar:
     display: Sidebar
     sections:
