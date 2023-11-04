@@ -1,28 +1,20 @@
 <section id="hero-area">
-    <a href="/products/interconnects">
-        <div class="interconnects-link">
-        
+   <div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+            <img src="/assets/ArgentPurHero.png" width="100%" alt="ArgentPurHeroImage">
         </div>
-    </a>
-    <a href="/products/speaker-cables">
-        <div class="speaker-cables-link">
-        
-        </div>
-    </a>
-    <div class="logo">
-        <img src="/assets/big-logo.svg" alt="{{title}}">
     </div>
-    <div class="fader"></div>
+   </div>
 </section>
 
-<div class="container-fluid">
-    
-    <section id="intro">
-        <div class="row spacer">
-            <div class="col-xl-10 offset-xl-2 spacer_very-small">
-                <h2 class="highlight">The sound of no cable</h2>
-            </div>
-            <div class="col-xl-6 offset-xl-3">
+<section id="intro" style="margin-top: -10vh;">
+    <div class="container">
+        <div class="row spacer" style="justify-content: center;">
+            <!-- <div class="col-xl-10 offset-xl-2 spacer_very-small">
+                <h3>The sound of no cable</h3>
+            </div> -->
+            <div class="col-sm-12" style="max-width: 800px;">
                 <div id="history" class="truncate">
                     {{history_of_agpur}}
                     <div id="expand" class="caption light">+ show more</div>
@@ -31,13 +23,26 @@
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+    
+</section>
 
-   {{partial:interconnects}}
+<section>
+    <div class="container">
+        <div class="row">
+            <ul>
+                {{ children from="products" collection="pages" }}
+                    <li>
+                        <a href="{{ url }}">{{ title }}</a>
+                    </li>
+                {{ /children }}
+            </ul>
+        </div>
+    </div>
+</section>
+
 
   
-
-    {{partial:speaker-cables}}
 
     <!-- <section id="testimonial" class="padded spacer_big">
         <div class="row">
@@ -54,9 +59,8 @@
         </div>
     </section> -->
 
-    {{partial:power-cables}}
 
-    {{partial:tech_highlights}}
+    <!-- {{partial:tech_highlights}} -->
 
     <!-- <section id="testimonial" class="padded spacer">
         <div class="row">
@@ -71,7 +75,7 @@
         </div>
     </section> -->
 
-    {{partial:testimonials}}
+    <!-- {{partial:testimonials}} -->
 
     <!-- <section id="testimonial" class="padded spacer" style="z-index: 999; position: relative;">
         <div class="row">
@@ -86,27 +90,8 @@
         </div>
     </section> -->
 
-    <section id="pricing" class="padded spacer_big">
-        <div class="row">
-            <div class="col-sm-12 spacer">
-                <h2 class="highlight spacer_very-small">{{pricing_header}}</h2>
-                {{returns_policy}}
-            </div>
-        </div>  
-    </section>
-</div>
 
-<footer>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-sm-8">
-                <p>Ernest A. Meunier</p>
-                <p>781 526 3860</p>
-                <p>ernest_meunier@msn.com</p>
-            </div>
-        </div>
-    </div>
-</footer>
+
 
   <!-- Swiper JS -->
   <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
