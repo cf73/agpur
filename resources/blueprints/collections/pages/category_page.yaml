@@ -100,6 +100,7 @@ tabs:
             field:
               collapse: false
               previews: true
+              max_sets: 4
               fullscreen: true
               sets:
                 new_set_group:
@@ -107,8 +108,8 @@ tabs:
                   instructions: null
                   icon: null
                   sets:
-                    core_tech:
-                      display: 'Core tech'
+                    technology:
+                      display: Technology
                       instructions: null
                       icon: null
                       fields:
@@ -128,36 +129,13 @@ tabs:
                             validate:
                               - required
                         -
-                          handle: text
+                          handle: description
                           field:
-                            buttons:
-                              - bold
-                              - italic
-                              - unorderedlist
-                              - orderedlist
-                              - removeformat
-                              - anchor
-                            smart_typography: false
-                            save_html: false
-                            inline: false
-                            toolbar_mode: fixed
-                            reading_time: false
-                            word_count: false
-                            fullscreen: true
-                            allow_source: true
-                            enable_input_rules: true
-                            enable_paste_rules: true
-                            remove_empty_nodes: false
+                            character_limit: '300'
                             antlers: false
-                            link_noopener: false
-                            link_noreferrer: false
-                            target_blank: false
-                            always_show_set_button: false
-                            collapse: false
-                            previews: true
-                            type: bard
-                            display: Text
-                            icon: bard
+                            type: textarea
+                            display: Description
+                            icon: textarea
                             listable: hidden
                             instructions_position: above
                             visibility: visible
