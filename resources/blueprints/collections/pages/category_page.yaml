@@ -15,18 +15,14 @@ tabs:
           -
             handle: hero_quote
             field:
-              antlers: false
-              type: textarea
+              type: section
               display: 'Hero quote'
-              icon: textarea
+              icon: section
               listable: hidden
               instructions_position: above
               visibility: visible
               replicator_preview: true
               hide_display: false
-              validate:
-                - required
-              character_limit: '70'
           -
             handle: description
             field:
