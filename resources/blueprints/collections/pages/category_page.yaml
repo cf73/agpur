@@ -13,6 +13,21 @@ tabs:
               validate:
                 - required
           -
+            handle: hero_quote
+            field:
+              character_limit: '250'
+              antlers: false
+              type: textarea
+              display: 'Hero quote'
+              icon: textarea
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+              validate:
+                - required
+          -
             handle: description
             field:
               collapse: false
@@ -194,6 +209,21 @@ tabs:
               visibility: visible
               replicator_preview: true
               hide_display: false
+          -
+            handle: hero_quote_attribution
+            field:
+              input_type: text
+              antlers: false
+              type: text
+              display: 'Hero quote attribution'
+              icon: text
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+              validate:
+                - required
   sidebar:
     display: Sidebar
     sections:
