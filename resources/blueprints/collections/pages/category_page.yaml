@@ -13,17 +13,6 @@ tabs:
               validate:
                 - required
           -
-            handle: hero_quote
-            field:
-              type: section
-              display: 'Hero quote'
-              icon: section
-              listable: hidden
-              instructions_position: above
-              visibility: visible
-              replicator_preview: true
-              hide_display: false
-          -
             handle: description
             field:
               collapse: false
