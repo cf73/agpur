@@ -13,11 +13,11 @@ tabs:
               validate:
                 - required
           -
-            handle: brief_description
+            handle: hero_quote
             field:
               antlers: false
               type: textarea
-              display: 'Brief Description'
+              display: 'Hero quote'
               icon: textarea
               listable: hidden
               instructions_position: above
