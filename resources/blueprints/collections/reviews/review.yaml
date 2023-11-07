@@ -31,6 +31,21 @@ tabs:
               hide_display: false
               validate:
                 - required
+          -
+            handle: review_excerpt
+            field:
+              character_limit: '800'
+              antlers: false
+              type: textarea
+              display: 'Review Excerpt'
+              icon: textarea
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+              validate:
+                - required
   sidebar:
     display: Sidebar
     sections:
