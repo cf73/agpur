@@ -1,6 +1,7 @@
 ---
 id: 83615a55-6285-49ea-919f-74a979f40c84
 blueprint: simple_text_page
+template: simpletextpage
 title: 'Demo Policy'
 text:
   -

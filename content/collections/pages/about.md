@@ -1,6 +1,7 @@
 ---
 id: 16104954-d549-4539-a31a-fc18cc9a5690
 blueprint: simple_text_page
+template: simpletextpage
 title: About
 text:
   -
