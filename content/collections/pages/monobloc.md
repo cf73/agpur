@@ -1,6 +1,7 @@
 ---
 id: 1688d24c-b95d-459a-900a-20d3a0eb426d
 blueprint: category_page
+template: monobloc
 title: Monobloc
 brief_description: 'Unparalleled quality, diminutive size'
 background_image: cf73_looking_up_at_rocky_moutain_made_of_silver_metal_against_a_d5599842-2ef8-4ba2-a3f4-583eb609753c.png
