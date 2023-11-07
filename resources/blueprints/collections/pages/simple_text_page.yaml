@@ -1,0 +1,5 @@
+title: 'Simple text page'
+tabs:
+  main:
+    display: Main
+    fields: {  }
