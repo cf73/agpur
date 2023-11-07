@@ -46,6 +46,17 @@ tabs:
               hide_display: false
               validate:
                 - required
+          -
+            handle: review_link
+            field:
+              type: link
+              display: 'Review link'
+              icon: link
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
   sidebar:
     display: Sidebar
     sections:
