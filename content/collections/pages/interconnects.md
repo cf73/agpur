@@ -5,7 +5,7 @@ template: interconnects
 title: Interconnects
 parent: d773d704-5699-4af1-a19e-bc6f8f1ecc29
 updated_by: 63f13f7c-2a11-499f-b033-ad0f353c2031
-updated_at: 1699470088
+updated_at: 1699470123
 background_image: cf73_heracles_athene_and_harmonie_are_made_of_silver_metal_show_583295f2-b2fa-4f8b-8966-f48877eb394d.jpg
 brief_description: 'ArgentPur offers three tiers of Interconnects, available both single ended (RCA) and balanced (XLR).'
 hero_quote: 'There is something extraordinary going on here and amazingly beautiful... Could it be magic?'
@@ -41,6 +41,11 @@ gallery:
     id: loq4le8n
     image: neutrik-harmonie-1.jpg
     caption: Harmonie
+    type: product
+    enabled: true
+  -
+    id: loq4mcrr
+    image: pro-capture-one-0354.jpg
     type: product
     enabled: true
 ---
