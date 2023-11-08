@@ -12,7 +12,7 @@ description:
         text: "ArgentPur Speaker Cables are available in 5 sizes according to current capacity. Choose among the gauges to match your loudspeakers' sensitivity and length requirements."
 parent: d773d704-5699-4af1-a19e-bc6f8f1ecc29
 updated_by: 63f13f7c-2a11-499f-b033-ad0f353c2031
-updated_at: 1699306607
+updated_at: 1699476666
 background_image: cf73_around_a_third_of_the_image_is_gentle_undulating_lines_of__57f98fed-9b7c-4b95-93b5-261ec80452b9-1699306605.png
 graph: graph-1698429999.png
 brief_description: "ArgentPur Speaker Cables are available in 5 sizes according to current capacity. Choose among the gauges to match your loudspeakers' sensitivity and length requirements."
@@ -42,8 +42,19 @@ core_technologies:
 gallery:
   -
     id: lolsypba
-    image: pro-capture-one-0334.jpg
-    caption: 'Silver plated spades'
+    image: agpur16.jpg
+    caption: AgPur16
+    type: product
+    enabled: true
+  -
+    id: loq8ibdn
+    image: agpur-12.jpg
+    caption: AgPur12
+    type: product
+    enabled: true
+  -
+    id: loq8il5q
+    image: agpur-spades.jpg
     type: product
     enabled: true
 hero_quote: 'Uncolored, unfiltered, highly revealing of source material and room treatments.'
