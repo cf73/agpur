@@ -268,5 +268,6 @@ text:
   -
     type: paragraph
 updated_by: 63f13f7c-2a11-499f-b033-ad0f353c2031
-updated_at: 1699467587
+updated_at: 1699468429
+image: ernest-meunier.png
 ---
