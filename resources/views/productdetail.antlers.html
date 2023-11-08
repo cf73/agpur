@@ -1,0 +1,53 @@
+<div class="productpic" style="padding: 0; background-image: url('{{image}}'); background-size: cover; background-repeat: no-repeat; background-position: center; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center;">
+    {{collection:testimonials limit="1"}}
+        {{testimonial_prose}}
+    {{/collection:testimonials}}
+</div>
+
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="{{medallion}}" width="100%" alt="{{title}}">
+            </div>
+            <div class="col-md-6" style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+                <h1>{{title}}</h1>
+                <p class="small" style="text-align: center;">{{description}}</p>
+                <div class="pricing">
+                    <p>Standard length (1M)  pricing from ${{price_for_1_meter}} for RCA, or ${{price_for_1_meter_xlr}} for XLR. Available in lengths from less than 0.5m to 5m</p>
+                    <p>Custom lengths available. Core price is ${{base_price}}, plus ${{price_per_meter}} per meter.</p>
+                    <p>Popular lengths are available to configure below.</p>
+                </div>
+                <button
+                class="snipcart-add-item"
+                data-item-id="{{slug}}"
+                data-item-price="0"
+                data-item-description="{{description}}"
+                data-item-image="{{image}}"
+                data-item-name="{{title}}"
+                data-item-custom1-name="Demo Policy"
+                data-item-custom1-type="readonly"
+                data-item-custom1-value="27 day trial available for demo length of 1M."
+                data-item-custom2-name="Length"
+                data-item-custom2-value="1M RCA"
+                data-item-custom2-options="
+                0.5M RCA[{{price_for_0_5m}}]|
+                0.5M XLR[{{price_for_0_5_meter_xlr}}]|
+                1M RCA[{{price_for_1_meter}}]|
+                1M XLR[{{price_for_1_meter_xlr}}]|
+                1.5M RCA[{{price_for_1_5_meter}}]|
+                1.5M XLR[{{price_for_1_5_meter_xlr}}]|
+                2M RCA[{{price_for_2_meter}}]|
+                2M XLR[{{price_for_2_meter_xlr}}]|
+                3M RCA[{{price_for_3_meter}}]|
+                3M XLR[{{price_for_3_meter_xlr}}]|
+                4M RCA[{{price_for_4_meter}}]|
+                4M XLR[{{price_for_4_meter_xlr}}]|
+                5M RCA[{{price_for_5_meter}}]|
+                5M XLR[{{price_for_5_meter_xlr}}]|
+                "
+                ><h3>Configure</h3></button>
+            </div>
+        </div>
+    </div>
+</section>

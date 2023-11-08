@@ -1,0 +1,85 @@
+<section id="power-cables" class="padded spacer_big top-spacer">
+    <div class="row spacer_small">
+        <div class="col-lg-8">
+            <h1 class="highlight">Power Cables</h1>
+            {{power_cables_blurb}}
+        </div>
+    </div>
+    {{collection:power_cables}}
+    <div class="row product">
+        <div class="col-xl-5 details">
+            <div class="description">
+                <h2 class="highlight">{{title}}</h2>
+                <p>{{description}}</p>
+            </div>
+            <div class="pricing">
+                <p class="caption">Standard length (1.5M) pricing from ${{price_for_1_5_meter}}. Available in lengths from 1M to 3m.</p>
+                <p class="caption">Custom lengths available. Core price is ${{base_price}}, plus ${{price_per_meter}} per meter.</p>
+                <p class="caption">Popular lengths are available to configure below.</p>
+            </div>
+            <button class="snipcart-add-item"
+                data-item-id="{{slug}}"
+                data-item-price="0"
+                data-item-description="{{description}}"
+                data-item-image="{{image}}"
+                data-item-name="{{title}}"
+                data-item-custom1-name="Length"
+                data-item-custom1-value="2.5M"
+                data-item-custom1-options="
+                1M[{{price_for_1_meter}}]|
+                1.5M[{{price_for_1_5_meter}}]|
+                2M[{{price_for_2_meter}}]|
+                2.5M[{{price_for_2_5_meter}}]|
+                3M[{{price_for_3_meter}}]|
+                ">
+                Configure
+                </button>
+            <!-- <div class="pricegrid spacer_very-small">
+                <div class="row">
+                    <div class="col-9">
+                        <p class="caption">1 meter</p>
+                    </div>
+                    <div class="col-3" style="text-align: right;">
+                        <p class="caption">${{price_for_1_meter}}</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-9">
+                        <p class="caption">1.5 meter</p>
+                    </div>
+                    <div class="col-3" style="text-align: right;">
+                        <p class="caption">${{price_for_1_5_meter}}</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-9">
+                        <p class="caption">2 meter</p>
+                    </div>
+                    <div class="col-3" style="text-align: right;">
+                        <p class="caption">${{price_for_2_meter}}</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-9">
+                        <p class="caption">2.5 meter</p>
+                    </div>
+                    <div class="col-3" style="text-align: right;">
+                        <p class="caption">${{price_for_2_5_meter}}</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-9">
+                        <p class="caption">3 meter</p>
+                    </div>
+                    <div class="col-3" style="text-align: right;">
+                        <p class="caption">${{price_for_3_meter}}</p>
+                    </div>
+                </div>
+            </div> -->
+            <!-- <a href="mailto:ernest_meunier@msn.com?subject=Order%20Request:%20{{title}}" class="spacer_very-small"><button class="caption light">Order <span class="">{{title}}</span></button></a> -->
+            <!-- <div class="caption">Please note that we are currently taking orders manually, as all cables are made by hand in Boston.</div> -->
+        </div>
+        <div class="col-xl-7 productpic" style="background-image: url('{{image}}'); background-size: cover; background-repeat: no-repeat; background-position: top center;"></div>
+    </div>
+    {{/collection:power_cables}}
+</section>

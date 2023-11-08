@@ -1,0 +1,28 @@
+ <section id="interconnects" style="padding-top: 120px; padding-bottom: 30px;" class="padded spacer top-spacer">
+    <div class="row spacer_small">
+        <div class="col-md-4">
+            <h1 class="highlight">Interconnects</h1>
+            {{interconnects_blurb}}
+        </div>
+    </div>
+    <div class="row">
+        {{collection:products}}
+            
+                <div class="col-md-4 details product">
+                    <div class="description">
+                        <h2 class="highlight">{{title}}</h2>
+                        <p>{{description}}</p>
+                    </div>
+                
+                    <a href="/interconnects/{{slug}}">
+                    <button>
+                    Explore
+                    </button>
+                    </a>
+                    <!-- <a href="mailto:ernest_meunier@msn.com?subject=Order%20Request:%20{{title}}" class="spacer_very-small"><button class="caption light">Order <span class="">{{title}}</span></button></a> -->
+                    <!-- <div class="caption">Please note that we are currently taking orders manually, as all cables are made by hand in Boston.</div> -->
+                </div>
+        {{/collection:products}}
+    </div>
+
+</section>

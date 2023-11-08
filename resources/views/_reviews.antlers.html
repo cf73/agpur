@@ -1,0 +1,29 @@
+<div class="container">
+    <div class="row">
+        <div class="swiper productSwiper spacer" style="padding-top: 78px; margin-top: -78px;">
+            <div class="swiper-wrapper">                                                
+                {{collection:reviews}}
+                    {{if no_results}}
+                        <p class="light">There are no reviews currently.</p>                             
+                    {{else}}
+                        <div class="swiper-slide">
+                            <div class="card-testimonial">
+                                <div class="reviewlogo"><img src="{{logo}}" width="100%" alt="{{title}}"></div>
+                                <h4 class="highlight">{{title}}</h4>
+                                {{review_excerpt}}
+                                {{if review_link}}
+                                <a href="{{review_link}}" class="highlight" target="_blank" style="margin-top: 12px;">Read the full review</a>
+                                {{/if}}
+                            </div>
+                        </div>
+                    {{/if}}
+                {{/collection:reviews}}
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+        
+    </div>
+</div>
+

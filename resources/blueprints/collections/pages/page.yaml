@@ -1,153 +1,229 @@
 title: Page
-sections:
+tabs:
   main:
     display: Main
-    fields:
+    sections:
       -
-        handle: title
-        field:
-          type: text
-          required: true
-          validate:
-            - required
-      -
-        handle: hero_image
-        field:
-          mode: list
-          container: assets
-          restrict: false
-          allow_uploads: true
-          show_filename: true
-          max_files: 1
-          display: 'Hero image'
-          type: assets
-          icon: assets
-          listable: hidden
-          instructions_position: above
-          visibility: visible
-          always_save: false
-      -
-        handle: history_of_agpur
-        field:
-          always_show_set_button: false
-          previews: true
-          buttons:
-            - bold
-            - italic
-            - unorderedlist
-            - removeformat
-            - anchor
-            - image
-          save_html: false
-          toolbar_mode: fixed
-          link_noopener: false
-          link_noreferrer: false
-          target_blank: false
-          reading_time: false
-          fullscreen: false
-          allow_source: true
-          enable_input_rules: true
-          enable_paste_rules: true
-          antlers: false
-          remove_empty_nodes: false
-          display: 'History of AgPur'
-          type: bard
-          icon: bard
-          listable: hidden
-          instructions_position: above
-          visibility: visible
-          always_save: false
-      -
-        handle: interconnects_blurb
-        field:
-          antlers: false
-          display: 'Interconnects blurb'
-          type: textarea
-          icon: textarea
-          listable: hidden
-          instructions_position: above
-          visibility: visible
-          always_save: false
-      -
-        handle: speaker_cables_blurb
-        field:
-          antlers: false
-          display: 'Speaker cables blurb'
-          type: textarea
-          icon: textarea
-          listable: hidden
-          instructions_position: above
-          visibility: visible
-          always_save: false
-      -
-        handle: power_cables_blurb
-        field:
-          antlers: false
-          display: 'Power cables blurb'
-          type: textarea
-          icon: textarea
-          listable: hidden
-          instructions_position: above
-          visibility: visible
-          always_save: false
-      -
-        handle: pricing_header
-        field:
-          input_type: text
-          antlers: false
-          display: 'Returns policy title'
-          type: text
-          icon: text
-          listable: hidden
-          instructions_position: above
-          visibility: visible
-          always_save: false
-          validate:
-            - required
-      -
-        handle: returns_policy
-        field:
-          collapse: false
-          always_show_set_button: false
-          previews: true
-          buttons:
-            - bold
-            - italic
-            - removeformat
-            - anchor
-          save_html: false
-          toolbar_mode: fixed
-          link_noopener: false
-          link_noreferrer: false
-          target_blank: false
-          reading_time: false
-          fullscreen: true
-          allow_source: true
-          enable_input_rules: true
-          enable_paste_rules: true
-          antlers: false
-          remove_empty_nodes: false
-          display: 'Returns policy'
-          type: bard
-          icon: bard
-          listable: hidden
-          instructions_position: above
-          visibility: visible
-          always_save: false
+        fields:
+          -
+            handle: title
+            field:
+              type: text
+              required: true
+              validate:
+                - required
+          -
+            handle: hero_image
+            field:
+              mode: list
+              container: assets
+              restrict: false
+              allow_uploads: true
+              show_filename: true
+              max_files: 1
+              display: 'Hero image'
+              type: assets
+              icon: assets
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              always_save: false
+          -
+            handle: history_of_agpur
+            field:
+              always_show_set_button: false
+              previews: true
+              buttons:
+                - bold
+                - italic
+                - unorderedlist
+                - removeformat
+                - anchor
+                - image
+              save_html: false
+              toolbar_mode: fixed
+              link_noopener: false
+              link_noreferrer: false
+              target_blank: false
+              reading_time: false
+              fullscreen: false
+              allow_source: true
+              enable_input_rules: true
+              enable_paste_rules: true
+              antlers: false
+              remove_empty_nodes: false
+              display: 'History of AgPur'
+              type: bard
+              icon: bard
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              always_save: false
+          -
+            handle: interconnects_blurb
+            field:
+              antlers: false
+              display: 'Interconnects blurb'
+              type: textarea
+              icon: textarea
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              always_save: false
+          -
+            handle: speaker_cables_blurb
+            field:
+              antlers: false
+              display: 'Speaker cables blurb'
+              type: textarea
+              icon: textarea
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              always_save: false
+          -
+            handle: power_cables_blurb
+            field:
+              antlers: false
+              display: 'Power cables blurb'
+              type: textarea
+              icon: textarea
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              always_save: false
+          -
+            handle: pricing_header
+            field:
+              input_type: text
+              antlers: false
+              display: 'Returns policy title'
+              type: text
+              icon: text
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              always_save: false
+              validate:
+                - required
+          -
+            handle: returns_policy
+            field:
+              collapse: false
+              always_show_set_button: false
+              previews: true
+              buttons:
+                - bold
+                - italic
+                - removeformat
+                - anchor
+              save_html: false
+              toolbar_mode: fixed
+              link_noopener: false
+              link_noreferrer: false
+              target_blank: false
+              reading_time: false
+              fullscreen: true
+              allow_source: true
+              enable_input_rules: true
+              enable_paste_rules: true
+              antlers: false
+              remove_empty_nodes: false
+              display: 'Returns policy'
+              type: bard
+              icon: bard
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              always_save: false
+          -
+            handle: speaker_cables_hero_image
+            field:
+              max_files: 1
+              mode: list
+              container: assets
+              restrict: false
+              allow_uploads: true
+              show_filename: true
+              show_set_alt: true
+              type: assets
+              display: 'Speaker Cables Hero Image'
+              icon: assets
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+          -
+            handle: interconnects_hero_image
+            field:
+              max_files: 1
+              mode: list
+              container: assets
+              restrict: false
+              allow_uploads: true
+              show_filename: true
+              show_set_alt: true
+              type: assets
+              display: 'Interconnects Hero Image'
+              icon: assets
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+          -
+            handle: power_cables_hero_image
+            field:
+              max_files: 1
+              mode: list
+              container: assets
+              restrict: false
+              allow_uploads: true
+              show_filename: true
+              show_set_alt: true
+              type: assets
+              display: 'Power Cables Hero Image'
+              icon: assets
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+          -
+            handle: amps_hero_image
+            field:
+              max_files: 1
+              mode: list
+              container: assets
+              restrict: false
+              allow_uploads: true
+              show_filename: true
+              show_set_alt: true
+              type: assets
+              display: 'Amps Hero Image'
+              icon: assets
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
   sidebar:
     display: Sidebar
-    fields:
+    sections:
       -
-        handle: slug
-        field:
-          type: slug
-          localizable: true
-      -
-        handle: parent
-        field:
-          type: entries
-          collections:
-            - pages
-          max_items: 1
-          listable: false
-          localizable: true
+        fields:
+          -
+            handle: slug
+            field:
+              type: slug
+              localizable: true
+          -
+            handle: parent
+            field:
+              type: entries
+              collections:
+                - pages
+              max_items: 1
+              listable: false
+              localizable: true

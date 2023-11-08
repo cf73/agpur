@@ -25,3 +25,4 @@ editor:
     - 'publish other authors speaker_cables entries'
     - 'view power_cables entries'
     - 'edit power_cables entries'
+    - 'access default site'

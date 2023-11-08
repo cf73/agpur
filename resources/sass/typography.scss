@@ -1,16 +1,32 @@
-body {
-    font-family: 'Sofia Pro', sans-serif;
+@font-face {
+    font-family: 'BrestonRegular';
+    src: url('/fonts/BrestonRegular.otf') format('opentype');
+    font-weight: normal;
     font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 24px;
-    /* identical to box height, or 136% */
-    letter-spacing: 0.01em;
+}
+@font-face {
+    font-family: 'BrestonOblique';
+    src: url('/fonts/BrestonOblique.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'BrestonRegular', sans-serif;
     color: $silver;
     @media (min-width: $md) {
-        font-size: 22px;
-        line-height: 30px;
+        font-size: 17px;
+        line-height: 25px;
     }
+}
+p {
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+}
+.small {
+    font-size: 16px;
+    line-height: 24px;
 }
 h1 {
     //styleName: H1;
@@ -28,27 +44,26 @@ h1 {
 }
 h2 {
     font-style: normal;
-    font-weight: 800;
-    font-size: 24px;
-    line-height: 30px;
-    /* identical to box height, or 109% */
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 64px;
+    color: $silver;
 
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
     @media (min-width: $md) {
-        font-size: 24px;
-        letter-spacing: 0.185em;
-        line-height: 36px;
+        font-size: 96px;
+        line-height: 96px;
     }
 }
 h3 {
-    font-style: normal;
-    font-weight: 900;
-    font-size: 16px;
-    line-height: 24px;
-    /* identical to box height, or 150% */
-
-    letter-spacing: 0.185em;
+    font-size: 48px;
+    line-height: 48px;
+    font-weight: 400;
+}
+h4 {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: normal;
+    letter-spacing: 0.15em;
     text-transform: uppercase;
 }
 .caption {
@@ -69,6 +84,11 @@ h3 {
     line-height: 42px;
     }
 }
+.description p {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 36px;
+}
 .light {
     color: $silver;
 }
@@ -81,4 +101,7 @@ a {
         text-decoration: none;
         color: $highlight;
     }
+}
+.current {
+    color: $highlight;
 }

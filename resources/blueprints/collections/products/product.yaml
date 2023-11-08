@@ -1,188 +1,268 @@
-sections:
+title: Interconnect
+tabs:
   main:
     display: Main
-    fields:
+    sections:
       -
-        handle: title
-        field:
-          type: text
-          required: true
-          validate:
-            - required
-      -
-        handle: image
-        field:
-          mode: list
-          container: assets
-          restrict: false
-          allow_uploads: true
-          show_filename: true
-          max_files: 1
-          display: Image
-          type: assets
-          icon: assets
-          listable: hidden
-          instructions_position: above
-          visibility: visible
-          always_save: false
-      -
-        handle: description
-        field:
-          character_limit: '700'
-          antlers: false
-          display: Description
-          type: textarea
-          icon: textarea
-          listable: hidden
-          instructions_position: above
-          visibility: visible
-          always_save: false
+        fields:
+          -
+            handle: title
+            field:
+              type: text
+              required: true
+              validate:
+                - required
+          -
+            handle: medallion
+            field:
+              max_files: 1
+              mode: list
+              container: assets
+              restrict: false
+              allow_uploads: true
+              show_filename: true
+              show_set_alt: true
+              type: assets
+              display: Medallion
+              icon: assets
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+              validate:
+                - required
+          -
+            handle: description
+            field:
+              character_limit: '700'
+              antlers: false
+              display: Description
+              type: textarea
+              icon: textarea
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              always_save: false
+          -
+            handle: extended_description
+            field:
+              buttons:
+                - bold
+                - italic
+                - unorderedlist
+                - orderedlist
+                - removeformat
+                - anchor
+              smart_typography: false
+              save_html: false
+              inline: false
+              toolbar_mode: fixed
+              reading_time: false
+              word_count: false
+              fullscreen: true
+              allow_source: true
+              enable_input_rules: true
+              enable_paste_rules: true
+              remove_empty_nodes: false
+              antlers: false
+              link_noopener: false
+              link_noreferrer: false
+              target_blank: false
+              always_show_set_button: false
+              collapse: false
+              previews: true
+              type: bard
+              display: 'Extended description'
+              icon: bard
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+          -
+            handle: image
+            field:
+              mode: list
+              container: assets
+              restrict: false
+              allow_uploads: true
+              show_filename: true
+              max_files: 1
+              display: Image
+              type: assets
+              icon: assets
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              always_save: false
   sidebar:
     display: Sidebar
-    fields:
+    sections:
       -
-        handle: slug
-        field:
-          type: slug
-          localizable: true
-      -
-        handle: price_for_0_5m
-        field:
-          display: 'Price for 0.5M'
-          type: integer
-          icon: integer
-          listable: hidden
-          instructions_position: above
-          visibility: visible
-          always_save: false
-      -
-        handle: price_for_0_5_meter_xlr
-        field:
-          display: 'Price for 0.5 meter XLR'
-          type: integer
-          icon: integer
-          listable: hidden
-          instructions_position: above
-          visibility: visible
-          always_save: false
-      -
-        handle: price_for_1_meter
-        field:
-          display: 'Price for 1 meter'
-          type: integer
-          icon: integer
-          listable: hidden
-          instructions_position: above
-          visibility: visible
-          always_save: false
-      -
-        handle: price_for_1_meter_xlr
-        field:
-          display: 'Price for 1 meter XLR'
-          type: integer
-          icon: integer
-          listable: hidden
-          instructions_position: above
-          visibility: visible
-          always_save: false
-      -
-        handle: price_for_1_5_meter
-        field:
-          display: 'Price for 1.5 meter'
-          type: integer
-          icon: integer
-          listable: hidden
-          instructions_position: above
-          visibility: visible
-          always_save: false
-      -
-        handle: price_for_1_5_meter_xlr
-        field:
-          display: 'Price for 1.5 meter XLR'
-          type: integer
-          icon: integer
-          listable: hidden
-          instructions_position: above
-          visibility: visible
-          always_save: false
-      -
-        handle: price_for_2_meter
-        field:
-          display: 'Price for 2 meter'
-          type: integer
-          icon: integer
-          listable: hidden
-          instructions_position: above
-          visibility: visible
-          always_save: false
-      -
-        handle: price_for_2_meter_xlr
-        field:
-          display: 'Price for 2 meter XLR'
-          type: integer
-          icon: integer
-          listable: hidden
-          instructions_position: above
-          visibility: visible
-          always_save: false
-      -
-        handle: price_for_3_meter
-        field:
-          display: 'Price for 3 meter'
-          type: integer
-          icon: integer
-          listable: hidden
-          instructions_position: above
-          visibility: visible
-          always_save: false
-      -
-        handle: price_for_3_meter_xlr
-        field:
-          display: 'Price for 3 meter XLR'
-          type: integer
-          icon: integer
-          listable: hidden
-          instructions_position: above
-          visibility: visible
-          always_save: false
-      -
-        handle: price_for_4_meter
-        field:
-          display: 'Price for 4 meter'
-          type: integer
-          icon: integer
-          listable: hidden
-          instructions_position: above
-          visibility: visible
-          always_save: false
-      -
-        handle: price_for_4_meter_xlr
-        field:
-          display: 'Price for 4 meter XLR'
-          type: integer
-          icon: integer
-          listable: hidden
-          instructions_position: above
-          visibility: visible
-          always_save: false
-      -
-        handle: price_for_5_meter
-        field:
-          display: 'Price for 5 meter'
-          type: integer
-          icon: integer
-          listable: hidden
-          instructions_position: above
-          visibility: visible
-          always_save: false
-      -
-        handle: price_for_5_meter_xlr
-        field:
-          display: 'Price for 5 meter XLR'
-          type: integer
-          icon: integer
-          listable: hidden
-          instructions_position: above
-          visibility: visible
-          always_save: false
-title: Product
+        fields:
+          -
+            handle: slug
+            field:
+              type: slug
+              localizable: true
+          -
+            handle: base_price
+            field:
+              display: 'Base price'
+              type: integer
+              icon: integer
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              always_save: false
+          -
+            handle: price_per_meter
+            field:
+              display: 'Price per meter'
+              type: integer
+              icon: integer
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              always_save: false
+          -
+            handle: price_for_0_5m
+            field:
+              display: 'Price for 0.5M'
+              type: integer
+              icon: integer
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              always_save: false
+          -
+            handle: price_for_0_5_meter_xlr
+            field:
+              display: 'Price for 0.5 meter XLR'
+              type: integer
+              icon: integer
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              always_save: false
+          -
+            handle: price_for_1_meter
+            field:
+              display: 'Price for 1 meter'
+              type: integer
+              icon: integer
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              always_save: false
+          -
+            handle: price_for_1_meter_xlr
+            field:
+              display: 'Price for 1 meter XLR'
+              type: integer
+              icon: integer
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              always_save: false
+          -
+            handle: price_for_1_5_meter
+            field:
+              display: 'Price for 1.5 meter'
+              type: integer
+              icon: integer
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              always_save: false
+          -
+            handle: price_for_1_5_meter_xlr
+            field:
+              display: 'Price for 1.5 meter XLR'
+              type: integer
+              icon: integer
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              always_save: false
+          -
+            handle: price_for_2_meter
+            field:
+              display: 'Price for 2 meter'
+              type: integer
+              icon: integer
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              always_save: false
+          -
+            handle: price_for_2_meter_xlr
+            field:
+              display: 'Price for 2 meter XLR'
+              type: integer
+              icon: integer
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              always_save: false
+          -
+            handle: price_for_3_meter
+            field:
+              display: 'Price for 3 meter'
+              type: integer
+              icon: integer
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              always_save: false
+          -
+            handle: price_for_3_meter_xlr
+            field:
+              display: 'Price for 3 meter XLR'
+              type: integer
+              icon: integer
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              always_save: false
+          -
+            handle: price_for_4_meter
+            field:
+              display: 'Price for 4 meter'
+              type: integer
+              icon: integer
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              always_save: false
+          -
+            handle: price_for_4_meter_xlr
+            field:
+              display: 'Price for 4 meter XLR'
+              type: integer
+              icon: integer
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              always_save: false
+          -
+            handle: price_for_5_meter
+            field:
+              display: 'Price for 5 meter'
+              type: integer
+              icon: integer
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              always_save: false
+          -
+            handle: price_for_5_meter_xlr
+            field:
+              display: 'Price for 5 meter XLR'
+              type: integer
+              icon: integer
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              always_save: false

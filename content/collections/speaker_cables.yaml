@@ -1,7 +1,9 @@
 title: 'Speaker Cables'
-template: default
+template: productdetail
 layout: layout
+mount: 341dfbed-cf28-471f-a849-f9435d99841e
 revisions: false
+route: 'speaker-cables/{slug}'
 sort_dir: asc
 date_behavior:
   past: public
@@ -10,6 +12,7 @@ preview_targets:
   -
     label: Entry
     url: '{permalink}'
+    refresh: true
 structure:
   root: false
   max_depth: 1

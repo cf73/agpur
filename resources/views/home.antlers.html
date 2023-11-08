@@ -1,282 +1,43 @@
-<section id="hero-area" style="background-image: url('{{hero_image}}');">
-    <div class="logo">
-        <img src="/assets/big-logo.svg" alt="{{title}}">
+<section id="hero-area">
+   <div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+            <img src="/assets/ArgentPurHero.png" width="100%" alt="ArgentPurHeroImage">
+        </div>
     </div>
-    <div class="fader"></div>
+   </div>
 </section>
 
-<div class="container-fluid">
-    
-    <section id="intro">
-        <div class="row spacer">
-            <div class="col-xl-10 offset-xl-2 spacer_very-small">
-                <h2 class="highlight">The sound of no cable</h2>
-            </div>
-            <div class="col-xl-6 offset-xl-3">
+<section id="intro" style="margin-top: -10vh;">
+    <div class="container">
+        <div class="row spacer" style="justify-content: center;">
+            <!-- <div class="col-xl-10 offset-xl-2 spacer_very-small">
+                <h3>The sound of no cable</h3>
+            </div> -->
+            <div class="col-sm-12" style="max-width: 800px;">
                 <div id="history" class="truncate">
                     {{history_of_agpur}}
                     <div id="expand" class="caption light">+ show more</div>
                     <div id="collapse" class="caption light hide">- show less</div>
-                    <div class="fader"></div>
+                    <div class="truncatefader"></div>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+    
+</section>
 
-    <section id="techhighlights" class="spacer">
-        <div class="swiper techhighlights">
-            <div class="swiper-wrapper">
-                <div class="fader hideonmobile"></div>
-                <div class="fader hideonmobile inverted"></div>
-                {{collection:tech_highlights}}
-                <div class="swiper-slide reel" style="width: 100%; background-image: url('{{image}}'); background-size: cover; background-position: top center; background-repeat: no-repeat;">
-                </div>
-                {{/collection:tech_highlights}}
-            </div>
-        </div>
-        <div class="row spacer">
-            <div class="col-xl-5 offset-xl-1">
-                <div class="techcard">
-                    <h2 class="highlight" style="margin: 0 50px 48px 50px;">Core technologies</h2>
-                    <div class="swiper coretech">
-                        <div class="swiper-wrapper">
-                            {{collection:core_technologies}}
-                            <div class="swiper-slide" style="padding-bottom: 30px;">
-                                <div style="padding: 0 50px;">
-                                    <h3>{{title}}</h3>
-                                    <p class="caption">{{description}}</p>
-                                </div>
-                            </div>
-                            {{/collection:core_technologies}}
-                        </div>
-                        <div class="swiper-button-next"></div>
-                        <div class="swiper-button-prev"></div>
-                        <div class="swiper-pagination"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-       
-        
-    </section>
+<section class="spacer verydarksilver" style="padding-bottom: 90px;">
+    {{partial:productcategories}}
+</section>
 
-    <section id="testimonial" class="padded spacer" style="z-index: 999; position: relative;">
-        <div class="row">
-            <div class="col-xl-10 offset-xl-2">
-                {{collection:testimonial_section_1}}
-                <div class="testimonial spacer">
-                    <p class="spacer_very-small">{{testimonial_text}}</p>
-                    <h3>&mdash; {{testimonial_attribution}}</h3>
-                </div>
-                {{/collection:testimonial_section_1}}
-            </div>
-        </div>
-    </section>
+<section class="spacer_big">
+    <h4 class="spacer_very-small top-spacer_small" style="text-align: center;">Praise for ArgentPur</h4>
+    {{partial:reviews}}
+</section>
+  
 
-    <section id="interconnects" style="padding-bottom: 30px;" class="padded spacer">
-        <div class="row spacer_small">
-            <div class="col-lg-8">
-                <h1 class="highlight">Interconnects</h1>
-                {{interconnects_blurb}}
-            </div>
-        </div>
-        {{collection:products}}
-        <div class="row product">
-            <div class="col-xl-7 productpic" style="padding: 0; background-image: url('{{image}}'); background-size: cover; background-repeat: no-repeat; background-position: top center;"></div>
-            <div class="col-xl-5 description">
-                <div>
-                    <h2 class="highlight">{{title}}</h2>
-                    <p class="caption">{{description}}</p>
-                </div>
-                <div class="pricegrid spacer_very-small">
-                    <div class="row">
-                        <div class="col-5"></div>
-                        <div class="col-3 offset-sm-1" style="text-align: right;">
-                            <h3>RCA</h3>
-                        </div>
-                        <div class="col-3" style="text-align: right;">
-                            <h3>XLR</h3>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-5">
-                            <p class="caption">0.5 meter</p>
-                        </div>
-                        <div class="col-3 offset-sm-1" style="text-align: right;">
-                            <p class="caption">${{price_for_0_5m}}</p>
-                        </div>
-                        <div class="col-3" style="text-align: right;">
-                            <p class="caption">${{price_for_0_5_meter_xlr}}</p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-5">
-                            <p class="caption">1 meter</p>
-                        </div>
-                        <div class="col-3 offset-sm-1" style="text-align: right;">
-                            <p class="caption">${{price_for_1_meter}}</p>
-                        </div>
-                        <div class="col-3" style="text-align: right;">
-                            <p class="caption">${{price_for_1_meter_xlr}}</p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-5">
-                            <p class="caption">1.5 meter</p>
-                        </div>
-                        <div class="col-3 offset-sm-1" style="text-align: right;">
-                            <p class="caption">${{price_for_1_5_meter}}</p>
-                        </div>
-                        <div class="col-3" style="text-align: right;">
-                            <p class="caption">${{price_for_1_5_meter_xlr}}</p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-5">
-                            <p class="caption">2 meter</p>
-                        </div>
-                        <div class="col-3 offset-sm-1" style="text-align: right;">
-                            <p class="caption">${{price_for_2_meter}}</p>
-                        </div>
-                        <div class="col-3" style="text-align: right;">
-                            <p class="caption">${{price_for_2_meter_xlr}}</p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-5">
-                            <p class="caption">3 meter</p>
-                        </div>
-                        <div class="col-3 offset-sm-1" style="text-align: right;">
-                            <p class="caption">${{price_for_3_meter}}</p>
-                        </div>
-                        <div class="col-3" style="text-align: right;">
-                            <p class="caption">${{price_for_3_meter_xlr}}</p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-5">
-                            <p class="caption">4 meter</p>
-                        </div>
-                        <div class="col-3 offset-sm-1" style="text-align: right;">
-                            <p class="caption">${{price_for_4_meter}}</p>
-                        </div>
-                        <div class="col-3" style="text-align: right;">
-                            <p class="caption">${{price_for_4_meter_xlr}}</p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-5">
-                            <p class="caption">5 meter</p>
-                        </div>
-                        <div class="col-3 offset-sm-1" style="text-align: right;">
-                            <p class="caption">${{price_for_5_meter}}</p>
-                        </div>
-                        <div class="col-3" style="text-align: right;">
-                            <p class="caption">${{price_for_5_meter_xlr}}</p>
-                        </div>
-                    </div>
-                </div>
-                <a href="mailto:ernest_meunier@msn.com?subject=Order%20Request:%20{{title}}" class="spacer_very-small"><button class="caption light">Order <span class="">{{title}}</span></button></a>
-                <!-- <div class="caption">Please note that we are currently taking orders manually, as all cables are made by hand in Boston.</div> -->
-            </div>
-        </div>
-        {{/collection:products}}
-    </section>
-
-    <section id="testimonial" class="padded spacer">
-        <div class="row">
-            <div class="col-xl-10 offset-xl-2">
-                {{collection:testimonial_section_2}}
-                <div class="testimonial spacer">
-                        <p class="spacer_very-small">{{testimonial_prose}}</p>
-                        <h3>&mdash; {{testimonial_attribution}}</h3>
-                </div>
-                {{/collection:testimonial_section_2}}
-            </div>
-        </div>
-    </section>
-
-    <section id="speaker-cables" class="padded spacer_big">
-        <div class="row spacer_small">
-            <div class="col-lg-8">
-                <h1 class="highlight">Speaker Cables</h1>
-                {{speaker_cables_blurb}}
-            </div>
-        </div>
-        {{collection:speaker_cables}}
-        <div class="row product">
-            <div class="col-xl-7 productpic" style="background-image: url('{{image}}'); background-size: cover; background-repeat: no-repeat; background-position: top center;"></div>
-            <div class="col-xl-5 description">
-                <div>
-                    <h2 class="highlight">{{title}}</h2>
-                    <p class="caption">{{description}}</p>
-                </div>
-                <div class="pricegrid spacer_very-small">
-                    <div class="row">
-                        <div class="col-9">
-                            <p class="caption">Less than 0.25 meter</p>
-                        </div>
-                        <div class="col-3" style="text-align: right;">
-                            <p class="caption">${{price_for_less_than_0_25m}}</p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-9">
-                            <p class="caption">1 meter</p>
-                        </div>
-                        <div class="col-3" style="text-align: right;">
-                            <p class="caption">${{price_for_1_meter}}</p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-9">
-                            <p class="caption">1.5 meter</p>
-                        </div>
-                        <div class="col-3" style="text-align: right;">
-                            <p class="caption">${{price_for_1_5_meter}}</p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-9">
-                            <p class="caption">2 meter</p>
-                        </div>
-                        <div class="col-3" style="text-align: right;">
-                            <p class="caption">${{price_for_2_meter}}</p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-9">
-                            <p class="caption">2.5 meter</p>
-                        </div>
-                        <div class="col-3" style="text-align: right;">
-                            <p class="caption">${{price_for_2_5_meter}}</p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-9">
-                            <p class="caption">3 meter</p>
-                        </div>
-                        <div class="col-3" style="text-align: right;">
-                            <p class="caption">${{price_for_3_meter}}</p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-9">
-                            <p class="caption">4 meter</p>
-                        </div>
-                        <div class="col-3" style="text-align: right;">
-                            <p class="caption">${{price_for_4_meter}}</p>
-                        </div>
-                    </div>
-                </div>
-                <a href="mailto:ernest_meunier@msn.com?subject=Order%20Request:%20{{title}}" class="spacer_very-small"><button class="caption light">Order <span class="">{{title}}</span></button></a>
-                <!-- <div class="caption">Please note that we are currently taking orders manually, as all cables are made by hand in Boston.</div> -->
-            </div>
-        </div>
-        {{/collection:speaker_cables}}
-    </section>
-
-    <section id="testimonial" class="padded spacer_big">
+    <!-- <section id="testimonial" class="padded spacer_big">
         <div class="row">
             <div class="col-xl-10 offset-xl-2">
                 {{collection:testimonial_section_3}}
@@ -289,92 +50,41 @@
 
             </div>
         </div>
-    </section>
+    </section> -->
 
-    <section id="power-cables" class="padded spacer_big">
-        <div class="row spacer_small">
-            <div class="col-lg-8">
-                <h1 class="highlight">Power Cables</h1>
-                {{power_cables_blurb}}
-            </div>
-        </div>
-        {{collection:power_cables}}
-        <div class="row product">
-            <div class="col-xl-7 productpic" style="background-image: url('{{image}}'); background-size: cover; background-repeat: no-repeat; background-position: top center;"></div>
-            <div class="col-xl-5 description">
-                <div>
-                    <h2 class="highlight">{{title}}</h2>
-                    <p class="caption">{{description}}</p>
-                </div>
-                <div class="pricegrid spacer_very-small">
-                    <div class="row">
-                        <div class="col-9">
-                            <p class="caption">1 meter</p>
-                        </div>
-                        <div class="col-3" style="text-align: right;">
-                            <p class="caption">${{price_for_1_meter}}</p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-9">
-                            <p class="caption">1.5 meter</p>
-                        </div>
-                        <div class="col-3" style="text-align: right;">
-                            <p class="caption">${{price_for_1_5_meter}}</p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-9">
-                            <p class="caption">2 meter</p>
-                        </div>
-                        <div class="col-3" style="text-align: right;">
-                            <p class="caption">${{price_for_2_meter}}</p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-9">
-                            <p class="caption">2.5 meter</p>
-                        </div>
-                        <div class="col-3" style="text-align: right;">
-                            <p class="caption">${{price_for_2_5_meter}}</p>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-9">
-                            <p class="caption">3 meter</p>
-                        </div>
-                        <div class="col-3" style="text-align: right;">
-                            <p class="caption">${{price_for_3_meter}}</p>
-                        </div>
-                    </div>
-                </div>
-                <a href="mailto:ernest_meunier@msn.com?subject=Order%20Request:%20{{title}}" class="spacer_very-small"><button class="caption light">Order <span class="">{{title}}</span></button></a>
-                <!-- <div class="caption">Please note that we are currently taking orders manually, as all cables are made by hand in Boston.</div> -->
-            </div>
-        </div>
-        {{/collection:power_cables}}
-    </section>
 
-    <section id="pricing" class="padded spacer_big">
+    <!-- {{partial:tech_highlights}} -->
+
+    <!-- <section id="testimonial" class="padded spacer">
         <div class="row">
-            <div class="col-sm-12 spacer">
-                <h2 class="highlight spacer_very-small">{{pricing_header}}</h2>
-                {{returns_policy}}
-            </div>
-        </div>  
-    </section>
-</div>
-<footer>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-sm-8">
-                <p>Ernest A. Meunier</p>
-                <p>781 526 3860</p>
-                <p>ernest_meunier@msn.com</p>
+            <div class="col-xl-10 offset-xl-2">
+                {{collection:testimonial_section_2}}
+                <div class="testimonial spacer">
+                        <p class="spacer_very-small">{{testimonial_prose}}</p>
+                        <h3>&mdash; {{testimonial_attribution}}</h3>
+                </div>
+                {{/collection:testimonial_section_2}}
             </div>
         </div>
-    </div>
-</footer>
+    </section> -->
+
+    <!-- {{partial:testimonials}} -->
+
+    <!-- <section id="testimonial" class="padded spacer" style="z-index: 999; position: relative;">
+        <div class="row">
+            <div class="col-xl-10 offset-xl-2">
+                {{collection:testimonial_section_1}}
+                <div class="testimonial spacer">
+                    <p class="spacer_very-small">{{testimonial_text}}</p>
+                    <h3>&mdash; {{testimonial_attribution}}</h3>
+                </div>
+                {{/collection:testimonial_section_1}}
+            </div>
+        </div>
+    </section> -->
+
+
+
 
   <!-- Swiper JS -->
   <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
@@ -418,13 +128,47 @@
             $("#history").removeClass("truncate");
             $("#collapse").removeClass("hide");
             $("#expand").addClass("hide");
-            $(".fader").addClass("hide");
+            $(".truncatefader").addClass("hide");
         });
         $('#collapse').click(function(){
             $("#history").addClass("truncate");
             $("#collapse").addClass("hide");
             $("#expand").removeClass("hide");
-            $(".fader").removeClass("hide");
+            $(".truncatefader").removeClass("hide");
         });
     });
 </script>
+
+ <!-- Initialize Swiper -->
+ <script>
+    var swiper = new Swiper(".productSwiper", {
+      grab: true,
+      navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      grabCursor: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      breakpoints: {
+        540: {
+          slidesPerView: 1,
+          spaceBetween: 30,
+        },
+        768: {
+          slidesPerView: 2,
+          spaceBetween: 30,
+        },
+        992: {
+          slidesPerView: 2,
+          spaceBetween: 30,
+        },
+        1200: {
+          slidesPerView: 3,
+          spaceBetween: 30,
+        },
+    },
+    });
+  </script>

@@ -1,0 +1,34 @@
+<section class="padded top-spacer" style="background-image: url({{background_image}}); background-size: cover; background-position: bottom; height: 66vh;">
+    <div style="display: flex; flex-direction: column; height: 90%; justify-content: end; align-items: center;">
+        <h2>{{title}}</h2>
+        <p>{{description}}</p>
+    </div>
+</section>
+
+<section style="padding-top: 100px; padding-bottom: 90px;" class="verydarksilver">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12" style="text-align: center;">
+                <h3>Three options</h3>
+                <p>{{description}}</p>
+            </div>
+        </div>
+        <div class="row">
+            {{ collection :from="mount" }}
+                <div class="col-md-4" style="text-align: center;">
+                    <div style="height: 100%; display: flex; flex-direction: column; justify-content: space-between;">
+                        <div>
+                            <img src="{{medallion}}" width="100%" style="margin-bottom: 20px;" alt="">
+                            <h3>{{title}}</h3>
+                            <p class="small">{{description}}</p>
+                            <p class="small">${{price_for_1_meter}} for 1M RCA</p>
+                        </div>
+                        <a href="{{url}}" style="color: inherit;">
+                            <button><h3>Explore</h3></button>
+                        </a>
+                    </div>
+                </div>    
+            {{ /collection}}
+        </div>
+    </div>
+</section>

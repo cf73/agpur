@@ -1,0 +1,12 @@
+<ul class="main-nav">
+    {{nav:collection:pages}}
+        <div class="dropdown">
+            <a href="{{ url }}"{{ if is_current || is_parent }} class="current"{{ /if }}>
+                {{ title }}
+              </a>
+            {{if children}}
+                <ul class="dropdown-child">{{ *recursive children* }}</ul>    
+            {{/if}}
+        </div>
+    {{/nav:collection:pages}}
+</ul>
