@@ -19,7 +19,7 @@
                     {{history_of_agpur}}
                     <div id="expand" class="caption light">+ show more</div>
                     <div id="collapse" class="caption light hide">- show less</div>
-                    <div class="fader"></div>
+                    <div class="truncatefader"></div>
                 </div>
             </div>
         </div>
@@ -27,21 +27,14 @@
     
 </section>
 
-<section>
-    <div class="container">
-        <div class="row">
-            <ul>
-                {{ children from="products" collection="pages" }}
-                    <li>
-                        <a href="{{ url }}">{{ title }}</a>
-                    </li>
-                {{ /children }}
-            </ul>
-        </div>
-    </div>
+<section class="spacer verydarksilver" style="padding-bottom: 90px;">
+    {{partial:productcategories}}
 </section>
 
-
+<section class="spacer_big">
+    <h4 class="spacer_very-small top-spacer_small" style="text-align: center;">Praise for ArgentPur</h4>
+    {{partial:reviews}}
+</section>
   
 
     <!-- <section id="testimonial" class="padded spacer_big">
@@ -135,13 +128,13 @@
             $("#history").removeClass("truncate");
             $("#collapse").removeClass("hide");
             $("#expand").addClass("hide");
-            $(".fader").addClass("hide");
+            $(".truncatefader").addClass("hide");
         });
         $('#collapse').click(function(){
             $("#history").addClass("truncate");
             $("#collapse").addClass("hide");
             $("#expand").removeClass("hide");
-            $(".fader").removeClass("hide");
+            $(".truncatefader").removeClass("hide");
         });
     });
 </script>

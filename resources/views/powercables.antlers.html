@@ -9,12 +9,13 @@
     </div>
 </section>
 
+{{if core_technologies}}
 <section class="spacer">
     <div class="container">
-        <div class="row g-5">
+        <div class="row">
             {{core_technologies}}
                 <div class="col-lg-4">
-                    <div style="margin-right: 60px;">
+                    <div style="margin-right: 30px;">
                         <h4 class="highlight">{{title}}</h4>
                         <p class="small">{{text}}</p>
                     </div>
@@ -23,6 +24,7 @@
         </div>
     </div>
 </section>
+{{/if}}
 
 <section style="padding-top: 100px; padding-bottom: 90px;" class="verydarksilver">
     <div class="container">
@@ -42,7 +44,7 @@
                             <p class="small">{{description}}</p>
                             <p class="small">${{price_for_1_meter}} for 1M RCA</p>
                         </div>
-                        <a href="{{url}}" style="color: inherit;">
+                        <a href="#" style="color: inherit;">
                             <button
                             class="snipcart-add-item"
                             data-item-id="{{slug}}"
@@ -54,22 +56,13 @@
                             data-item-custom1-type="readonly"
                             data-item-custom1-value="27 day trial available for demo length of 1M."
                             data-item-custom2-name="Length"
-                            data-item-custom2-value="1M RCA"
+                            data-item-custom2-value="1M"
                             data-item-custom2-options="
-                            0.5M RCA[{{price_for_0_5m}}]|
-                            0.5M XLR[{{price_for_0_5_meter_xlr}}]|
-                            1M RCA[{{price_for_1_meter}}]|
-                            1M XLR[{{price_for_1_meter_xlr}}]|
-                            1.5M RCA[{{price_for_1_5_meter}}]|
-                            1.5M XLR[{{price_for_1_5_meter_xlr}}]|
-                            2M RCA[{{price_for_2_meter}}]|
-                            2M XLR[{{price_for_2_meter_xlr}}]|
-                            3M RCA[{{price_for_3_meter}}]|
-                            3M XLR[{{price_for_3_meter_xlr}}]|
-                            4M RCA[{{price_for_4_meter}}]|
-                            4M XLR[{{price_for_4_meter_xlr}}]|
-                            5M RCA[{{price_for_5_meter}}]|
-                            5M XLR[{{price_for_5_meter_xlr}}]
+                            1M[{{price_for_1_meter}}]|
+                            1.5M[{{price_for_1_5_meter}}]|
+                            2M[{{price_for_2_meter}}]|
+                            2.5M[{{price_for_2_5_meter}}]|
+                            3M[{{price_for_3_meter}}]
                             "
                             ><h4>Configure</h4></button>
                         </a>
@@ -91,39 +84,16 @@
     </div>
 </section>
 
-
-
-
 <!-- Swiper JS -->
 <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 
 <!-- Initialize Swiper -->
 <script>
-   var swiper = new Swiper(".medallions", {
-       slidesPerView: 3,
-       centeredSlides: true,   
-       spaceBetween: 30,
-       effect: "coverflow",
-       grabCursor: true,
-       navigation: {
-         nextEl: ".swiper-button-next",
-         prevEl: ".swiper-button-prev",
-       },
-       pagination: {
-         el: ".swiper-pagination",
-         clickable: true,
+   var swiper = new Swiper(".gallery", {
+       effect: "fade",
+       autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
        },
    });
  </script>
-
-
-<!-- Initialize Swiper -->
-<script>
-    var swiper = new Swiper(".gallery", {
-        effect: "fade",
-        autoplay: {
-         delay: 2500,
-         disableOnInteraction: false,
-        },
-    });
-  </script>

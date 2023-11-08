@@ -1,95 +1,101 @@
-<section class="padded top-spacer" style="background-image: url({{background_image}}); background-size: cover; background-position: bottom; height: 66vh; display: flex; flex-direction: row; align-items: center; justify-content: left;">
-    <div style="display: flex; flex-direction: column; height: 90%; justify-content: end; max-width: 800px;">
-        <h2>{{title}}</h2>
-        {{description}}
+<section class="padded top-spacer spacer" style="position: relative; z-index: -2; background-image: url({{background_image}}); background-size: cover; background-position: bottom; height: 66vh; display: flex; flex-direction: row; align-items: center; justify-content: center;">
+    <div class="fader"></div>
+    <div style="display: flex; flex-direction: column; height: 110%; justify-content: end; max-width: 800px; text-align: center;">
+        <h2 class="spacer_very-small">{{title}}</h2>
+        <div style="display: flex; flex-direction: column; align-items: center;">
+            <p style="margin: 0;">{{hero_quote}}</p>
+            <p class="small">&mdash; {{hero_quote_attribution}}</p>
+        </div>
     </div>
 </section>
 
-<section>
-    <div class="swiper graphs">
-        <div class="swiper-wrapper">
-            {{ collection :from="mount" }}
-            <div class="swiper-slide" style="padding-bottom: 30px; background-color: black;">
-                <div class="container-fluid padded">
+<section class="spacer">
+    <div class="container">
+        <div class="row">
+            {{core_technologies}}
+                <div class="col-lg-4">
+                    <div style="margin-right: 30px;">
+                        <h4 class="highlight">{{title}}</h4>
+                        <p class="small">{{text}}</p>
+                    </div>
+                </div>
+            {{/core_technologies}}
+        </div>
+    </div>
+</section>
+
+<section id="Graphs" class="spacer">
+    <div class="container-fluid padded">
+        <div class="swiper sensitivity">                
+            <div class="swiper-wrapper">
+                {{ collection :from="mount" }}
+                <div class="swiper-slide dark graphs" style="padding-top: 30px;">
+                    <div class="row spacer_very-small">
+                        <div class="col-sm-12">
+                            <h3>Guide Limits</h3>
+                            {{page:description}}
+                        </div>
+                    </div>
                     <div class="row">
-                        <div class="col-md-7">
-                            <h2>{{title}} Guide Limits</h2>
+                        <div class="col-xl-7">
                             <img src="{{graph}}" width="100%" alt="">
                         </div>
-                        <div class="col-md-5">
-                            <p class="highlight">{{description}}</p>
-                            <p>Standard length (1M)  pricing from ${{price_for_1_meter}} for RCA, or ${{price_for_1_meter_xlr}} for XLR. Available in lengths from less than 0.5m to 5m</p>
-                            <p>Custom lengths available. Core price is ${{base_price}}, plus ${{price_per_meter}} per meter.</p>
-                            <p>Popular lengths are available to configure below.</p>
-                            <button
-                            class="snipcart-add-item"
+                        <div class="col-xl-5" style="display: flex; flex-direction: column; justify-content: end; padding-bottom: 50px;">
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                            <h4 class="top-spacer_small"><span class="highlight">{{title}}</span></h4>   
+                            <p class="small highlight">{{description}}</p>
+                            <p class="small">Standard length (1M)  pricing from ${{price_for_1_meter}} for RCA, or ${{price_for_1_meter_xlr}} for XLR. Available in lengths from less than 0.5m to 5m</p>
+                            <p class="small">Custom lengths available. Core price is ${{base_price}}, plus ${{price_per_meter}} per meter.</p>
+                            <p class="small">Popular lengths are available to configure below.</p>
+                            <button class="snipcart-add-item"
                             data-item-id="{{slug}}"
                             data-item-price="0"
                             data-item-description="{{description}}"
                             data-item-image="{{image}}"
                             data-item-name="{{title}}"
-                            data-item-custom1-name="Demo Policy"
-                            data-item-custom1-type="readonly"
-                            data-item-custom1-value="27 day trial available for demo length of 1M."
-                            data-item-custom2-name="Length"
-                            data-item-custom2-value="1M RCA"
-                            data-item-custom2-options="
-                            0.5M RCA[{{price_for_0_5m}}]|
-                            0.5M XLR[{{price_for_0_5_meter_xlr}}]|
-                            1M RCA[{{price_for_1_meter}}]|
-                            1M XLR[{{price_for_1_meter_xlr}}]|
-                            1.5M RCA[{{price_for_1_5_meter}}]|
-                            1.5M XLR[{{price_for_1_5_meter_xlr}}]|
-                            2M RCA[{{price_for_2_meter}}]|
-                            2M XLR[{{price_for_2_meter_xlr}}]|
-                            3M RCA[{{price_for_3_meter}}]|
-                            3M XLR[{{price_for_3_meter_xlr}}]|
-                            4M RCA[{{price_for_4_meter}}]|
-                            4M XLR[{{price_for_4_meter_xlr}}]|
-                            5M RCA[{{price_for_5_meter}}]|
-                            5M XLR[{{price_for_5_meter_xlr}}]|
-                            "
-                            ><h3>Configure</h3></button>
+                            data-item-custom1-name="Length"
+                            data-item-custom1-value="2.5M"
+                            data-item-custom1-options="
+                            0.25M[{{price_for_less_than_0_25m}}]|
+                            1M[{{price_for_1_meter}}]|
+                            1.5M[{{price_for_1_5_meter}}]|
+                            2M[{{price_for_2_meter}}]|
+                            2.5M[{{price_for_2_5_meter}}]|
+                            3M[{{price_for_3_meter}}]|
+                            4M[{{price_for_4_meter}}]|
+                            "><h4>Configure</h4></button>
                         </div>
                     </div>
                 </div>
-            </div>
-            {{ /collection}}
-        </div>
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-pagination"></div>
-    </div>
-</section>
-
-<section class="almostwhite" style="padding-top: 30px; padding-bottom: 90px;">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12">
-                <img src="{{graph}}" width="100%" alt="{{title}}">
+                {{ /collection}}
             </div>
         </div>
     </div>
-    
 </section>
 
+<section>
+    <div class="swiper gallery">                
+        <div class="swiper-wrapper">
+            {{ gallery }}
+            <div class="swiper-slide" style="padding-top: 30px; width: 100%; height: 90vh; background-image: url({{image}}); background-size: cover; background-repeat: no-repeat; background-position: center; overflow: hidden;">
+            </div>
+            {{ /gallery }}
+        </div>
+    </div>
+</section>
 
 <!-- Swiper JS -->
 <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 
+
 <!-- Initialize Swiper -->
 <script>
-   var swiper = new Swiper(".graphs", {
-       spaceBetween: 30,
-       effect: "fade",
-       grabCursor: true,
-       navigation: {
-         nextEl: ".swiper-button-next",
-         prevEl: ".swiper-button-prev",
-       },
-       pagination: {
-         el: ".swiper-pagination",
-         clickable: true,
-       },
-   });
- </script>
+    var swiper = new Swiper(".gallery", {
+        effect: "fade",
+        autoplay: {
+         delay: 2500,
+         disableOnInteraction: false,
+        },
+    });
+  </script>

@@ -1,0 +1,19 @@
+<h4 class="spacer_very-small top-spacer_small" style="text-align: center;">Power, performance, purity, passion</h4>
+    <div class="container">
+        <div class="row">
+            {{ nav:collection:pages from="products" }}
+                <div class="col-lg-6">
+                    <a href="{{ url }}" style="color: inherit;">
+                        <div class="categorycard">
+                            <div class="categorycard-image" style="background-image: url({{background_image}});"></div>
+                            <div class="categorycard-text">
+                                <h4 class="highlight">{{title}}</h4>
+                                <p class="small">"{{hero_quote}}"</p>
+                                <p class="small">&mdash; {{hero_quote_attribution}}</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            {{ /nav:collection:pages }}
+        </div>
+    </div>

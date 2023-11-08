@@ -27,10 +27,14 @@ footer {
     }
 }
 .padded {
-    padding:0;
+    padding:12px;
     @media (min-width: $md) {
         padding: 0 99px;
     }
+}
+.graphs {
+    padding: 24px;
+    border-radius: 9px;
 }
 .product {
     border: 1px solid rgba(209, 209, 209, 1);
@@ -99,6 +103,9 @@ footer {
 .top-spacer {
     padding-top: 120px;
 }
+.top-spacer_small {
+    padding-top: 60px;
+}
 .spacer_small {
     margin-bottom: 60px;
 }
@@ -158,6 +165,25 @@ footer {
         margin-top: -50vh;
     }
 }
+.categorycard {
+    background-color: $inkblack;
+    border-radius: 20px;
+    padding-bottom: 24px;
+    margin-bottom: 30px;
+    overflow: hidden;
+}
+.categorycard-image {
+    width: 100%;
+    height: 325px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.categorycard-text {
+    height: auto;
+    padding: 12px 24px;
+    padding-bottom: 0;
+}
 .productpic {
     min-height: 35vh;
     @media (min-width: $md) {
@@ -169,7 +195,7 @@ footer {
     overflow-x: hidden;
 }
 .swiper-slide {
-    height: 35%;
+    // height: 35%;
 }
 .reel {
     height: 40vh;
@@ -211,6 +237,15 @@ footer {
     bottom: 0;
     left: 0;
     width: 100%;
+    z-index: -1;
+}
+.truncatefader {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, black 100%);
+    height: 300px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
     z-index: 9;
 }
 .inverted {
@@ -232,19 +267,19 @@ footer {
     transition: all 1s;
 }
 button {
-    padding: 12px 100px;
+    padding: 12px;
     background-color: $highlight;
     border: none;
     width: 100%;
-    color: $silver;
+    color: $verydarksilver;
     border-radius: 3px;
-    & h3 {
+    & h4 {
         margin-bottom: 0;
         margin-top: 3px;
         line-height: 20px;
     }
     &:hover {
-        background-color: $darksilver;
+        
     }
 }
 .pricegrid {
@@ -264,19 +299,34 @@ button {
 //swiper
 .card-testimonial {
     border-radius: 3px;
-    background-color: $light;
+    background-color: $inkblack;
     width: 100%;
     position: relative;
     padding: 30px;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.reviewlogo {
+    width: 60%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 30px;
 }
 .swiper {
-    padding-bottom: 30px;
+    // padding-bottom: 30px;
 }
 .swiper-slide {
-    & p {
-        max-width: 90%;
-    }
+    // & p {
+    //     max-width: 90%;
+    // }
+}
+.dark {
+    background-color: $verydarksilver;
 }
 // .swiper-slide .news-item {
 //     padding-bottom: 60px;
@@ -285,18 +335,17 @@ button {
     background-color: $highlight;
 }
 .swiper-button-next {
-    right: 0;
     top: 30px;
-    left: auto;
+    left: 30px;
     color: $highlight;
     &:after {
         font-size: 24px;
     }
 }
 .swiper-button-prev {
-    right: 30px;
+
     top: 30px;
-    left: auto;
+    left: 0;
     color: $highlight;
     &:after {
         font-size: 24px;
