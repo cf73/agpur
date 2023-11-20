@@ -45,7 +45,7 @@ text:
         marks:
           -
             type: italic
-        text: '“Knowing that the highest-quality amplifiers and speakers used solid silver wiring, I experimented with a variety of short connections that connected my amps’ output boards straight to my speakers. Until I personally experienced DIY pure solid Ag, they all sounded similar. Scaling up the Nordost ladder meant negotiating various treble and transient distortion artifacts. But now, as I sequentially replaced all links with DIY naked solid Ag, all of the Nordost’s (and their clones’) of the silver/copper bimetallic artifacts were gone!”'
+        text: '“Knowing that the highest-quality amplifiers and speakers used solid silver wiring, I experimented with a variety of short connections that linked my amps’ output boards straight to my speakers. Until I personally experienced DIY pure solid Ag, they all sounded similar. Scaling up the Nordost ladder meant negotiating various treble and transient distortion artifacts. But now, as I sequentially replaced all links with DIY naked solid Ag, all of the... silver/copper bimetallic artifacts were gone!”'
   -
     type: paragraph
     content:
@@ -97,7 +97,7 @@ text:
         marks:
           -
             type: italic
-        text: '“It’s like the woofer jumped up a size, 5 to 6, 6-8, 8-10, etc. This has been especially true with Harbeths and classic Spendor loudspeakers that have superb midranges but more polite bottom ends”.'
+        text: '“It’s like the woofer jumped up a size, 5 to 6, 6-8, 8-10, etc. This has been especially true with Harbeths and classic Spendor loudspeakers that have superb midranges but more polite bottom (and top) ends”.'
   -
     type: paragraph
     content:
@@ -128,13 +128,13 @@ text:
         text: '25th Anniversary'
       -
         type: text
-        text: ' status, adding direct pure Ag wiring to close-sitting monoblock amps…and making new jumpers; all this from solid Ag conductors in roomy Teflon air tubes.'
+        text: ' status, adding direct pure Ag wiring to close-sitting GaN-FET monoblock amps…and making new jumpers; all this from solid Ag conductors in roomy Teflon air tubes.'
   -
     type: paragraph
     content:
       -
         type: text
-        text: "He was cajoled to delve further into perfectionist Ag wiring and cabling, establishing ArgentPur almost one year ago (along with starting a relationship with a fretless 4-stringed mistress named a violoncello in some parlance).\_ But back to the Parsifals…"
+        text: "He was cajoled to delve further into perfectionist Ag wiring and cabling, establishing ArgentPur in 2022 (along with starting a relationship with a fretless 4-stringed mistress named a violoncello in some parlance).\_ But back to the Parsifals…"
   -
     type: paragraph
     content:
@@ -155,7 +155,7 @@ text:
         marks:
           -
             type: italic
-        text: "“Through prototyping I discovered a few design refinements, such as incorporating variable stranding using Golden Ratios, as well an insistence on complete Ag conductance, were required to achieve superlative performance.\_ Three tiers of Interconnects based on performance and price would be the best starting point, with Speaker Cables iterations based on conductor mass.”\_"
+        text: "“Through prototyping I discovered a few design refinements, such as incorporating variable stranding using the golden ratio, as well an insistence on complete Ag conductance, were required to achieve superlative performance.\_ Three tiers of Interconnects based on performance and price would be the best starting point, with Speaker Cables iterations based on conductor mass.”\_"
   -
     type: paragraph
     content:
@@ -258,7 +258,7 @@ text:
     content:
       -
         type: text
-        text: 'Achieving the necessary conductor mass involved individual strands of 9995 Ag to be aggregated in the company’s unique ‘Golden Ratios’ and placed in their capacious thin-walled Teflon tubes. The 9995 pure Ag strands floating in roomy air cushions through thin-walled Teflon to all the connectors made sense in every way.'
+        text: 'Achieving the necessary conductor mass involved individual strands of 9995 Ag to be aggregated in the company’s ‘Golden Ratios’ and placed in their capacious thin-walled Teflon tubes. The 9995 pure Ag strands floating in roomy air cushions through thin-walled Teflon to all the Ag connectors made sense in every way.'
   -
     type: paragraph
     content:
@@ -267,7 +267,7 @@ text:
         text: 'Of course, reducing mutual inductance and controlling capacitance was mandatory, and the solid Ag strand cores of ArgentPur cables are initially formed as twisted pairs, and subsequently, they are aggregated into spirals and star quads. Twisted pairs or tri-braids create the final exterior geometry of these sets (AgPur Speaker or Interconnects).'
   -
     type: paragraph
-updated_by: 63f13f7c-2a11-499f-b033-ad0f353c2031
-updated_at: 1699468429
+updated_by: a00f84a2-73c3-4b20-bc6b-8ff14df49968
+updated_at: 1700508620
 image: ernest-meunier.png
 ---
