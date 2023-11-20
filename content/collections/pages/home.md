@@ -79,8 +79,8 @@ history_of_agpur:
       -
         type: text
         text: "NO CABLE! The sound and raison d'etre for ArgentPur!"
-updated_by: 63f13f7c-2a11-499f-b033-ad0f353c2031
-updated_at: 1697217250
+updated_by: a00f84a2-73c3-4b20-bc6b-8ff14df49968
+updated_at: 1700508747
 hero_image: hero.png
 pricing_header: 'Custom Orders, Returns, Demo Policy'
 returns_policy:
@@ -127,8 +127,8 @@ returns_policy:
         type: text
         text: 'Dealer enquiries welcome.'
 interconnects_blurb: 'ArgentPur offers three tiers of Interconnects, available both single ended (RCA) and balanced (XLR).'
-speaker_cables_blurb: "ArgentPur Speaker Cables are available in 5 sizes according to current capacity. Choose among the gauges to match your loudspeakers' sensitivity and length requirements."
-power_cables_blurb: 'Power Cables consist of matrices of twisted pairs of solid pure Ag strands individually threaded through their own air-cushioned fluorocarbon tubes... just as all AgPur products. Stock sizes are 1.5M, terminated with Viborg 503S Ag plug. Experience suggests that an all-AgPur power cord family preserves utmost transparency.'
+speaker_cables_blurb: "ArgentPur Speaker Cables are available in 5 sizes according to current capacity. Choose among the gauges to match your loudspeakers' sensitivity and length requirements. See the Speaker Cable Selector Graph below."
+power_cables_blurb: 'Power Cables consist of matrices of twisted pairs of solid pure Ag strands individually threaded through their own air-cushioned fluorocarbon tubes... just as all AgPur products. Stock sizes are 1.5M, terminated with premium Viborg 503S Ag connectors. Experience suggests that an all-AgPur power cord family preserves utmost transparency.'
 speaker_cables_hero_image: speaker-cables-hero-1697216580.png
 interconnects_hero_image: interconnects-hero-1697216583.png
 power_cables_hero_image: power-cables-hero.png
