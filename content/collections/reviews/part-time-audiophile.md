@@ -3,9 +3,9 @@ id: 26b06e93-230a-4673-adfa-c36bafbbd04b
 blueprint: review
 title: 'Part-Time Audiophile'
 logo: cropped-white-logo-4x3-pta-sm.webp
-review_excerpt: "These are very very good. I'm going to wire my three rooms at Capfest with them."
+review_excerpt: 'We’ve never nominated a cable for Product of the Year before. It wasn’t on purpose. It’s just that reviewing the ArgentPur cables in my system was an informative and illuminating experience.'
 updated_by: 63f13f7c-2a11-499f-b033-ad0f353c2031
-updated_at: 1704310386
+updated_at: 1704310680
 reviews:
   -
     id: lqy6asyh
