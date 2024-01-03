@@ -15,7 +15,7 @@ text:
     content:
       -
         type: text
-        text: 'Ernest Meunier grew up around giant pipe organs, and in the high-end Audio business. In this business, it is always great to have been a musician as well. He is a pianist with a Steinway B parked between his Parsifal loudspeakers, and is quite familiar with what a good recording of a Steinway sounds like!'
+        text: 'Ernest Meunier grew up around giant pipe organs, ham radio, and speaker building. It is always great to have been a musician as well: he is a pianist with a Steinway B parked between his Parsifal loudspeakers, and is quite familiar with what a good recording of a reference piano sounds like!'
   -
     type: paragraph
     content:
@@ -268,6 +268,6 @@ text:
   -
     type: paragraph
 updated_by: 63f13f7c-2a11-499f-b033-ad0f353c2031
-updated_at: 1704309497
+updated_at: 1704309589
 image: ernest-meunier.png
 ---
