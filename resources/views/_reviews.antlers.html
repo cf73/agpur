@@ -11,8 +11,14 @@
                                 <div class="reviewlogo"><img src="{{logo}}" width="100%" alt="{{title}}"></div>
                                 <h4 class="highlight">{{title}}</h4>
                                 {{review_excerpt}}
-                                {{if review_link}}
+                                <!-- {{if review_link}}
                                 <a href="{{review_link}}" class="highlight" target="_blank" style="margin-top: 12px;">Read the full review</a>
+                                {{/if}} -->
+                                <br><br>
+                                {{if reviews}}
+                                {{reviews}}
+                                <p style="text-decoration: underline;"><a href="{{link}}">{{title}}</a></p>
+                                {{/reviews}}
                                 {{/if}}
                             </div>
                         </div>
