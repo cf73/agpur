@@ -2,7 +2,7 @@
 id: 16104954-d549-4539-a31a-fc18cc9a5690
 blueprint: simple_text_page
 template: about
-title: About
+title: 'Nothing ... sounds like this&#8482;'
 text:
   -
     type: paragraph
@@ -15,7 +15,7 @@ text:
     content:
       -
         type: text
-        text: 'Ernest Meunier grew up around giant pipe organs, and in the high-end Audio business. In this business, it is always great to have been a musician as well. He is a pianist with a Steinway B parked between his Parsifal loudspeakers, and is quite familiar with what a good recording of a Steinway sounds like!'
+        text: 'Ernest Meunier grew up around giant pipe organs, ham radio, and speaker building. It is always great to have been a musician as well: he is a pianist with a Steinway B parked between his Parsifal loudspeakers, and is quite familiar with what a good recording of a reference piano sounds like!'
   -
     type: paragraph
     content:
@@ -267,7 +267,7 @@ text:
         text: 'Of course, reducing mutual inductance and controlling capacitance was mandatory, and the solid Ag strand cores of ArgentPur cables are initially formed as twisted pairs, and subsequently, they are aggregated into spirals and star quads. Twisted pairs or tri-braids create the final exterior geometry of these sets (AgPur Speaker or Interconnects).'
   -
     type: paragraph
-updated_by: a00f84a2-73c3-4b20-bc6b-8ff14df49968
-updated_at: 1700508620
+updated_by: 63f13f7c-2a11-499f-b033-ad0f353c2031
+updated_at: 1704309589
 image: ernest-meunier.png
 ---
