@@ -2,10 +2,12 @@
 id: 66afc237-60d2-4254-9dd2-5f31c604f4e0
 blueprint: product
 title: ATHENE
-description: 'Athene adds more solid Ag to total 18AWG (0.9mm2) Ag in a variable strand array for extremely high clarity and resolution. A Goldilocks choice....'
+description: |-
+  Athene adds more solid Ag to total 18AWG (0.9mm2) Ag in a variable strand array for extremely high clarity and resolution. A Goldilocks choice....
+  Also available SHIELDED.
 cable_type: interconnect
-updated_by: 63f13f7c-2a11-499f-b033-ad0f353c2031
-updated_at: 1698371272
+updated_by: a00f84a2-73c3-4b20-bc6b-8ff14df49968
+updated_at: 1705761668
 image: athene.jpg
 price_for_0_5m: 1550
 price_for_0_5_meter_xlr: 1900
