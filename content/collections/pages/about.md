@@ -2,7 +2,7 @@
 id: 16104954-d549-4539-a31a-fc18cc9a5690
 blueprint: simple_text_page
 template: about
-title: 'Nothing ... sounds like this&#8482;'
+title: 'Ernie Meunier'
 text:
   -
     type: paragraph
@@ -268,6 +268,6 @@ text:
   -
     type: paragraph
 updated_by: a00f84a2-73c3-4b20-bc6b-8ff14df49968
-updated_at: 1708897892
+updated_at: 1709227504
 image: ernest-meunier.png
 ---
