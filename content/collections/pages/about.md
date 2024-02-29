@@ -267,7 +267,7 @@ text:
         text: 'Of course, reducing mutual inductance and controlling capacitance was mandatory, and the solid Ag strand cores of ArgentPur cables are initially formed as twisted pairs, and subsequently, they are aggregated into spirals and star quads. Twisted pairs or tri-braids create the final exterior geometry of these sets (AgPur Speaker or Interconnects).'
   -
     type: paragraph
-updated_by: 63f13f7c-2a11-499f-b033-ad0f353c2031
-updated_at: 1704309589
+updated_by: a00f84a2-73c3-4b20-bc6b-8ff14df49968
+updated_at: 1708897892
 image: ernest-meunier.png
 ---
