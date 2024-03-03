@@ -7,7 +7,7 @@ brief_description: 'Unparalleled quality, diminutive size'
 background_image: monobloc169.png
 parent: d773d704-5699-4af1-a19e-bc6f8f1ecc29
 updated_by: a00f84a2-73c3-4b20-bc6b-8ff14df49968
-updated_at: 1709485904
+updated_at: 1709486370
 hero_quote: 'The organic wholeness, the octave to octave balance, huge dynamics, and the detailed yet extremely smooth top end was fantastic, with soundstaging reality only Ag can provide.'
 hero_quote_attribution: 'Richard Colburn (Audioquest, Audience, Fidelis, Bluebird)'
 description:
@@ -52,7 +52,13 @@ description:
     content:
       -
         type: text
-        text: 'Chassis is solid aluminum, with Sorbothane footers and panel damping.'
+        text: 'Inputs are one XLR OR one RCA, direct-wired without switching losses.'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Chassis is solid aluminum, with Sorbothane footers and panel damping.  Only 8.5 x 12.5 x 3.5"...about 8lbs.'
   -
     type: paragraph
     content:
@@ -82,7 +88,17 @@ description:
     content:
       -
         type: text
-        text: 'Power Consumption: <<8w idle'
+        text: 'Power Consumption: <<8w idle '
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Power 110-125v; internally resettable for 240v'
+  -
+    type: paragraph
+  -
+    type: paragraph
   -
     type: paragraph
     content:
@@ -95,4 +111,10 @@ description:
       -
         type: text
         text: 'Dealer Inquiries welcome.'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Shipped in either single double-box or pair of Pelican-clones!'
 ---
