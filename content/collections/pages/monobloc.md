@@ -7,7 +7,7 @@ brief_description: 'Unparalleled quality, diminutive size'
 background_image: monobloc169.png
 parent: d773d704-5699-4af1-a19e-bc6f8f1ecc29
 updated_by: a00f84a2-73c3-4b20-bc6b-8ff14df49968
-updated_at: 1709735087
+updated_at: 1709735452
 hero_quote: 'The organic wholeness, the octave to octave balance, huge dynamics, and the detailed yet extremely smooth top end was fantastic, with soundstaging reality only GaN-FETs and Ag can provide.'
 hero_quote_attribution: 'Richard Colburn (Audioquest, Audience, Fidelis, Bluebird)'
 description:
@@ -18,13 +18,7 @@ description:
     content:
       -
         type: text
-        text: 'GaN-FET amplifier optimization with larger bandwidth that provides peerless transient response... as well extremely miniscule phase errors compared to MOSFETS or tubes'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'Orchard Audio ULTRA module by Leo Ayzenshtat'
+        text: 'Orchard Audio ULTRA amp module by Leo Ayzenshtat'
   -
     type: paragraph
     content:
@@ -42,7 +36,7 @@ description:
     content:
       -
         type: text
-        text: 'ALL INPUT, OUTPUT and PS wiring is ArgentPur solid pure silver in Teflon airtubes for peerless soundstage detail and holography.'
+        text: 'ALL INPUT, OUTPUT and PS wiring is ArgentPur solid pure silver in Teflon airtubes for peerless soundstage detail and holography; ultimate transparency WITHOUT brightness!'
   -
     type: paragraph
     content:
