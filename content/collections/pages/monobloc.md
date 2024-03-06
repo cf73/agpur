@@ -7,28 +7,18 @@ brief_description: 'Unparalleled quality, diminutive size'
 background_image: monobloc169.png
 parent: d773d704-5699-4af1-a19e-bc6f8f1ecc29
 updated_by: a00f84a2-73c3-4b20-bc6b-8ff14df49968
-updated_at: 1709734087
+updated_at: 1709734765
 hero_quote: 'The organic wholeness, the octave to octave balance, huge dynamics, and the detailed yet extremely smooth top end was fantastic, with soundstaging reality only GaN-FETs and Ag can provide.'
 hero_quote_attribution: 'Richard Colburn (Audioquest, Audience, Fidelis, Bluebird)'
 description:
   -
     type: paragraph
-    content:
-      -
-        type: text
-        text: 'GaN-FET amplifier optimization with larger bandwidth that provides peerless transient response!, as well extremely small phase errors compared to MOSFETS or tubes.'
   -
     type: paragraph
     content:
       -
         type: text
-        text: ' True differential balanced (or selectable single-ended) operation'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'Power Output: 250w/8 and 500w/4 ohms (1000w peak)'
+        text: 'GaN-FET amplifier optimization with larger bandwidth that provides peerless transient response... as well extremely small phase errors... compared to MOSFETS or tubes.'
   -
     type: paragraph
     content:
@@ -40,13 +30,19 @@ description:
     content:
       -
         type: text
-        text: 'Custom 1kw SMPS with 72,000mF capacitive added reserve for huge bass grip and ultradynamics'
+        text: '250w/ch 8ohms and 500w/ch 4 ohms (1000w peak!)'
   -
     type: paragraph
     content:
       -
         type: text
-        text: 'All Input, Output and PS wiring is ArgentPur solid pure silver in Teflon airtubes!'
+        text: 'Custom 1kw SMPS with 72,000mF capacitive added current reserve for huge bass grip and ultradynamics'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'ALL INPUT, OUTPUT and PS wiring is ArgentPur solid pure silver in Teflon airtubes for peerless soundstage detail and holography.'
   -
     type: paragraph
     content:
@@ -58,7 +54,7 @@ description:
     content:
       -
         type: text
-        text: 'Inputs are one XLR OR one RCA, direct-wired without input switching degradation'
+        text: 'Inputs are one XLR OR one RCA, direct-wired, thus without input switching degradation.'
   -
     type: paragraph
     content:
@@ -82,7 +78,7 @@ description:
     content:
       -
         type: text
-        text: 'Distortion and Noise: worst case <0.08% at 500w/4ohms'
+        text: 'Distortion and Noise: worst case <0.08% at 500w/4ohms!'
   -
     type: paragraph
     content:
@@ -122,8 +118,10 @@ description:
 core_technologies:
   -
     id: ltbs2pse
-    title: 'Sold individually or as a boxed pair.'
-    text: 'Shipping options are double-boxed pair, or individual Pelican-clone heavy-duty 16" cases for easy and ultra-secure balanced portage at small upcharge.'
+    title: 'True Differential Gallium Nitride (GaN-FET) Topology'
+    text: |-
+      GaN-FET amplifier optimization with larger bandwidth that provides peerless transient response... as well extremely small phase errors... compared to MOSFETS or tubes.
+      Selectable balanced or single-ended operation!
     type: core_tech
     enabled: true
 ---
