@@ -7,7 +7,7 @@ brief_description: 'Unparalleled quality, diminutive size'
 background_image: monobloc169.png
 parent: d773d704-5699-4af1-a19e-bc6f8f1ecc29
 updated_by: a00f84a2-73c3-4b20-bc6b-8ff14df49968
-updated_at: 1709735452
+updated_at: 1709825903
 hero_quote: 'The organic wholeness, the octave to octave balance, huge dynamics, and the detailed yet extremely smooth top end was fantastic, with soundstaging reality only GaN-FETs and Ag can provide.'
 hero_quote_attribution: 'Richard Colburn (Audioquest, Audience, Fidelis, Bluebird)'
 description:
@@ -30,13 +30,13 @@ description:
     content:
       -
         type: text
-        text: 'Custom 1kw SMPS with 72,000mF capacitive added current reserve for huge bass grip and ultradynamics'
+        text: 'Custom 800w SMPS with supplementary 72,000mF capacitive added current reserve for huge bass grip and ultra-dynamics'
   -
     type: paragraph
     content:
       -
         type: text
-        text: 'ALL INPUT, OUTPUT and PS wiring is ArgentPur solid pure silver in Teflon airtubes for peerless soundstage detail and holography; ultimate transparency WITHOUT brightness!'
+        text: 'ALL INPUT, OUTPUT and PS wiring ArgentPur solid pure silver in Teflon air-tubes for peerless soundstage detail and holography... ultimate transparency WITHOUT brightness!'
   -
     type: paragraph
     content:
@@ -102,7 +102,7 @@ description:
     content:
       -
         type: text
-        text: 'MSRP: Only $6k/pr!   Pics available upon request soon'
+        text: 'MSRP: Only $6k/pr!   Preliminary pics available upon request'
   -
     type: paragraph
     content:
