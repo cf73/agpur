@@ -7,7 +7,7 @@ brief_description: 'Unparalleled quality, diminutive size'
 background_image: monobloc169.png
 parent: d773d704-5699-4af1-a19e-bc6f8f1ecc29
 updated_by: a00f84a2-73c3-4b20-bc6b-8ff14df49968
-updated_at: 1710333309
+updated_at: 1710333482
 hero_quote: 'The organic wholeness, the octave to octave balance, huge dynamics, and the detailed yet extremely smooth top end was fantastic, with soundstaging reality only GaN-FETs and Ag can provide.'
 hero_quote_attribution: 'Richard Colburn (Audioquest, Audience, Fidelis, Bluebird)'
 description:
@@ -102,13 +102,13 @@ description:
     content:
       -
         type: text
-        text: 'MSRP: Only $6k/pr!   Preliminary pics available upon request'
+        text: 'MSRP is only $5900/pr!   Preliminary pics available upon request'
   -
     type: paragraph
     content:
       -
         type: text
-        text: 'Shipped in either single larger double-box or pair of ultra-rugged Pelican-clones (small shipping upcharge)'
+        text: 'Shipped in either single larger double-box or pair of ultra-rugged Pelican-clones ($100 shipping upcharge)'
 core_technologies:
   -
     id: ltbs2pse
