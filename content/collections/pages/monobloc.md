@@ -7,7 +7,7 @@ brief_description: 'Unparalleled quality, diminutive size'
 background_image: monobloc169.png
 parent: d773d704-5699-4af1-a19e-bc6f8f1ecc29
 updated_by: a00f84a2-73c3-4b20-bc6b-8ff14df49968
-updated_at: 1709825903
+updated_at: 1710333030
 hero_quote: 'The organic wholeness, the octave to octave balance, huge dynamics, and the detailed yet extremely smooth top end was fantastic, with soundstaging reality only GaN-FETs and Ag can provide.'
 hero_quote_attribution: 'Richard Colburn (Audioquest, Audience, Fidelis, Bluebird)'
 description:
@@ -18,25 +18,25 @@ description:
     content:
       -
         type: text
-        text: 'Orchard Audio ULTRA amp module by Leo Ayzenshtat'
+        text: 'Orchard Audio ULTRA amp module by Leo Ayzenshtat, having'
   -
     type: paragraph
     content:
       -
         type: text
-        text: '250w/ch 8ohms and 500w/ch 4 ohms (1000w peak!)'
+        text: '250w/ch 8ohms and 500w/ch 4 ohms (1000w peak!) '
   -
     type: paragraph
     content:
       -
         type: text
-        text: 'Custom 800w SMPS with supplementary 72,000mF capacitive added current reserve for huge bass grip and ultra-dynamics'
+        text: 'Custom 800w SMPS with supplementary 72,000uF capacitive added current reserve for huge bass grip and ultra-dynamics'
   -
     type: paragraph
     content:
       -
         type: text
-        text: 'ALL INPUT, OUTPUT and PS wiring ArgentPur solid pure silver in Teflon air-tubes for peerless soundstage detail and holography... ultimate transparency WITHOUT brightness!'
+        text: 'ALL INPUT, OUTPUT and PS wiring are ArgentPur solid pure silver in Teflon air-tubes for peerless soundstage detail and holography... ultimate transparency WITHOUT brightness!'
   -
     type: paragraph
     content:
@@ -108,14 +108,15 @@ description:
     content:
       -
         type: text
-        text: 'Shipped in either single double-box or pair of ultra-rugged Pelican-clones (small shipping upcharge)'
+        text: 'Shipped in either single larger double-box or pair of ultra-rugged Pelican-clones (small shipping upcharge)'
 core_technologies:
   -
     id: ltbs2pse
     title: 'True Differential Gallium Nitride (GaN-FET) Topology'
     text: |-
-      GaN-FET amplifier optimization with larger bandwidth that provides peerless transient response, as well extremely small phase errors, compared to MOSFETS or tubes.
-      Selectable balanced or single-ended operation!
+      GaN-FET amplifier optimization with larger bandwidth that provides peerless transient response, as well extremely small phase errors, compared to MOSFETS, tubes, or other Class D designs.
+      The beauty of full Class A without the heat or mass!
+      Selectable balanced or single-ended operation by whichever of the two inputs used.
     type: core_tech
     enabled: true
 ---
