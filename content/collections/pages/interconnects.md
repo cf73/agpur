@@ -4,8 +4,8 @@ blueprint: category_page
 template: interconnects
 title: Interconnects
 parent: d773d704-5699-4af1-a19e-bc6f8f1ecc29
-updated_by: 63f13f7c-2a11-499f-b033-ad0f353c2031
-updated_at: 1704309230
+updated_by: a00f84a2-73c3-4b20-bc6b-8ff14df49968
+updated_at: 1710334613
 background_image: cf73_heracles_athene_and_harmonie_are_made_of_silver_metal_show_583295f2-b2fa-4f8b-8966-f48877eb394d.jpg
 brief_description: 'ArgentPur offers three tiers of Interconnects, available both single ended (RCA) and balanced (XLR).'
 hero_quote: 'There is something extraordinary going on here and amazingly beautiful... Could it be magic?'
@@ -33,7 +33,11 @@ core_technologies:
   -
     id: loolbcil
     title: 'Variable Strands'
-    text: 'Multiple pairs of solid Ag strands, scaled by the Golden Ratio (1.618), combine to provide a naturally balanced musical portrayal through all octaves... with unmatched air, top octave resolution, and exquisitely detailed stage imagery.'
+    text: |-
+      Multiple pairs of solid Ag strands, scaled by the Golden Ratio (1.618), combine to provide a naturally balanced musical portrayal through all octaves... with unmatched air, top octave resolution, and exquisitely detailed stage imagery.
+
+       XLR Harmonie is terminated with Neutrik Pro Ag locking connectors. Athène and Heracles use an Ag-plated fluorocarbon dielectric premium XLR. Locking Neutriks are a no-cost substitution for Pro or studio use. 
+      RCA Single-ended AgPur Interconnecting Cables use a minimal mass RCA plug comprising silver-plated tellurium/copper contacts. This design preserves an all Ag conductor path, providing total signal coherence. Alternatively, locking WBT 0152Ag are available for Pro or studio use.
     type: core_tech
     enabled: true
 gallery:
