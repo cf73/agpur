@@ -9,7 +9,7 @@ description: |-
 
   AgPur thus provides a complete 100% silver pathway, using only roomy Teflon  ”air-tubes” as physical barriers.
 
-  No PVC, PE, other plastics, textiles or foams are used!
+  No PVC, PE, other plastics, textiles, foams or exotic minerals are used!
 updated_by: a00f84a2-73c3-4b20-bc6b-8ff14df49968
-updated_at: 1667866278
+updated_at: 1712270289
 ---
