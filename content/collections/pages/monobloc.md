@@ -7,7 +7,7 @@ brief_description: 'Unparalleled quality, diminutive size'
 background_image: monobloc169.png
 parent: d773d704-5699-4af1-a19e-bc6f8f1ecc29
 updated_by: a00f84a2-73c3-4b20-bc6b-8ff14df49968
-updated_at: 1713383352
+updated_at: 1713408491
 hero_quote: 'The organic wholeness, the octave to octave balance, huge dynamics, and the detailed yet extremely smooth top end was fantastic, with soundstaging reality only GaN-FETs and Ag can provide.'
 hero_quote_attribution: 'Richard Colburn (Audioquest, Audience, Fidelis, Bluebird)'
 description:
@@ -24,13 +24,13 @@ description:
     content:
       -
         type: text
-        text: 'These compact monos offer 250w/8 and 500w/4 ohm power, using customized Ayzenshtat renowned Orchard Audio ULTRA balanced modules, powered by a custom 800w SMPS with optimal reserve capacitance.'
+        text: 'These compact monos offer 250w/8ohm (500w/4 ohm) power, using customized Ayzenshtat renowned Orchard Audio ULTRA balanced modules, powered by a custom 800w SMPS with optimal reserve capacitance.'
   -
     type: paragraph
     content:
       -
         type: text
-        text: 'ALL INPUT, OUTPUT and Power Supply wiring is ArgentPur solid PURE SILVER in Teflon air-tubes for peerless soundstage detail and holography... ultimate transparency WITHOUT brightness!'
+        text: 'ALL INPUT, OUTPUT and Power Supply wiring is ArgentPur SOLID PURE SILVER in Teflon air-tubes for peerless soundstage detail and holography... ultimate transparency WITHOUT brightness!'
   -
     type: paragraph
     content:
@@ -48,7 +48,7 @@ description:
     content:
       -
         type: text
-        text: 'Inputs comprise one XLR and one RCA, direct-wired, thus without any input switching degradation.'
+        text: 'Inputs comprise one XLR and one RCA, direct-wired, eliminating any input switching degradation.'
   -
     type: paragraph
     content:
