@@ -25,58 +25,160 @@
         <div class="prose dark:prose-invert font-serif">
             {{description}}
         </div>
-    </div>
-</section>
+        <div>
+            <style>
+                .transition, ul li i:before, ul li i:after, p {
+                transition: all 0.25s ease-in-out;
+                }
 
-<section id="Graphs" class="spacer">
-    <div class="container-fluid padded">
-        <div class="swiper sensitivity">                
-            <div class="swiper-wrapper">
+                .flipIn, ul li, h1 {
+                animation: flipdown 0.5s ease both;
+                }
+
+                .no-select, h2 {
+                -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+                -webkit-touch-callout: none;
+                -webkit-user-select: none;
+                -khtml-user-select: none;
+                -moz-user-select: none;
+                -ms-user-select: none;
+                user-select: none;
+                }
+                ul {
+                list-style: none;
+                perspective: 900;
+                padding: 0;
+                margin: 0;
+                }
+                ul li {
+                position: relative;
+                padding: 0;
+                margin: 0;
+                padding-bottom: 4px;
+                padding-top: 18px;
+                border-top: 1px dotted #dce7eb;
+                }
+                ul li:nth-of-type(1) {
+                animation-delay: 0.5s;
+                }
+                ul li:nth-of-type(2) {
+                animation-delay: 0.75s;
+                }
+                ul li:nth-of-type(3) {
+                animation-delay: 1s;
+                }
+                ul li:nth-of-type(4) {
+                animation-delay: 1s;
+                }
+                ul li:nth-of-type(5) {
+                animation-delay: 1s;
+                }
+                ul li:last-of-type {
+                padding-bottom: 0;
+                }
+                ul li i {
+                position: absolute;
+                transform: translate(-6px, 0);
+                margin-top: 16px;
+                right: 0;
+                }
+                ul li i:before, ul li i:after {
+                content: "";
+                position: absolute;
+                background-color: #ff6873;
+                width: 3px;
+                height: 9px;
+                }
+                ul li i:before {
+                transform: translate(-2px, 0) rotate(45deg);
+                }
+                ul li i:after {
+                transform: translate(2px, 0) rotate(-45deg);
+                }
+                ul li input[type=checkbox] {
+                position: absolute;
+                cursor: pointer;
+                width: 100%;
+                height: 100%;
+                z-index: 1;
+                opacity: 0;
+                }
+                ul li input[type=checkbox]:checked ~ p {
+                margin-top: 0;
+                max-height: 0;
+                opacity: 0;
+                transform: translate(0, 50%);
+                }
+                ul li input[type=checkbox]:checked ~ i:before {
+                transform: translate(2px, 0) rotate(45deg);
+                }
+                ul li input[type=checkbox]:checked ~ i:after {
+                transform: translate(-2px, 0) rotate(-45deg);
+                }
+
+                @keyframes flipdown {
+                0% {
+                    opacity: 0;
+                    transform-origin: top center;
+                    transform: rotateX(-90deg);
+                }
+                5% {
+                    opacity: 1;
+                }
+                80% {
+                    transform: rotateX(8deg);
+                }
+                83% {
+                    transform: rotateX(6deg);
+                }
+                92% {
+                    transform: rotateX(-3deg);
+                }
+                100% {
+                    transform-origin: top center;
+                    transform: rotateX(0deg);
+                }
+                }
+            </style>
+            <h1>Speaker Cable Length Options</h1>
+            <ul>
                 {{ collection :from="mount" }}
-                <div class="swiper-slide dark graphs" style="padding-top: 30px;">
-                    <div class="row spacer_very-small">
-                        <div class="col-sm-12">
-                            <h3>Speaker Selector Guide</h3>
-                            {{page:description}}
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-xl-7">
-                            <img src="{{graph}}" width="100%" alt="">
-                        </div>
-                        <div class="col-xl-5" style="display: flex; flex-direction: column; justify-content: end; padding-bottom: 50px;">
-                            <div class="swiper-button-next"></div>
-                            <div class="swiper-button-prev"></div>
-                            <h4 class="top-spacer_small"><span class="highlight">{{title}}</span></h4>   
-                            <p class="small highlight">{{description}}</p>
-                            <p class="small">Standard length (2.5M) pricing from ${{price_for_2_5_meter}}. Available in lengths from less than 0.25M to 4M</p>
-                            <p class="small">Custom lengths available. Core price is ${{base_price}}, plus ${{price_per_meter}} per meter.</p>
-                            <p class="small">Popular lengths are available to configure below.</p>
-                            <button class="snipcart-add-item"
-                            data-item-id="{{slug}}"
-                            data-item-price="0"
-                            data-item-description="{{description}}"
-                            data-item-image="{{image}}"
-                            data-item-name="{{title}}"
-                            data-item-custom1-name="Length"
-                            data-item-custom1-value="2.5M"
-                            data-item-custom1-options="
-                            0.25M[{{price_for_less_than_0_25m}}]|
-                            1M[{{price_for_1_meter}}]|
-                            1.5M[{{price_for_1_5_meter}}]|
-                            2M[{{price_for_2_meter}}]|
-                            2.5M[{{price_for_2_5_meter}}]|
-                            3M[{{price_for_3_meter}}]|
-                            4M[{{price_for_4_meter}}]
-                            "><h4>Configure</h4></button>
-                        </div>
-                    </div>
-                </div>
+                <li>
+                    <input type="checkbox" checked>
+                    <i></i>
+                    <h2>{{title}}</h2>
+                    <p>
+                        <img src="{{graph}}" width="100%" alt="" class="mb-8">
+                        <span class="font-serif">{{description}}</span><br><br>
+                        <span class="block mb-2">Standard length (2.5M) pricing from ${{price_for_2_5_meter}}. Available in lengths from less than 0.25M to 4M.</span>
+                        <span class="block">Custom lengths available. Core price is ${{base_price}}, plus ${{price_per_meter}} per meter.</span>
+                        Popular lengths are available to configure below.
+                        <button class="snipcart-add-item relative z-10 bg-highlight my-8 p-4 text-verydarksilver font-serif-italic"
+                        data-item-id="{{slug}}"
+                        data-item-price="0"
+                        data-item-description="{{description}}"
+                        data-item-image="{{image}}"
+                        data-item-name="{{title}}"
+                        data-item-custom1-name="Length"
+                        data-item-custom1-value="2.5M"
+                        data-item-custom1-options="
+                        0.25M[{{price_for_less_than_0_25m}}]|
+                        1M[{{price_for_1_meter}}]|
+                        1.5M[{{price_for_1_5_meter}}]|
+                        2M[{{price_for_2_meter}}]|
+                        2.5M[{{price_for_2_5_meter}}]|
+                        3M[{{price_for_3_meter}}]|
+                        4M[{{price_for_4_meter}}]
+                        ">Configure {{title}}</button>
+                    </p>
+                </li>
                 {{ /collection}}
-            </div>
+            </ul>
         </div>
     </div>
 </section>
+
+
 
 <section>
     <div class="swiper gallery">                
