@@ -1,13 +1,9 @@
-<section class="top-spacer spacer_big">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-5">
-                <img src="{{image}}" class="spacer_very-small" width="100%" alt="{{title}}">
-            </div>
-            <div class="col-lg-7 top-spacer_small">
-                <h3>{{title}}</h3>
-                {{text}}
-            </div>
+<section class="pt-32">
+    <div class="container mx-auto grid grid-cols-3 gap-16 px-32">
+        <div class="col-span-1"><img src="{{image}}" width="100%" alt="{{title}}"></div>
+        <div class="col-span-2 mt-60">
+            <div class="text-6xl tracking-wide">{{title}}</div>
+            <div class="font-serif prose dark:prose-invert mb-60">{{text}}</div>
         </div>
     </div>
 </section>
