@@ -21,11 +21,12 @@
 </section>
 
 <section id="speaker-selector-guide" class="bg-verydarksilver py-16">
-    <div class="container grid grid-cols-2 gap-16 px-32">
-        <div class="prose dark:prose-invert font-serif">
+    <div class="container grid grid-cols-1 gap-16 px-32">
+        <div class="tracking-widest text-highlight uppercase mx-auto">Optimize your configuration</div>
+        <div class="prose dark:prose-invert font-serif mx-auto">
             {{description}}
         </div>
-        <div>
+        <div class="container mx-auto px-32">
             <style>
                 .transition, ul li i:before, ul li i:after, p {
                 transition: all 0.25s ease-in-out;
@@ -79,13 +80,13 @@
                 ul li i {
                 position: absolute;
                 transform: translate(-6px, 0);
-                margin-top: 16px;
+                margin-top: 32px;
                 right: 0;
                 }
                 ul li i:before, ul li i:after {
                 content: "";
                 position: absolute;
-                background-color: #ff6873;
+                background-color: #EC694A;
                 width: 3px;
                 height: 9px;
                 }
@@ -140,19 +141,19 @@
                 }
                 }
             </style>
-            <h1>Speaker Cable Length Options</h1>
             <ul>
                 {{ collection :from="mount" }}
                 <li>
                     <input type="checkbox" checked>
                     <i></i>
-                    <h2>{{title}}</h2>
-                    <p>
-                        <img src="{{graph}}" width="100%" alt="" class="mb-8">
-                        <span class="font-serif">{{description}}</span><br><br>
-                        <span class="block mb-2">Standard length (2.5M) pricing from ${{price_for_2_5_meter}}. Available in lengths from less than 0.25M to 4M.</span>
-                        <span class="block">Custom lengths available. Core price is ${{base_price}}, plus ${{price_per_meter}} per meter.</span>
-                        Popular lengths are available to configure below.
+                    <div class="text-3xl py-4">{{title}}</div>
+
+                    <p class="text-center text-highlight text-lg tracking-wide space-y-4">
+                        <img src="{{graph}}" width="100%" alt="" class="mb-12">
+                        <span class="block px-32">{{description}}</span>
+                        <span class="block px-32">Standard length (2.5M) pricing from ${{price_for_2_5_meter}}. Available in lengths from less than 0.25M to 4M.</span>
+                        <span class="block px-32">Custom lengths available. Core price is ${{base_price}}, plus ${{price_per_meter}} per meter.</span>
+                        <spa class="block px-32">Popular lengths are available to configure below.</span>
                         <button class="snipcart-add-item relative z-10 bg-highlight my-8 p-4 text-verydarksilver font-serif-italic"
                         data-item-id="{{slug}}"
                         data-item-price="0"
@@ -174,6 +175,9 @@
                 </li>
                 {{ /collection}}
             </ul>
+        </div>
+        <div class="prose dark:prose-invert font-serif mx-auto">
+            {{further_detail_on_selector_graph}}
         </div>
     </div>
 </section>
