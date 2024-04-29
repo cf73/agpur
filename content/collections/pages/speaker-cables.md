@@ -9,13 +9,13 @@ description:
     content:
       -
         type: text
-        text: "ArgentPur Speaker Cables are available in 5 sizes according to current capacity: 16, 14, 13, 12, and 11AWG. Choose among these gauges to match your loudspeakers' sensitivity and length requirements."
+        text: "ArgentPur Speaker Cables are available in 5 girths according to current capacity: 16, 14, 13, 12, and 11AWG. Choose among these gauges to match your loudspeakers' sensitivity and length requirements."
   -
     type: paragraph
     content:
       -
         type: text
-        text: 'Approximate the minimum AgPur Speaker Cable AWG required by your system by using the Selector Graphs.'
+        text: 'Approximate the minimum AgPur Speaker Cable AWG required by your system by using the specific Selector Graphs.'
   -
     type: paragraph
     content:
@@ -132,7 +132,7 @@ description:
     content:
       -
         type: text
-        text: 'If you are considering a no-cost 27 day (2.5M stock length only) demo audition, the optimal choice for a majority of systems is the AgPur 13AWG.'
+        text: 'If you are considering a no-cost 27 day (2.5M stock length only) demo audition, the optimal choice for a majority of systems is to start with the AgPur 13AWG.'
   -
     type: paragraph
     content:
@@ -146,8 +146,8 @@ description:
         type: text
         text: 'Please feel free to contact me for a personal consult re your specific needs.'
 parent: d773d704-5699-4af1-a19e-bc6f8f1ecc29
-updated_by: 63f13f7c-2a11-499f-b033-ad0f353c2031
-updated_at: 1714066140
+updated_by: a00f84a2-73c3-4b20-bc6b-8ff14df49968
+updated_at: 1714421796
 background_image: cf73_around_a_third_of_the_image_is_gentle_undulating_lines_of__57f98fed-9b7c-4b95-93b5-261ec80452b9-1699306605.png
 graph: graph-1698429999.png
 brief_description: "ArgentPur Speaker Cables are available in 5 sizes according to current capacity. Choose among the gauges to match your loudspeakers' sensitivity and length requirements."
