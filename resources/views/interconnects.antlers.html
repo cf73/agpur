@@ -1,26 +1,22 @@
-<section class="padded top-spacer spacer" style="position: relative; z-index: -2; background-image: url({{background_image}}); background-size: cover; background-position: top; height: 66vh; display: flex; flex-direction: row; align-items: center; justify-content: center;">
+<section class="mt-20 mb-32" style="position: relative; z-index: -2; background-image: url({{background_image}}); background-size: cover; background-position: top; height: 66vh; display: flex; flex-direction: row; align-items: center; justify-content: center;">
     <div class="fader"></div>
     <div style="display: flex; flex-direction: column; height: 110%; justify-content: end; max-width: 800px; text-align: center;">
-        <h2 class="spacer_very-small">{{title}}</h2>
+        <div class="text-6xl xl:text-8xl mb-16">{{title}}</div>
         <div style="display: flex; flex-direction: column; align-items: center;">
-            <p style="margin: 0;">{{hero_quote}}</p>
+            <div class="font-serif-italic text-3xl leading-normal mb-4">{{hero_quote}}</div>
             <p class="small">&mdash; {{hero_quote_attribution}}</p>
         </div>
     </div>
 </section>
 
-<section class="spacer">
-    <div class="container">
-        <div class="row g-5">
+<section id="core-technologies" class="mb-32">
+    <div class="container mx-auto 2xl:px-32 grid lg:grid-cols-3 gap-16">
             {{core_technologies}}
-                <div class="col-lg-4">
-                    <div style="margin-right: 60px;">
-                        <h4 class="highlight">{{title}}</h4>
-                        <p class="small">{{text}}</p>
-                    </div>
+                <div class="xl:text-center">
+                    <div class="tracking-widest text-highlight mb-2 uppercase">{{title}}</div>
+                    <p class="font-serif prose dark:prose-invert">{{text}}</p>
                 </div>
             {{/core_technologies}}
-        </div>
     </div>
 </section>
 
@@ -43,7 +39,7 @@
                             <p class="small">${{price_for_1_meter}} for 1M RCA</p>
                         </div>
                         <a href="{{url}}" style="color: inherit;">
-                            <button
+                            <button class="snipcart-add-item relative z-10 bg-highlight my-8 p-4 text-verydarksilver font-serif-italic"
                             class="snipcart-add-item"
                             data-item-id="{{slug}}"
                             data-item-price="0"
@@ -71,7 +67,7 @@
                             5M RCA[{{price_for_5_meter}}]|
                             5M XLR[{{price_for_5_meter_xlr}}]
                             "
-                            ><h4>Configure</h4></button>
+                            >Configure</button>
                         </a>
                     </div>
                 </div>
