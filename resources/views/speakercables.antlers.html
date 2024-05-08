@@ -1,11 +1,11 @@
 <section class="padded top-spacer spacer" style="position: relative; z-index: -2; background-image: url({{background_image}}); background-size: cover; background-position: bottom; height: 66vh; display: flex; flex-direction: row; align-items: center; justify-content: center;">
     <div class="fader"></div>
-    <div style="display: flex; flex-direction: column; height: 110%; justify-content: end; max-width: 800px; text-align: center;">
-        <div class="text-6xl xl:text-8xl mb-16">{{title}}</div>
+    <div class="flex flex-col text-center absolute bottom-0 space-y-24">
         <div style="display: flex; flex-direction: column; align-items: center;">
-            <div class="font-serif-italic text-3xl leading-normal mb-4">{{hero_quote}}</div>
-            <p class="small">&mdash; {{hero_quote_attribution}}</p>
+            <div class="text-white w-2/3 font-serif-italic text-4xl leading-normal md:text-5xl md:leading-normal mb-3">{{hero_quote}}</div>
+            <p class="text-white uppercase tracking-widest">&mdash; {{hero_quote_attribution}}</p>
         </div>
+        <div class="text-6xl xl:text-9xl text-highlight">{{title}}</div>
     </div>
 </section>
 
@@ -22,8 +22,8 @@
 
 <section id="speaker-selector-guide" class="bg-verydarksilver py-16">
     <div class="container grid grid-cols-1 gap-16 2xl:px-32">
-        <div class="tracking-widest text-highlight uppercase mx-auto">Optimize your configuration</div>
-        <div class="prose dark:prose-invert font-serif mx-auto">
+        <div class="tracking-widest text-white uppercase mx-auto">Optimize your configuration</div>
+        <div class="prose dark:prose-invert font-serif mx-auto text-highlight">
             {{description}}
         </div>
         <div class="lg:px-32 xl:px-48">
@@ -154,7 +154,7 @@
                         <span class="block 2xl:px-32">Standard length (2.5M) pricing from ${{price_for_2_5_meter}}. Available in lengths from less than 0.25M to 4M.</span>
                         <span class="block 2xl:px-32">Custom lengths available. Core price is ${{base_price}}, plus ${{price_per_meter}} per meter.</span>
                         <spa class="block 2xl:px-32">Popular lengths are available to configure below.</span>
-                        <button class="snipcart-add-item relative z-10 bg-highlight my-8 p-4 text-verydarksilver font-serif-italic"
+                        <button class="snipcart-add-item relative z-10 bg-white my-8 p-4 text-verydarksilver font-serif-italic"
                         data-item-id="{{slug}}"
                         data-item-price="0"
                         data-item-description="{{description}}"
@@ -176,7 +176,7 @@
                 {{ /collection}}
             </ul>
         </div>
-        <div class="prose dark:prose-invert font-serif mx-auto">
+        <div class="prose dark:prose-invert text-highlight font-serif mx-auto">
             {{further_detail_on_selector_graph}}
         </div>
     </div>

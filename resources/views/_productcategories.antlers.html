@@ -1,15 +1,19 @@
-<h4 class="spacer_very-small top-spacer_small" style="text-align: center;">Power, performance, purity, passion</h4>
+<div class="text-4xl text-center xl:text-6xl mb-8">Power. Performance. Purity. Passion. Pur.</div>
     <div class="container">
         <div class="row">
             {{ nav:collection:pages from="products" }}
                 <div class="col-lg-6">
                     <a href="{{ url }}" style="color: inherit;">
                         <div class="categorycard">
-                            <div class="categorycard-image" style="background-image: url({{background_image}});"></div>
-                            <div class="categorycard-text">
-                                <h4 class="highlight">{{title}}</h4>
-                                <p class="small">"{{hero_quote}}"</p>
-                                <p class="small">&mdash; {{hero_quote_attribution}}</p>
+                            <div class="categorycard-image relative flex flex-col" style="background-image: url({{background_image}});">
+                                <div class="fader z-10 h-2/3"></div>
+                                <div class="flex flex-col text-center space-y-16 absolute z-50 bottom-12 px-16">
+                                    <div style="display: flex; flex-direction: column; align-items: center;">
+                                        <div class="text-white font-serif-italic text-2xl leading-normal mb-2">{{hero_quote}}</div>
+                                        <div class="text-white text-sm uppercase tracking-widest">&mdash; {{hero_quote_attribution}}</div>
+                                    </div>
+                                    <div class="text-6xl xl:text-5xl text-highlight">{{title}}</div>
+                                </div>
                             </div>
                         </div>
                     </a>

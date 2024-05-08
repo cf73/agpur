@@ -19,7 +19,7 @@ module.exports = {
     },
     extend: {
         colors: {
-            'highlight': '#EC694A',
+            'highlight': '#a5a2a0',
             'darksilver': '#505050',
             'verydarksilver': '#282B2F',
 
