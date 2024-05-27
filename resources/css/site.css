@@ -1,0 +1,21 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+/* This is all you. */
+
+@font-face {
+    font-family: 'BaskervilleRegular';
+    src: url('/public/assets/fonts/Baskerville/LibreBaskerville-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'LibreBaskerville-Italic';
+    src: url('/public/assets/fonts/Baskerville/LibreBaskerville-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}

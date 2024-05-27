@@ -19,7 +19,6 @@ tabs:
               antlers: false
               type: textarea
               display: 'Hero quote'
-              icon: textarea
               listable: hidden
               instructions_position: above
               visibility: visible
@@ -34,7 +33,6 @@ tabs:
               antlers: false
               type: text
               display: 'Hero quote attribution'
-              icon: text
               listable: hidden
               instructions_position: above
               visibility: visible
@@ -69,7 +67,6 @@ tabs:
               remove_empty_nodes: false
               display: Description
               type: bard
-              icon: bard
               listable: hidden
               instructions_position: above
               visibility: visible
@@ -86,7 +83,6 @@ tabs:
               show_set_alt: true
               type: assets
               display: 'Background Image'
-              icon: assets
               listable: hidden
               instructions_position: above
               visibility: visible
@@ -141,31 +137,12 @@ tabs:
                               - required
               type: replicator
               display: 'Core technologies'
-              icon: replicator
               listable: hidden
               instructions_position: above
               visibility: visible
               replicator_preview: true
               hide_display: false
               max_sets: 3
-          -
-            handle: graph
-            field:
-              max_files: 1
-              mode: list
-              container: assets
-              restrict: false
-              allow_uploads: true
-              show_filename: true
-              show_set_alt: true
-              type: assets
-              display: Graph
-              icon: assets
-              listable: hidden
-              instructions_position: above
-              visibility: visible
-              replicator_preview: true
-              hide_display: false
           -
             handle: gallery
             field:
@@ -218,7 +195,6 @@ tabs:
                             hide_display: false
               type: replicator
               display: Gallery
-              icon: replicator
               listable: hidden
               instructions_position: above
               visibility: visible
@@ -234,6 +210,7 @@ tabs:
             field:
               type: slug
               localizable: true
+              validate: 'max:200'
           -
             handle: parent
             field:

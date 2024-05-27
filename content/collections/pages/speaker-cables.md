@@ -1,6 +1,6 @@
 ---
 id: 341dfbed-cf28-471f-a849-f9435d99841e
-blueprint: category_page
+blueprint: speakercablespage
 template: speakercables
 title: 'Speaker Cables'
 description:
@@ -15,139 +15,16 @@ description:
     content:
       -
         type: text
-        text: 'Approximate the minimum AgPur Speaker Cable AWG required by your system by using the specific Selector Graphs.'
+        text: 'Approximate the minimum AgPur Speaker Cable AWG required by your system by using the Selector Graphs below.'
   -
     type: paragraph
     content:
       -
         type: text
         text: 'First determine your cable length requirement on the x (horizontal) axis, as well loudspeaker sensitivity on the y (vertical) axis. The area above each specific curve denotes its application.'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'Further:'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'Select the next LARGER AWG if you have...'
-  -
-    type: bulletList
-    content:
-      -
-        type: listItem
-        content:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: 'speakers with very low impedance, possibly with a nasty phase angle'
-      -
-        type: listItem
-        content:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: 'large, "dead" room'
-      -
-        type: listItem
-        content:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: 'preference for max bass slam, with very large amps, or those with high output impedances'
-      -
-        type: listItem
-        content:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: 'belief that the speaker manufacturer has overstated sensitivity'
-      -
-        type: listItem
-        content:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: 'relatively unlimited budget, or wish to accommodate "thirstier" future changes'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'Select the next SMALLER AWG if you have...'
-  -
-    type: bulletList
-    content:
-      -
-        type: listItem
-        content:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: 'speakers with a very easy, benign impedance'
-      -
-        type: listItem
-        content:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: 'small-to-average size, or untreated (live) room'
-      -
-        type: listItem
-        content:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: 'moderate listening levels with moderate bass'
-      -
-        type: listItem
-        content:
-          -
-            type: paragraph
-            content:
-              -
-                type: text
-                text: 'limited budget'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'If you are considering a no-cost 27 day (2.5M stock length only) demo audition, the optimal choice for a majority of systems is to start with the AgPur 13AWG.'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'Note that I am a firm believer in using shorter speaker cables and longer interconnects when possible. Please remember that speaker cable lengths must be identical, whereas interconnecting cables may be asymmetrical (especially balanced) without negative consequences. Your amps, voice coils and ribbons will be happier!'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'Please feel free to contact me for a personal consult re your specific needs.'
 parent: d773d704-5699-4af1-a19e-bc6f8f1ecc29
-updated_by: a00f84a2-73c3-4b20-bc6b-8ff14df49968
-updated_at: 1714421796
+updated_by: 63f13f7c-2a11-499f-b033-ad0f353c2031
+updated_at: 1714148423
 background_image: cf73_around_a_third_of_the_image_is_gentle_undulating_lines_of__57f98fed-9b7c-4b95-93b5-261ec80452b9-1699306605.png
 graph: graph-1698429999.png
 brief_description: "ArgentPur Speaker Cables are available in 5 sizes according to current capacity. Choose among the gauges to match your loudspeakers' sensitivity and length requirements."
@@ -194,4 +71,95 @@ gallery:
     enabled: true
 hero_quote: 'Uncolored, unfiltered, highly revealing of source material and room treatments.'
 hero_quote_attribution: 'Walter Swanbon, Fidelis'
+further_detail_on_selector_graph:
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Select the next LARGER AWG if you have...'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: '- speakers with very low impedance, possibly with a nasty phase angle'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: '- large, "dead" room'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: '- preference for max bass slam, with very large amps, or those with high output impedances'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: '- belief that the speaker manufacturer has overstated sensitivity'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: '- relatively unlimited budget, or wish to accommodate "thirstier" future changes'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Select the next SMALLER AWG if you have...'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: '- speakers with a very easy, benign impedance'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: '- small-to-average size, or untreated (live) room'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: '- moderate listening levels with moderate bass'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: '- limited budget'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'If you are considering a no-cost 27 day (2.5M stock length only) demo audition, the optimal choice for a majority of systems is the AgPur 13AWG.'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Note that I am a firm believer in using shorter speaker cables and longer interconnects when possible. Please remember that speaker cable lengths must be identical, whereas interconnecting cables may be asymmetrical (especially balanced) without negative consequences. Your amps, voice coils and ribbons will be happier!'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Please feel free to contact me for a personal consult re your specific needs.'
 ---
