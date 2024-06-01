@@ -7,7 +7,7 @@ brief_description: 'Unparalleled quality, diminutive size'
 background_image: monobloc169.png
 parent: d773d704-5699-4af1-a19e-bc6f8f1ecc29
 updated_by: a00f84a2-73c3-4b20-bc6b-8ff14df49968
-updated_at: 1716918821
+updated_at: 1717208678
 hero_quote: 'The organic wholeness, the octave to octave balance, huge dynamics, and the detailed yet extremely smooth top end was fantastic, with soundstaging reality only GaN-FETs and Ag can provide.'
 hero_quote_attribution: 'Richard Colburn (Audioquest, Audience, Fidelis, Bluebird)'
 description:
@@ -24,7 +24,7 @@ description:
     content:
       -
         type: text
-        text: 'These compact monos offer 250w/8ohm (500w/4 ohm) power, using customized Ayzenshtat renowned Orchard Audio ULTRA balanced modules, powered by a custom 800w SMPS with soft switching for extremely low EMI and very high efficiency.'
+        text: 'These compact monos offer 250w/8ohm (500w/4 ohm) power, using customized Ayzenshtat renowned Orchard Audio ULTRA balanced modules, powered by a custom 800w SMPS with softstart and ultra-high frequency switching for extremely low EMI and very high efficiency.'
   -
     type: paragraph
     content:
@@ -42,7 +42,7 @@ description:
     content:
       -
         type: text
-        text: 'All Input and Output connectors are also silvered, providing a COMPLETE silver through-path!'
+        text: 'All Input and Output connectors are also silvered, providing a COMPLETE SILVER through-path!'
   -
     type: paragraph
     content:
@@ -96,7 +96,7 @@ description:
     content:
       -
         type: text
-        text: 'Power Consumption: <<8w idle '
+        text: 'Power Consumption: 8w idle '
   -
     type: paragraph
     content:
