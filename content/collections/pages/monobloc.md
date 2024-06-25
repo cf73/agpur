@@ -7,7 +7,7 @@ brief_description: 'Unparalleled quality, diminutive size'
 background_image: monobloc169.png
 parent: d773d704-5699-4af1-a19e-bc6f8f1ecc29
 updated_by: 63f13f7c-2a11-499f-b033-ad0f353c2031
-updated_at: 1719293080
+updated_at: 1719293360
 hero_quote: 'The organic wholeness, the octave to octave balance, huge dynamics, and the detailed yet extremely smooth top end was fantastic, with soundstaging reality only GaN-FETs and Ag can provide.'
 hero_quote_attribution: 'Richard Colburn (Audioquest, Audience, Fidelis, Bluebird)'
 description:
@@ -124,13 +124,13 @@ description:
 gallery:
   -
     id: lxtyo0vk
-    image: monobloc-65mm-f-2-2.8-1-30s-100.jpg
+    image: monobloc-65mm-f-2-2.8-1-30s-100-1.jpg
     caption: 'ArgentPur Monobloc'
     type: product
     enabled: true
   -
     id: lxtyog9e
-    image: monobloc-65mm-f-2-10-1s-100.jpg
+    image: monobloc-65mm-f-2-10-1s-100-1.jpg
     caption: 'ArgentPur Monobloc profile'
     type: product
     enabled: true
