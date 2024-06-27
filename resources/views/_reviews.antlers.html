@@ -2,7 +2,7 @@
     <div class="row">
         <div class="swiper productSwiper spacer" style="padding-top: 78px; margin-top: -78px;">
             <div class="swiper-wrapper">                                                
-                {{collection:reviews}}
+                {{collection:reviews | sort}}
                     {{if no_results}}
                         <p class="light">There are no reviews currently.</p>                             
                     {{else}}
