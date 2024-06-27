@@ -28,12 +28,60 @@
 {{/if}}
 
 <section>  
-    <div class="container mx-auto prose prose-invert font-serif">
+    <div class="container mx-auto prose prose-invert flex flex-col font-serif mb-24">
+        <a href="#" class="" style="color: inherit;">
+            <button class="snipcart-add-item relative z-10 bg-white my-8 p-4 text-verydarksilver font-serif-italic"
+            class="snipcart-add-item"
+            data-item-id="{{slug}}"
+            data-item-price="5999"
+            data-item-description="One pair ArgentPur monobloc amplifiers"
+            data-item-image="{{image}}"
+            data-item-name="{{title}}"
+            data-item-custom1-name="Demo Policy"
+            data-item-custom1-type="readonly"
+            data-item-custom1-value="27 day trial available."
+            >Buy Now (Demo Available)</button>
+        </a>
         {{description}}
-
-        <div style="margin-bottom: 10em;">
-            <img src="/assets/mono.jpg" style="margin-bottom: 1em; filter: grayscale(); " width="700px" alt="{{title}}">
-            <figcaption>Preliminary pic; casing is not final.</figcaption>
+    </div>
+    <div class="swiper gallery">                
+        <div class="swiper-wrapper">
+            {{ gallery }}
+            <div class="swiper-slide lg:h-[90vh] h-[30vh]" style="padding-top: 30px; width: 100%; background-image: url({{image}}); background-size: contain; background-repeat: no-repeat; background-position: center; overflow: hidden;">
+            </div>
+            {{ /gallery }}
         </div>
     </div>
 </section>
+
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+
+<!-- Initialize Swiper -->
+<script>
+    var swiper = new Swiper(".gallery", {
+        effect: "fade",
+        autoplay: {
+         delay: 2500,
+         disableOnInteraction: false,
+        },
+    });
+  </script>
+
+  <!-- Initialize Swiper -->
+<script>
+    var swiper = new Swiper(".sensitivity", {
+        spaceBetween: 30,
+        effect: "fade",
+        grabCursor: true,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+    });
+  </script>

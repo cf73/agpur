@@ -9,7 +9,7 @@ description:
     content:
       -
         type: text
-        text: "ArgentPur Speaker Cables are available in 5 sizes according to current capacity: 16, 14, 13, 12, and 11AWG. Choose among these gauges to match your loudspeakers' sensitivity and length requirements."
+        text: "ArgentPur Speaker Cables are available in 5 girths according to current capacity: 16, 14, 13, 12, and 11AWG. Choose among these gauges to match your loudspeakers' sensitivity and length requirements."
   -
     type: paragraph
     content:
