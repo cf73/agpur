@@ -8,6 +8,13 @@ history_of_agpur:
     type: paragraph
   -
     type: paragraph
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: ' New! Direct Sale Prices 1/3 lower!'
   -
     type: paragraph
   -
@@ -86,7 +93,7 @@ history_of_agpur:
         type: text
         text: "NO CABLE! The sound and raison d'etre for ArgentPur!"
 updated_by: a00f84a2-73c3-4b20-bc6b-8ff14df49968
-updated_at: 1700508967
+updated_at: 1719614199
 hero_image: hero.png
 pricing_header: 'Custom Orders, Returns, Demo Policy'
 returns_policy:
