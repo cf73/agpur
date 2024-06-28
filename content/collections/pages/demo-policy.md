@@ -27,13 +27,7 @@ text:
     content:
       -
         type: text
-        text: 'Speaker Cables returned for exchanging terminations after delivery will incur a modest charge for new connectors and remanufacturing labor.'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'AgPur Flyovers are also 2.5M standard length, but terminated with all bananas. Standard constructions may be exchanged for full credit toward AgPur Speaker Cables within one year! Custom lengths and terminations are not returnable.'
+        text: 'Speaker Cables returned for exchanging terminations after delivery will incur a modest charge for new connectors and remanufacturing labor. Again, stock termination is half/half spades/bananas, but sometimes I have all bananas or all spades as an in-stock demo. Please enquire.'
   -
     type: paragraph
     content:
@@ -45,7 +39,8 @@ text:
     content:
       -
         type: text
-        text: 'Dealer enquiries welcome.'
+        text: 'International /distributor dealer enquiries are welcome.'
 updated_by: a00f84a2-73c3-4b20-bc6b-8ff14df49968
-updated_at: 1700508267
+updated_at: 1719613756
+parent: home
 ---
