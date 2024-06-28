@@ -24,7 +24,10 @@ history_of_agpur:
     content:
       -
         type: text
-        text: 'Premiering Ag Pur MONOBLOC August 2024.'
+        marks:
+          -
+            type: bold
+        text: 'Premiere:  Ag Pur GaN-FET MONOBLOC August 2024'
   -
     type: paragraph
   -
@@ -103,7 +106,7 @@ history_of_agpur:
         type: text
         text: "NO CABLE! The sound and raison d'etre for ArgentPur!"
 updated_by: a00f84a2-73c3-4b20-bc6b-8ff14df49968
-updated_at: 1719614581
+updated_at: 1719614688
 hero_image: hero.png
 pricing_header: 'Custom Orders, Returns, Demo Policy'
 returns_policy:
