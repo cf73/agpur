@@ -8,6 +8,8 @@ history_of_agpur:
     type: paragraph
   -
     type: paragraph
+  -
+    type: paragraph
     content:
       -
         type: text
@@ -16,7 +18,13 @@ history_of_agpur:
             type: bold
           -
             type: italic
-        text: 'NEW!  Lower Direct-Sale Prices save 1/3!'
+        text: 'NEW!  Lower Direct-Sale Prices.  Save 1/3!'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Premiering Ag Pur MONOBLOC August 2024.'
   -
     type: paragraph
   -
@@ -95,7 +103,7 @@ history_of_agpur:
         type: text
         text: "NO CABLE! The sound and raison d'etre for ArgentPur!"
 updated_by: a00f84a2-73c3-4b20-bc6b-8ff14df49968
-updated_at: 1719614334
+updated_at: 1719614581
 hero_image: hero.png
 pricing_header: 'Custom Orders, Returns, Demo Policy'
 returns_policy:
