@@ -7,7 +7,7 @@ brief_description: 'Unparalleled quality, diminutive size'
 background_image: monobloc169.png
 parent: d773d704-5699-4af1-a19e-bc6f8f1ecc29
 updated_by: a00f84a2-73c3-4b20-bc6b-8ff14df49968
-updated_at: 1724694852
+updated_at: 1724696298
 hero_quote: 'The organic wholeness, the octave to octave balance, huge dynamics, and the detailed yet extremely smooth top end was fantastic, with soundstaging reality only GaN-FETs and Ag can provide.'
 hero_quote_attribution: 'Richard Colburn (Audioquest, Audience, Fidelis, Bluebird)'
 description:
@@ -66,7 +66,19 @@ description:
     content:
       -
         type: text
-        text: 'Chassis is solid aluminum, with vibration-absorbing Sorbothane footers and added top and bottom panel damping.  Only 8.5 x 12.5 x 3.5" (22 x 29 x9 cm) , and 7lbs (3.3kg).'
+        text: 'Chassis is solid aluminum, with vibration-absorbing Sorbothane footers and added top and bottom panel damping.  '
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Size:  8.5 x 12.5 x 3.5" (22 x 29 x9 cm)'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Weight:  7lbs (3.3kg).'
   -
     type: paragraph
     content:
