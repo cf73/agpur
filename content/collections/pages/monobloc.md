@@ -7,7 +7,7 @@ brief_description: 'Unparalleled quality, diminutive size'
 background_image: monobloc169.png
 parent: d773d704-5699-4af1-a19e-bc6f8f1ecc29
 updated_by: a00f84a2-73c3-4b20-bc6b-8ff14df49968
-updated_at: 1724696298
+updated_at: 1729549760
 hero_quote: 'The organic wholeness, the octave to octave balance, huge dynamics, and the detailed yet extremely smooth top end was fantastic, with soundstaging reality only GaN-FETs and Ag can provide.'
 hero_quote_attribution: 'Richard Colburn (Audioquest, Audience, Fidelis, Bluebird)'
 description:
@@ -24,19 +24,19 @@ description:
     content:
       -
         type: text
-        text: 'These compact monos offer 250w/8ohm (500w/4 ohm) power, using customized Ayzenshtat renowned ULTRA balanced modules, powered by a custom 800w SMPS with soft-start and ultra-high frequency switching for extremely low EMI and very high efficiency.'
+        text: 'These compact monos offer 250w/8ohm (500w/4 ohm) power, using customized Orchard renowned ULTRA balanced modules, powered by a custom 800w SMPS with soft-start and ultra-high frequency switching for extremely low EMI and very high efficiency.'
   -
     type: paragraph
     content:
       -
         type: text
-        text: 'ALL INPUT, OUTPUT and Power Supply wiring comprises twisted-pair ArgentPur SOLID PURE SILVER in Teflon air-tubes for peerless soundstage detail and holography... the ultimate transparency (WITHOUT brightness!) that both Gallium Nitride and Pure Silver are remowned.'
+        text: 'ALL INPUT, OUTPUT and POWER SUPPLY wiring comprises twisted-pair ArgentPur SOLID PURE SILVER in Teflon air-tubes for peerless soundstage detail and holography... the ultimate transparency (WITHOUT brightness!) that both Gallium Nitride and Pure Silver are remowned.'
   -
     type: paragraph
     content:
       -
         type: text
-        text: 'Silver-Gold-Oil MUNDORF capacitors are also used in the critical signal path filter to provide even better resolution and soundstage realism compared to other GaN-FET and Class D designs. The musicality clearly equals best Class A but with utmost pellucidity to the source, plus the ultra-fast gut-wrenching bass grip Class D can provide.'
+        text: 'MUNDORF SGO (Silver-Gold-Oil) premium capacitors are also used in the critical signal path filter to provide even better resolution and soundstage realism compared to other GaN-FET and Class D designs. The musicality clearly equals best Class A but with utmost pellucidity to the source... plus the ultra-fast gut-wrenching bass grip Class D provides.'
   -
     type: paragraph
     content:
@@ -132,7 +132,7 @@ description:
     content:
       -
         type: text
-        text: 'Shipped in either single larger double-box or pair of ultra-rugged Pelican-clones ($100/pr sh upcharge). Simple 14AWG copper AC cables are provided, but performance is clearly improved with AgPur PC12 solid pure silver cables. Please enquire for special pricing if ordered with any AgPur ICs, Speaker or PCs.'
+        text: 'Shipped in either single larger double-box or pair of ultra-rugged Pelican-clones ($100/pr sh upcharge). Simple 14AWG copper AC cables are provided, but performance is clearly improved with AgPur PC12 solid pure silver Power Cables. Please enquire for special pricing if ordered with any AgPur ICs, Speaker Cables or PCs.'
 gallery:
   -
     id: lxtyo0vk
