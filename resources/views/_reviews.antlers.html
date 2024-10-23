@@ -2,24 +2,27 @@
     <div class="row">
         <div class="swiper productSwiper spacer" style="padding-top: 78px; margin-top: -78px;">
             <div class="swiper-wrapper">                                                
-                {{collection:reviews}}
+                {{collection:reviews scope="fish" | sort}}
                     {{if no_results}}
                         <p class="light">There are no reviews currently.</p>                             
                     {{else}}
                         <div class="swiper-slide">
                             <div class="card-testimonial">
                                 <div class="reviewlogo items-center"><img src="{{logo}}" width="60%" alt="{{title}}"></div>
-                                <h4 class="highlight">{{title}}</h4>
+                                <h4>{{fish:publication_name}}</h4>
+                                <h2 class="highlight text-3xl mb-4">{{fish:title}}</h2>
+                                <div class="mb-4">
+                                    {{if reviews}}
+                                    {{reviews}}
+                                    <p style="text-decoration: underline;" class="mb-2 text-xl"><a href="{{link}}">{{title}}</a></p>
+                                    {{/reviews}}
+                                    {{/if}}
+                                </div>
                                 {{review_excerpt}}
                                 <!-- {{if review_link}}
                                 <a href="{{review_link}}" class="highlight" target="_blank" style="margin-top: 12px;">Read the full review</a>
                                 {{/if}} -->
                                 <br><br>
-                                {{if reviews}}
-                                {{reviews}}
-                                <p style="text-decoration: underline;"><a href="{{link}}">{{title}}</a></p>
-                                {{/reviews}}
-                                {{/if}}
                             </div>
                         </div>
                     {{/if}}
