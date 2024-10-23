@@ -12,6 +12,23 @@ tabs:
               validate:
                 - required
           -
+            handle: type_of_special
+            field:
+              max_items: 1
+              mode: select
+              create: true
+              taxonomies:
+                - type_of_special
+              type: terms
+              display: 'Type of Special'
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+              validate:
+                - required
+          -
             handle: description
             field:
               antlers: false
