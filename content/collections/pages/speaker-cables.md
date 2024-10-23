@@ -24,7 +24,7 @@ description:
         text: 'First determine your cable length requirement on the x (horizontal) axis, as well loudspeaker sensitivity on the y (vertical) axis. The area above each specific curve denotes its application.'
 parent: d773d704-5699-4af1-a19e-bc6f8f1ecc29
 updated_by: 63f13f7c-2a11-499f-b033-ad0f353c2031
-updated_at: 1714148423
+updated_at: 1729717529
 background_image: cf73_around_a_third_of_the_image_is_gentle_undulating_lines_of__57f98fed-9b7c-4b95-93b5-261ec80452b9-1699306605.png
 graph: graph-1698429999.png
 brief_description: "ArgentPur Speaker Cables are available in 5 sizes according to current capacity. Choose among the gauges to match your loudspeakers' sensitivity and length requirements."
@@ -69,8 +69,8 @@ gallery:
     image: agpur-spades.jpg
     type: product
     enabled: true
-hero_quote: 'Uncolored, unfiltered, highly revealing of source material and room treatments.'
-hero_quote_attribution: 'Walter Swanbon, Fidelis'
+hero_quote: 'These cables are spectacular'
+hero_quote_attribution: 'Duncan Taylor, YG Acoustics'
 further_detail_on_selector_graph:
   -
     type: paragraph

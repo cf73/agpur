@@ -1,6 +1,7 @@
 ---
 id: bd55ddc1-c334-4ef9-997f-7c240a5306d4
 blueprint: simple_text_page
+template: specials
 title: Specials
 text:
   -
