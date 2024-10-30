@@ -7,7 +7,7 @@ description: '2 available for $1000 each'
 original_price: 1500
 price: 1000
 images:
-  - img_5123.jpg
+  - img_5123-1730249036.jpg
 updated_by: 63f13f7c-2a11-499f-b033-ad0f353c2031
-updated_at: 1730246496
+updated_at: 1730249040
 ---
