@@ -3,7 +3,8 @@ module.exports = {
     './resources/**/*.antlers.html',
     './resources/**/*.blade.php',
     './resources/**/*.vue',
-    './content/**/*.md'
+    './content/**/*.md',
+    "./node_modules/tw-elements/js/**/*.js",
   ],
   theme: {
     fontFamily: { 
@@ -44,5 +45,7 @@ module.exports = {
   },
   plugins: [
     require('@tailwindcss/typography'),
+            ("tw-elements/plugin.cjs"),
   ],
+  darkMode: "class"
 }

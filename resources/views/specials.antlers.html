@@ -1,0 +1,119 @@
+<section class="mb-32 mt-20" style="position: relative; z-index: -2; background-image: url({{image}}); background-size: cover; background-position: top; height: 80vh; display: flex; flex-direction: row; align-items: center; justify-content: center;">
+    <div class="fader h-[600px]"></div>
+    <div class="flex flex-col text-center absolute bottom-0 space-y-4">
+        <div style="display: flex; flex-direction: column; align-items: center;">
+            <div class="text-white w-2/3 font-serif-italic text-4xl leading-normal md:text-4xl md:leading-normal mb-8">Unleash the true potential of your system at unbeatable prices</div>
+            <p class="text-white uppercase tracking-widest"></p>
+        </div>
+        <div class="text-6xl xl:text-9xl text-highlight">{{title}}</div>
+    </div>
+</section>
+
+
+    <!-- <div class="mb-24">{{text}}</div> -->
+    {{taxonomy:type_of_special}}
+    <section id="interconnects" class="container mx-auto text-center mb-32">
+        <h4 class="mb-8">{{title}}</h4>
+        <div id="specialsAccordion">
+            {{collection:specials type_of_special:contains="{slug}"}}
+                {{if no_results}}
+                <p>Nothing currently listed in this category, but call to check!</p>
+                {{else}}
+                    <div class="bg-none dark:border-neutral-600 dark:bg-body-dark">
+                        <h2 class="mb-0" id="heading{{increment:heading from='1'}}">
+                            <button
+                            class="group relative flex w-full items-center border-0 bg-none px-5 pb-4 transition [overflow-anchor:none] hover:z-[2] focus:z-[3] focus:outline-none dark:bg-body-dark dark:text-none [&:not([data-twe-collapse-collapsed])]:bg-none [&:not([data-twe-collapse-collapsed])]:text-primary [&:not([data-twe-collapse-collapsed])]:shadow-border-b dark:[&:not([data-twe-collapse-collapsed])]:bg-surface-dark dark:[&:not([data-twe-collapse-collapsed])]:text-primary dark:[&:not([data-twe-collapse-collapsed])]:shadow-none/10 "
+                            type="button"
+                            data-twe-collapse-init
+                            data-twe-collapse-collapsed
+                            data-twe-target="#collapse{{increment:target from='1'}}"
+                            aria-expanded="false"
+                            aria-controls="collapse{{increment:collapse from='1'}}">
+                            <span class="text-3xl text-white text-left">{{title}}</span>
+                            <span
+                                class="-me-1 ms-auto h-5 w-5 shrink-0 rotate-[-180deg] transition-transform duration-200 ease-in-out group-data-[twe-collapse-collapsed]:me-0 group-data-[twe-collapse-collapsed]:rotate-0 motion-reduce:transition-none [&>svg]:h-6 [&>svg]:w-6">
+                                <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                stroke-width="1.5"
+                                stroke="currentColor">
+                                <path
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                                </svg>
+                            </span>
+                            </button>
+                        </h2>
+                        <div
+                            id="collapse{{increment:target1 from='1'}}"
+                            class="!visible hidden"
+                            data-twe-collapse-item
+                            data-twe-collapse-collapsed
+                            aria-labelledby="heading{{increment:heading1 from='1'}}"
+                            data-twe-parent="#accordionExample">
+                            <div class="px-5 py-4">
+                                {{ images }}
+                                    <img src="{{url}}" width="100%" class="rounded-xl overflow-hidden" alt="{{title}}">
+                                {{ /images }}
+                                <div class="mt-8">{{description}}</div>
+                                <div class="flex flex-row items-center justify-center gap-8 border-bottom divide-y-1 mb-8">
+                                    <div>
+                                        <h4 class="line-through">MSRP: ${{original_price}}</h4>
+                                        <div class="text-3xl">${{price}}</div>
+                                    </div>
+                                    <button class="snipcart-add-item relative z-10 w-48 bg-white my-8 p-4 text-verydarksilver font-serif-italic"
+                                    data-item-id="{{slug}}"
+                                    data-item-price="{{price}}"
+                                    data-item-description="{{description}}"
+                                    data-item-image="{{image}}"
+                                    data-item-name="{{title}}"
+                                    >
+                                    Buy</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                {{/if}}
+            {{/collection:specials}}
+        </div>
+    </section>
+    {{/taxonomy:type_of_special}}
+
+
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+
+<!-- Initialize Swiper -->
+<script>
+var swiper = new Swiper(".specials", {
+    effect: "fade",
+    autoplay: {
+     delay: 2500,
+     disableOnInteraction: false,
+    },
+});
+</script>
+
+<script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+        /* Toggle between adding and removing the "active" class,
+        to highlight the button that controls the panel */
+        this.classList.toggle("active");
+
+        /* Toggle between hiding and showing the active panel */
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+        panel.style.display = "none";
+        } else {
+        panel.style.display = "block";
+        }
+    });
+    }
+</script>
