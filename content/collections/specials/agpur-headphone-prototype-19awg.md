@@ -11,5 +11,5 @@ price: 750
 images:
   - thumbnail_img_4859-1730395231.jpg
 updated_by: a00f84a2-73c3-4b20-bc6b-8ff14df49968
-updated_at: 1730395291
+updated_at: 1730401698
 ---
