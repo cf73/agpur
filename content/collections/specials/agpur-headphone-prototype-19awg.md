@@ -1,5 +1,6 @@
 ---
 id: 6db6467d-56af-449c-a50c-b76a8ea9ab79
+published: false
 blueprint: special
 title: 'AgPur HEADPHONE PROTOTYPE 19AWG'
 type_of_special: speaker-cable
