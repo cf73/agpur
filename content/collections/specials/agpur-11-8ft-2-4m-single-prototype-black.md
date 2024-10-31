@@ -8,6 +8,7 @@ original_price: 2450
 price: 1800
 images:
   - thumbnail_img_4859-1730393251.jpg
+  - thumbnail_img_5158.jpg
 updated_by: a00f84a2-73c3-4b20-bc6b-8ff14df49968
-updated_at: 1730393254
+updated_at: 1730400997
 ---
