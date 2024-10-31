@@ -45,3 +45,8 @@ editor:
     - 'edit other authors specials entries'
     - 'publish other authors specials entries'
     - 'delete other authors specials entries'
+    - 'view assets assets'
+    - 'upload assets assets'
+    - 'edit assets assets'
+    - 'rename assets assets'
+    - 'delete assets assets'
