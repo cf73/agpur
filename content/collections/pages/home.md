@@ -18,7 +18,7 @@ history_of_agpur:
             type: bold
           -
             type: italic
-        text: 'NEW!  Lower Direct-Sale Prices.  Save 1/3!'
+        text: 'NEW!  Lower Direct-Sale Prices.  Save 1/3! Also see NEW SPECIALS Page.'
   -
     type: paragraph
     content:
@@ -27,7 +27,7 @@ history_of_agpur:
         marks:
           -
             type: bold
-        text: 'Premiere:  Ag Pur GaN-FET MONOBLOC August 2024'
+        text: 'Premiere:  Ag Pur GaN-FET MONOBLOC... November 2024!'
   -
     type: paragraph
   -
@@ -106,7 +106,7 @@ history_of_agpur:
         type: text
         text: "NO CABLE! The sound and raison d'etre for ArgentPur!"
 updated_by: a00f84a2-73c3-4b20-bc6b-8ff14df49968
-updated_at: 1719614688
+updated_at: 1730404010
 hero_image: hero.png
 pricing_header: 'Custom Orders, Returns, Demo Policy'
 returns_policy:
