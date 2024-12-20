@@ -8,7 +8,7 @@ review_excerpt: 'Phenomenal soundstage expansion....'
 reviews:
   -
     id: m4x911o0
-    title: 'AgPur PC12 Power Cable'
+    title: 'AgPur PC12 Power Cable...'
     type: review
     enabled: true
   -
@@ -17,5 +17,6 @@ reviews:
     enabled: true
     title: 'AgPur PC12 Power Cable'
 updated_by: a00f84a2-73c3-4b20-bc6b-8ff14df49968
-updated_at: 1734729736
+updated_at: 1734730277
+review_link: 'entry::b4173a11-a793-4c13-bb3e-49796bf56154'
 ---
