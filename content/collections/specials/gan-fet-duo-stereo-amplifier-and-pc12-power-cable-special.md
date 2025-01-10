@@ -9,5 +9,5 @@ price: 6300
 images:
   - thumbnail_img_5166-1736530840.jpg
 updated_by: a00f84a2-73c3-4b20-bc6b-8ff14df49968
-updated_at: 1736530854
+updated_at: 1736530893
 ---
