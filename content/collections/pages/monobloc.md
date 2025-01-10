@@ -7,7 +7,7 @@ brief_description: 'Unparalleled quality, diminutive size'
 background_image: monobloc169.png
 parent: d773d704-5699-4af1-a19e-bc6f8f1ecc29
 updated_by: a00f84a2-73c3-4b20-bc6b-8ff14df49968
-updated_at: 1736508632
+updated_at: 1736529037
 hero_quote: 'The organic wholeness, the octave to octave balance, huge dynamics, and the detailed yet extremely smooth top end was fantastic, with soundstaging reality only GaN-FETs and Ag can provide.'
 hero_quote_attribution: 'Richard Colburn (Audioquest, Audience, Fidelis, Bluebird)'
 description:
@@ -69,10 +69,21 @@ description:
         text: 'Chassis are solid aluminum, with vibration-absorbing Sorbothane footers and added top and bottom panel damping.  '
   -
     type: paragraph
+  -
+    type: paragraph
     content:
       -
         type: text
-        text: 'MONOBLOC version (each)'
+        marks:
+          -
+            type: bold
+        text: ITERATIONS
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'MONOBLOC '
   -
     type: paragraph
     content:
@@ -192,6 +203,9 @@ description:
     content:
       -
         type: text
+        marks:
+          -
+            type: italic
         text: DISCUSSION
   -
     type: paragraph
@@ -210,7 +224,7 @@ description:
     content:
       -
         type: text
-        text: "Our preference is to use separate MONOBLOCS near your loudspeakers, linking with very affordable 0.25M AgPur13 cable-jumpers, preferably with longer AgPur Athene XLR interconnects. This best practice effects a lower total cost,\_especially if short Power Cables can be sent from the outer walls.  (If long RCAs are required, custom-length SHIELDED versions are available for use to control single-ended noise issues.)"
+        text: "Our preference is to use a separate MONOBLOC near each loudspeaker, linking with very affordable 0.25M AgPur13 cable-jumpers...and preferably with longer AgPur Athene XLR interconnects. This best practice effects a lower total cost,\_especially if short power cables can be sent from your room's sidewalls.  (Note: If long RCAs are required, custom-length SHIELDED AgPur ICs are available for use to control single-ended noise issues.)"
   -
     type: paragraph
     content:
@@ -222,14 +236,16 @@ description:
     content:
       -
         type: text
-        text: 'Feel free to contact me for specific advice.'
+        text: 'Feel free to contact me for specific advice for your system.'
+  -
+    type: paragraph
   -
     type: paragraph
 gallery:
   -
     id: lxtyo0vk
     image: monobloc-65mm-f-2-2.8-1-30s-100-1.jpg
-    caption: 'ArgentPur Monobloc'
+    caption: 'ArgentPur MONOBLOC and DUO GaN-FET Power Amplifiers'
     type: product
     enabled: true
   -
