@@ -17,7 +17,7 @@ text:
         type: text
         text: 'Listed also are Amplifier and Cable bundle packages special pricing!'
 updated_by: a00f84a2-73c3-4b20-bc6b-8ff14df49968
-updated_at: 1736529186
+updated_at: 1736529343
 image: _56ab3fb2-8313-4a54-9e5b-0601c2ca83fc-1729737452.jpeg
 parent: home
 ---
