@@ -9,9 +9,15 @@ text:
     content:
       -
         type: text
-        text: 'We provide great deals on demo, prototype, and open-box items from time to time. Call for more.'
-updated_by: 63f13f7c-2a11-499f-b033-ad0f353c2031
-updated_at: 1729737459
+        text: 'We provide great deals on demo, prototype, and open-box items from time to time. '
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Listed also are Amplifier and Cable bundle packages special pricing!'
+updated_by: a00f84a2-73c3-4b20-bc6b-8ff14df49968
+updated_at: 1736529186
 image: _56ab3fb2-8313-4a54-9e5b-0601c2ca83fc-1729737452.jpeg
 parent: home
 ---
