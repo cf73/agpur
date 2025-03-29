@@ -7,7 +7,7 @@ brief_description: 'Unparalleled quality, diminutive size'
 background_image: monobloc169.png
 parent: d773d704-5699-4af1-a19e-bc6f8f1ecc29
 updated_by: a00f84a2-73c3-4b20-bc6b-8ff14df49968
-updated_at: 1738695412
+updated_at: 1743267969
 hero_quote: 'The organic wholeness, the octave to octave balance, huge dynamics, and the detailed yet extremely smooth top end was fantastic, with soundstaging reality only GaN-FETs and Ag can provide.'
 hero_quote_attribution: 'Richard Colburn (Audioquest, Audience, Fidelis, Bluebird)'
 description:
@@ -258,6 +258,18 @@ gallery:
     id: lxtyox07
     image: monobloc-65mm-f-2-16-1s-100.jpg
     caption: 'ArgentPur Monobloc rear panel'
+    type: product
+    enabled: true
+  -
+    id: m8ugnxx1
+    image: thumbnail_img_5669.jpg
+    caption: 'DUO dual-mono stereo amp'
+    type: product
+    enabled: true
+  -
+    id: m8ugpi3t
+    image: thumbnail_img_5672.jpg
+    caption: 'DUO Rear Panel'
     type: product
     enabled: true
 ---
