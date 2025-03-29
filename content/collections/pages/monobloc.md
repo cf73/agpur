@@ -7,7 +7,7 @@ brief_description: 'Unparalleled quality, diminutive size'
 background_image: monobloc169.png
 parent: d773d704-5699-4af1-a19e-bc6f8f1ecc29
 updated_by: a00f84a2-73c3-4b20-bc6b-8ff14df49968
-updated_at: 1743268218
+updated_at: 1743269907
 hero_quote: 'The organic wholeness, the octave to octave balance, huge dynamics, and the detailed yet extremely smooth top end was fantastic, with soundstaging reality only GaN-FETs and Ag can provide.'
 hero_quote_attribution: 'Richard Colburn (Audioquest, Audience, Fidelis, Bluebird)'
 description:
@@ -115,7 +115,7 @@ description:
     content:
       -
         type: text
-        text: 'DUO dual-mono stereo version (avail February 2025!)'
+        text: 'DUO dual-mono stereo version (avail March 2025!)'
   -
     type: paragraph
     content:
@@ -224,7 +224,7 @@ description:
     content:
       -
         type: text
-        text: "Our preference is to use a separate MONOBLOC near each loudspeaker, linking with very affordable 0.25M AgPur13 cable-jumpers...and preferably with longer AgPur Athene XLR interconnects. This best practice effects a lower total cost,\_especially if short power cables can be sent from your room's sidewalls.  (Note: If long RCAs are required, custom-length SHIELDED AgPur ICs are available for use to control single-ended noise issues.)"
+        text: "Our preference is to use a separate MONOBLOC near each loudspeaker, linking with very affordable 0.25M AgPur13 cable-jumpers...and preferably with longer AgPur Athene or Heracles XLR interconnects. This best practice effects a lower total cost,\_especially if short power cables can be sent from your room's sidewalls.  (Note: If long RCAs are required, custom-length SHIELDED AgPur RCAss are available for use to control single-ended noise issues.)"
   -
     type: paragraph
     content:
