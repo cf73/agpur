@@ -7,8 +7,7 @@ description: 'PROTOTYPE AgPur Tonearm Cable. 1.2M, using 5 pin DIN and RCAs.  I 
 original_price: 1200
 price: 800
 images:
-  - thumbnail_img_4859-1730395778.jpg
-  - thumbnail_img_5164.jpg
-updated_by: a00f84a2-73c3-4b20-bc6b-8ff14df49968
-updated_at: 1730401478
+  - thumbnail_img_5164-1749509639.jpg
+updated_by: 63f13f7c-2a11-499f-b033-ad0f353c2031
+updated_at: 1749509641
 ---

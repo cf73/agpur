@@ -7,7 +7,7 @@ description: "Discontinued (temporarily?) AgPur 23AWG 2.5M Speaker Cables (Banan
 original_price: 1100
 price: 700
 images:
-  - thumbnail_img_5165.jpg
-updated_by: a00f84a2-73c3-4b20-bc6b-8ff14df49968
-updated_at: 1730400788
+  - thumbnail_img_5165-1749509503.jpg
+updated_by: 63f13f7c-2a11-499f-b033-ad0f353c2031
+updated_at: 1749509506
 ---

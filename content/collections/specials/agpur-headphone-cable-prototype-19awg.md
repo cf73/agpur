@@ -7,8 +7,7 @@ description: 'Prototype pair of high-current 19AWG headphone cables. 1.2M (4ft),
 original_price: 2000
 price: 1300
 images:
-  - thumbnail_img_4859-1730395587.jpg
-  - thumbnail_img_5166.jpg
-updated_by: a00f84a2-73c3-4b20-bc6b-8ff14df49968
-updated_at: 1730401520
+  - thumbnail_img_5166-1749509587.jpg
+updated_by: 63f13f7c-2a11-499f-b033-ad0f353c2031
+updated_at: 1749509588
 ---

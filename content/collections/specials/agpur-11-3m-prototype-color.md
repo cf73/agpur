@@ -7,8 +7,7 @@ description: "Statement AgPur 11AWG 3M SPADES pair made for CAF and AXPONA last 
 original_price: 5600
 price: 4500
 images:
-  - thumbnail_img_4859-1730393094.jpg
-  - thumbnail_img_5157.jpg
-updated_by: a00f84a2-73c3-4b20-bc6b-8ff14df49968
-updated_at: 1730400916
+  - thumbnail_img_5157-1749509219.jpg
+updated_by: 63f13f7c-2a11-499f-b033-ad0f353c2031
+updated_at: 1749509222
 ---

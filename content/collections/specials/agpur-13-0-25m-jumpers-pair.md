@@ -7,7 +7,7 @@ description: 'New pair of AgPur 13 0.25M (10") speaker cables. Perfect for Monob
 original_price: 1250
 price: 1100
 images:
-  - thumbnail_img_4859-1730394625.jpg
-updated_by: a00f84a2-73c3-4b20-bc6b-8ff14df49968
-updated_at: 1730394630
+  - thumbnail_img_5172-1749509419.jpg
+updated_by: 63f13f7c-2a11-499f-b033-ad0f353c2031
+updated_at: 1749509420
 ---

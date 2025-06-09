@@ -7,8 +7,7 @@ description: 'Athene 18 1M One-off with Gray/Black/Gray outer techflex instead o
 original_price: 1400
 price: 1000
 images:
-  - thumbnail_img_4859-1730392654.jpg
-  - thumbnail_img_5160.jpg
-updated_by: a00f84a2-73c3-4b20-bc6b-8ff14df49968
-updated_at: 1730401171
+  - thumbnail_img_5160-1749509692.jpg
+updated_by: 63f13f7c-2a11-499f-b033-ad0f353c2031
+updated_at: 1749509693
 ---

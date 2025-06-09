@@ -26,6 +26,40 @@ tabs:
               validate:
                 - required
           -
+            handle: review_excerpt
+            field:
+              buttons:
+                - bold
+                - italic
+                - removeformat
+                - anchor
+              smart_typography: false
+              save_html: false
+              inline: false
+              toolbar_mode: fixed
+              reading_time: false
+              word_count: false
+              fullscreen: true
+              allow_source: true
+              enable_input_rules: true
+              enable_paste_rules: true
+              remove_empty_nodes: false
+              character_limit: 800
+              antlers: false
+              link_noopener: false
+              link_noreferrer: false
+              target_blank: false
+              always_show_set_button: false
+              collapse: false
+              previews: true
+              type: bard
+              display: 'Review Excerpt'
+              listable: hidden
+              instructions_position: above
+              visibility: visible
+              replicator_preview: true
+              hide_display: false
+          -
             handle: logo
             field:
               max_files: 1
@@ -37,20 +71,6 @@ tabs:
               show_set_alt: true
               type: assets
               display: Logo
-              listable: hidden
-              instructions_position: above
-              visibility: visible
-              replicator_preview: true
-              hide_display: false
-              validate:
-                - required
-          -
-            handle: review_excerpt
-            field:
-              character_limit: '800'
-              antlers: false
-              type: textarea
-              display: 'Review Excerpt'
               listable: hidden
               instructions_position: above
               visibility: visible
@@ -127,4 +147,15 @@ tabs:
               type: slug
               localizable: true
               validate: 'max:200'
+  SEO:
+    display: SEO
+    sections:
+      -
+        fields:
+          -
+            handle: seo
+            field:
+              type: seo_pro
+              listable: false
+              display: SEO
 title: Review

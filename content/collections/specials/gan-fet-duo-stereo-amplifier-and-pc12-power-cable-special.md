@@ -7,7 +7,7 @@ description: 'DUO stereo amplifier ($5200) with AgPur12 Power Cable ($1500 stand
 original_price: 6700
 price: 6300
 images:
-  - thumbnail_img_5166-1736530840.jpg
-updated_by: a00f84a2-73c3-4b20-bc6b-8ff14df49968
-updated_at: 1736530943
+  - thumbnail_img_5166-1736530840-1749509907.jpg
+updated_by: 63f13f7c-2a11-499f-b033-ad0f353c2031
+updated_at: 1749509909
 ---
