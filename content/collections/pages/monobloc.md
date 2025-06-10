@@ -2,17 +2,15 @@
 id: 1688d24c-b95d-459a-900a-20d3a0eb426d
 blueprint: category_page
 template: monobloc
-title: 'Amplifiers: Monobloc and DUO'
+title: 'GaN-FET Amplifiers — Monobloc and DUO'
 brief_description: 'Unparalleled quality, diminutive size'
 background_image: monobloc169.png
 parent: d773d704-5699-4af1-a19e-bc6f8f1ecc29
-updated_by: a00f84a2-73c3-4b20-bc6b-8ff14df49968
-updated_at: 1743269907
+updated_by: 63f13f7c-2a11-499f-b033-ad0f353c2031
+updated_at: 1749510759
 hero_quote: 'The organic wholeness, the octave to octave balance, huge dynamics, and the detailed yet extremely smooth top end was fantastic, with soundstaging reality only GaN-FETs and Ag can provide.'
 hero_quote_attribution: 'Richard Colburn (Audioquest, Audience, Fidelis, Bluebird)'
 description:
-  -
-    type: paragraph
   -
     type: paragraph
     content:
