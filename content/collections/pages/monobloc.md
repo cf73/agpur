@@ -2,12 +2,12 @@
 id: 1688d24c-b95d-459a-900a-20d3a0eb426d
 blueprint: category_page
 template: monobloc
-title: 'GaN-FET Amplifiers — Monobloc and DUO'
+title: 'GaN-FET Amplifiers — Monobloc and dual-mono stereo DUO'
 brief_description: 'Unparalleled quality, diminutive size'
 background_image: monobloc169.png
 parent: d773d704-5699-4af1-a19e-bc6f8f1ecc29
-updated_by: 63f13f7c-2a11-499f-b033-ad0f353c2031
-updated_at: 1749510759
+updated_by: a00f84a2-73c3-4b20-bc6b-8ff14df49968
+updated_at: 1756923155
 hero_quote: 'The organic wholeness, the octave to octave balance, huge dynamics, and the detailed yet extremely smooth top end was fantastic, with soundstaging reality only GaN-FETs and Ag can provide.'
 hero_quote_attribution: 'Richard Colburn (Audioquest, Audience, Fidelis, Bluebird)'
 description:
@@ -16,7 +16,7 @@ description:
     content:
       -
         type: text
-        text: 'ArgentPur is adding GaN-FET Monoblocs and DUO dual-mono stereo power amps to its AgPur solid pure silver cable offerings!'
+        text: 'ArgentPur has added GaN-FET Monoblocs and DUO dual-mono stereo power amps to its AgPur solid pure silver cable offerings!'
   -
     type: paragraph
     content:
@@ -105,7 +105,13 @@ description:
     content:
       -
         type: text
-        text: '$2950 ($5900/pair)'
+        text: '$6200/pr with choice of Black RICHLITE, Black polished Granite, or solid Aluminum custom floor stands. '
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: '$5900/pr without floor stands'
   -
     type: paragraph
   -
@@ -113,7 +119,7 @@ description:
     content:
       -
         type: text
-        text: 'DUO dual-mono stereo version (avail March 2025!)'
+        text: 'DUO dual-mono stereo version '
   -
     type: paragraph
     content:
@@ -222,13 +228,13 @@ description:
     content:
       -
         type: text
-        text: "Our preference is to use a separate MONOBLOC near each loudspeaker, linking with very affordable 0.25M AgPur13 cable-jumpers...and preferably with longer AgPur Athene or Heracles XLR interconnects. This best practice effects a lower total cost,\_especially if short power cables can be sent from your room's sidewalls.  (Note: If long RCAs are required, custom-length SHIELDED AgPur RCAss are available for use to control single-ended noise issues.)"
+        text: "Our preference is to use a separate MONOBLOC near each loudspeaker, linking with very affordable 0.25M AgPur13 cable-jumpers...and preferably with longer AgPur Athene, Heracles or AMEN XLR interconnects. This best practice effects a lower total cost,\_especially if short power cables can be sent from your room's sidewalls.  (Note: If long RCAs are required, custom-length SHIELDED AgPur RCAss are available for use to control single-ended noise issues.)"
   -
     type: paragraph
     content:
       -
         type: text
-        text: "But if you already have established, or prefer, a more traditional central rack components geometry using short ICs and longer speaker cables, you'll find the DUO version easier to implement, and requiring only one power cable. This setup may be true also if you use one central power conditioner and prefer not to send long power cables to separate speaker-area monos."
+        text: "But if you already have established, or prefer, a more traditional central rack components geometry using short ICs and longer speaker cables, you'll find the DUO version easier to implement, and requiring only one power cable. This setup may be true also if you use one central power conditioner and prefer not to send long power cables to separate speaker-area monos. See our new PowerBox as a possibly helpful Ag power cable."
   -
     type: paragraph
     content:
