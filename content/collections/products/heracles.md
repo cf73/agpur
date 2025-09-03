@@ -3,12 +3,12 @@ id: e4944c69-461f-410f-a066-1f2f5aa00716
 blueprint: product
 title: HERACLES
 description: |-
-  ArgentPur Heracles comprise an unheard-of 16AWG (1.3mm2) aggregate solid Ag construction, providing unmatched top octave air, clarity,
-  and a thunderous, totally coherent full-frequency presentation for reference level systems.
+  ArgentPur Heracles comprises 16AWG (1.3mm2) aggregate solid Ag construction, providing top octave air 
+  and a thunderous, totally coherent full-frequency presentation for very highly resolving systems.
   Also available SHIELDED!
 cable_type: interconnect
 updated_by: a00f84a2-73c3-4b20-bc6b-8ff14df49968
-updated_at: 1719612163
+updated_at: 1756921950
 image: hera-16-1.jpg
 price_for_0_5m: 1450
 price_for_0_5_meter_xlr: 1900
