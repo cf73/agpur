@@ -1,6 +1,5 @@
 ---
 id: 711aeffe-4861-4c62-9578-d13f86c883a0
-published: false
 blueprint: product
 title: AMEN
 medallion: 31284998988_d0c7e37d3d_4k.jpg
