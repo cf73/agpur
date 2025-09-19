@@ -7,7 +7,7 @@ brief_description: 'Unparalleled quality, diminutive size'
 background_image: monobloc169.png
 parent: d773d704-5699-4af1-a19e-bc6f8f1ecc29
 updated_by: a00f84a2-73c3-4b20-bc6b-8ff14df49968
-updated_at: 1758223278
+updated_at: 1758316617
 hero_quote: 'The organic wholeness, the octave to octave balance, huge dynamics, and the detailed yet extremely smooth top end was fantastic, with soundstaging reality only GaN-FETs and Ag can provide.'
 hero_quote_attribution: 'Richard Colburn (Audioquest, Audience, Fidelis, Bluebird)'
 description:
@@ -274,6 +274,12 @@ gallery:
     id: m8ugpi3t
     image: thumbnail_img_5672.jpg
     caption: 'DUO Rear Panel'
+    type: product
+    enabled: true
+  -
+    id: mfrca98h
+    image: thumbnail_1000002474.jpg
+    caption: 'DUO sual-mono stereo interior'
     type: product
     enabled: true
 ---
