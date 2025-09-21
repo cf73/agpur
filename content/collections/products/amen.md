@@ -7,8 +7,8 @@ base_price: 1200
 price_for_1_meter: 2400
 price_for_1_meter_xlr: 3000
 updated_by: a00f84a2-73c3-4b20-bc6b-8ff14df49968
-updated_at: 1756924935
-description: "ArgentPur's new statement interconnect adds ultra-fine Ag strands to Heracles to provide an even more transparent and natural presentation. Suitable for the absolute best reference systems."
+updated_at: 1758473152
+description: "ArgentPur's new statement interconnect AMEN adds ultra-fine Ag strands to Heracles to provide an even more transparent and detailed, natural presentation. Suitable for the absolute best reference systems."
 extended_description:
   -
     type: paragraph
