@@ -2,10 +2,10 @@
 id: ba0a8fed-e6d1-4eae-9666-85de571f4d88
 blueprint: product
 title: 'HARMONIE (Legacy Product...very few left!)'
-description: 'ArgentPur Harmonie comprise 19AWG (0.65mm2) Ag in a simple twisted-pair geometry finished as a tri-braid. It is evenly balanced, affordable, with fine clarity, staging, and octave-to-octave coherence. Also available SHIELDED!'
+description: 'ArgentPur Harmonie comprise 19AWG (0.65mm2) Ag in the original twisted-pair geometry, finished as a tri-braid. It is evenly balanced, affordable, with fine clarity, staging, and octave-to-octave coherence. Also available SHIELDED!'
 cable_type: interconnect
 updated_by: a00f84a2-73c3-4b20-bc6b-8ff14df49968
-updated_at: 1756921632
+updated_at: 1760282153
 image: neutrik-harmonie-1.jpg
 base_price: 500
 price_per_additional_meter: 600
@@ -27,4 +27,11 @@ price_for_5_meter: 2500
 price_for_5_meter_xlr: 3600
 price_per_meter: 400
 medallion: cf73_harmonie_silver_medallion_30dcdef1-bbba-406e-adb7-b1df67842a9e-1698371248.png
+extended_description:
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Custom orders welcome, especially for long, affordable lengths.'
 ---
