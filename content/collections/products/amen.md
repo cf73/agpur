@@ -2,12 +2,12 @@
 id: 711aeffe-4861-4c62-9578-d13f86c883a0
 blueprint: product
 title: AMEN
-medallion: thumbnail_img_5414-1.jpg
+medallion: amen.jpg
 base_price: 1200
 price_for_1_meter: 2400
 price_for_1_meter_xlr: 3000
 updated_by: a00f84a2-73c3-4b20-bc6b-8ff14df49968
-updated_at: 1760282687
+updated_at: 1760294200
 description: "ArgentPur's new statement interconnect AMEN adds ULTRA-fine Ag strands to Heracles in an 8 Ag strand/conductor 15AWG aggregate to provide even more transparent and detailed, natural presentation. Suitable for the absolute best reference systems. Amen...the answer to all your interconnecting prayers!"
 extended_description:
   -
