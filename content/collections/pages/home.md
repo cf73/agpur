@@ -8,6 +8,13 @@ history_of_agpur:
     type: paragraph
   -
     type: paragraph
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'NEW!  AgPur IBIS GaN-FET Stereo Amplifier Only $2975!'
   -
     type: paragraph
     content:
@@ -18,7 +25,7 @@ history_of_agpur:
             type: bold
           -
             type: italic
-        text: "Premiere:   AgPur AMEN Interconnects!   The last you'll ever buy!"
+        text: "   AgPur AMEN Interconnects!   The last you'll ever buy!"
   -
     type: paragraph
     content:
@@ -27,7 +34,7 @@ history_of_agpur:
         marks:
           -
             type: bold
-        text: '  Ag Pur GaN-FET Amplifiers: Monoblocs and DUO stereo (dual mono)'
+        text: '  AgPur GaN-FET Amplifiers: Monoblocs and DUO stereo (dual mono)'
   -
     type: paragraph
   -
@@ -106,7 +113,7 @@ history_of_agpur:
         type: text
         text: "NO CABLE! The sound and raison d'etre for ArgentPur!"
 updated_by: a00f84a2-73c3-4b20-bc6b-8ff14df49968
-updated_at: 1758222588
+updated_at: 1773275137
 hero_image: hero.png
 pricing_header: 'Custom Orders, Returns, Demo Policy'
 returns_policy:
