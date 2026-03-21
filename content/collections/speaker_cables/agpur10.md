@@ -1,6 +1,5 @@
 ---
 id: 9d72adb7-2751-4616-b78c-9067ef26e835
-published: false
 blueprint: speaker_cable
 title: AgPur10
 price_for_less_than_0_25m: 2100
