@@ -1,0 +1,20 @@
+{
+  "public/assets/fonts/Baskerville/LibreBaskerville-Italic.ttf": {
+    "file": "assets/LibreBaskerville-Italic-8f06984b.ttf",
+    "src": "public/assets/fonts/Baskerville/LibreBaskerville-Italic.ttf"
+  },
+  "public/assets/fonts/Baskerville/LibreBaskerville-Regular.ttf": {
+    "file": "assets/LibreBaskerville-Regular-243bcf9e.ttf",
+    "src": "public/assets/fonts/Baskerville/LibreBaskerville-Regular.ttf"
+  },
+  "resources/css/site.css": {
+    "file": "assets/site-7185ec87.css",
+    "isEntry": true,
+    "src": "resources/css/site.css"
+  },
+  "resources/js/site.js": {
+    "file": "assets/site-78e54fda.js",
+    "isEntry": true,
+    "src": "resources/js/site.js"
+  }
+}
