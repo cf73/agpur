@@ -2,7 +2,7 @@ name: Ernie
 roles:
   - editor
 id: a00f84a2-73c3-4b20-bc6b-8ff14df49968
-password_hash: $2y$10$eqiQ2yRWektgO48Qumc/.OGa9iQh6CI9BNxfKaOKfpKUjNDYjre0a
+password_hash: $2y$10$.8UChffr8fH7mQdOnsoxT.S2iS1BmI4mU4e4vXnl7X78JnwRe1d9W
 preferences:
   collections:
     power_cables:
