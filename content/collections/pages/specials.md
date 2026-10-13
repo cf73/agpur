@@ -21,9 +21,9 @@ text:
     content:
       -
         type: text
-        text: 'The budget-level Harmonie has been retired. Please inquire for special discounts on the few remaining RCA and XLR interconnecting cables.'
+        text: 'The budget-level Harmonie and previous statement Heracles have been retired. Please inquire for special discounts on these few remaining RCA and XLR interconnecting cables.'
 updated_by: a00f84a2-73c3-4b20-bc6b-8ff14df49968
-updated_at: 1758223158
+updated_at: 1791914368
 image: _56ab3fb2-8313-4a54-9e5b-0601c2ca83fc-1729737452.jpeg
 parent: home
 ---
