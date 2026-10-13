@@ -7,7 +7,7 @@ brief_description: 'Unparalleled quality, diminutive size'
 background_image: monobloc169.png
 parent: d773d704-5699-4af1-a19e-bc6f8f1ecc29
 updated_by: a00f84a2-73c3-4b20-bc6b-8ff14df49968
-updated_at: 1773947307
+updated_at: 1791914043
 hero_quote: 'The organic wholeness, the octave to octave balance, huge dynamics, and the detailed yet extremely smooth top end was fantastic, with soundstaging reality only GaN-FETs and Ag can provide.'
 hero_quote_attribution: 'Richard Colburn (Audioquest, Audience, Fidelis, Bluebird)'
 description:
@@ -40,7 +40,7 @@ description:
     content:
       -
         type: text
-        text: 'MUNDORF SGO (Silver-Gold-Oil) premium capacitors are also used in the critical signal path filter to provide even better resolution and soundstage realism compared to other GaN-FET and Class D designs. The musicality clearly equals best Class A but with utmost pellucidity to the source... plus the ultra-fast gut-wrenching bass grip Class D provides.'
+        text: 'MUNDORF SGO (Silver-Gold-Oil) premium capacitors are also used in the Monobloc and DUO critical output filter paths to provide even better resolution and soundstage realism compared to other GaN-FET and Class D designs. The musicality clearly equals best Class A but with utmost pellucidity to the source... plus the ultra-fast gut-wrenching bass grip Class D provides.'
   -
     type: paragraph
     content:
@@ -292,13 +292,13 @@ description:
     content:
       -
         type: text
-        text: "Our preference is to use a separate MONOBLOC near each loudspeaker, linking with very affordable 0.25M AgPur13 cable-jumpers...and preferably with longer AgPur Athene, Heracles or AMEN XLR interconnects. This best practice effects a lower total cost,\_especially if short power cables can be sent from your room's sidewalls.  (Note: If long RCAs are required, custom-length SHIELDED AgPur RCAss are available for use to control single-ended noise issues.)"
+        text: "Our preference is to use a separate MONOBLOC near each loudspeaker, linking with very affordable 0.25M AgPur13 cable-jumpers...and preferably with longer AgPur Athene, Althea or AMEN XLR interconnects. This best practice effects a lower total cost,\_especially if short power cables can be sent from your room's sidewalls.  (Note: If long RCAs are required, custom-length SHIELDED AgPur RCAss are available for use to control single-ended noise issues.)"
   -
     type: paragraph
     content:
       -
         type: text
-        text: "But if you already have established, or prefer, a more traditional central rack components geometry using short ICs and longer speaker cables, you'll find the DUO version easier to implement, and requiring only one power cable. This setup may be true also if you use one central power conditioner and prefer not to send long power cables to separate speaker-area monos. See our new PowerBox as a possibly helpful Ag power cable."
+        text: "But if you already have established, or prefer, a more traditional central rack components geometry using short ICs and longer speaker cables, you'll find the DUO version easier to implement, and requiring only one power cable. This setup may be true also if you use one central power conditioner and prefer not to send long power cables to separate speaker-area monos. See our new PowerBox as a possibly helpful Ag power cable distributor."
   -
     type: paragraph
     content:
@@ -328,7 +328,7 @@ gallery:
   -
     id: lxtyo0vk
     image: 2ad9991f-6bfc-42c7-a484-f4df1890f546.jpg
-    caption: 'ArgentPur MONOBLOC and DUO GaN-FET Power Amplifiers'
+    caption: 'ArgentPur MONOBLOC,  DUO Stereo and IBIS GaN-FET Power Amplifiers'
     type: product
     enabled: true
   -
