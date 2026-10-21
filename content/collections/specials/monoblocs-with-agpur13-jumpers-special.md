@@ -11,5 +11,5 @@ price: 6900
 images:
   - thumbnail_img_5284-2.jpg
 updated_by: a00f84a2-73c3-4b20-bc6b-8ff14df49968
-updated_at: 1736530326
+updated_at: 1792610922
 ---
