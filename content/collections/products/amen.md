@@ -7,8 +7,8 @@ base_price: 1200
 price_for_1_meter: 2500
 price_for_1_meter_xlr: 3200
 updated_by: a00f84a2-73c3-4b20-bc6b-8ff14df49968
-updated_at: 1774111388
-description: "ArgentPur's new statement interconnect AMEN adds ULTRA-fine Ag strands to Heracles in an 8 Ag strand/conductor 15AWG aggregate to provide even more transparent and detailed, natural presentation. Suitable for the absolute best reference systems. Amen...the answer to all your interconnecting prayers!"
+updated_at: 1792610063
+description: "ArgentPur's statement interconnect AMEN adds ULTRA-fine Ag strands to Heracles (legacy) in an 8 Ag strand/conductor 15AWG aggregate to provide even more transparent and detailed, natural presentation and unprcedented upper octave resolution and soundstage depth.  Suitable for the absolute best reference systems. Amen...the answer to all your interconnecting prayers!"
 extended_description:
   -
     type: paragraph
@@ -40,6 +40,4 @@ price_for_3_meter_xlr: 6500
 price_for_4_meter: 6800
 price_for_4_meter_xlr: 8300
 image: e.2-1946_lrg.jpg
-price_for_5_meter: 7700
-price_for_5_meter_xlr: 10000
 ---
