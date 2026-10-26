@@ -5,7 +5,7 @@ template: interconnects
 title: Interconnects
 parent: d773d704-5699-4af1-a19e-bc6f8f1ecc29
 updated_by: a00f84a2-73c3-4b20-bc6b-8ff14df49968
-updated_at: 1791914254
+updated_at: 1793032106
 background_image: cf73_heracles_athene_and_harmonie_are_made_of_silver_metal_show_583295f2-b2fa-4f8b-8966-f48877eb394d.jpg
 brief_description: 'ArgentPur offers three tiers of Interconnects, available both single ended (RCA) and balanced (XLR).'
 hero_quote: 'There is something extraordinary going on here and amazingly beautiful... Could it be magic?'
@@ -16,7 +16,22 @@ description:
     content:
       -
         type: text
-        text: 'ArgentPur offers TWO tiers of Interconnects, available both single ended (RCA) and balanced (XLR).'
+        marks:
+          -
+            type: bold
+        text: ArgentPur
+      -
+        type: text
+        text: ' offers '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: two
+      -
+        type: text
+        text: ' tiers of Interconnects, available both single ended (RCA) and balanced (XLR).'
 core_technologies:
   -
     id: loolaek2
@@ -27,7 +42,7 @@ core_technologies:
   -
     id: loolb2yz
     title: 'Interconnect Conductor Mass'
-    text: 'Unlike many other “pure” silver interconnects that only offer 19-24AWG total conductor mass, thus possibly reducing signal current, silver mass in AGPur starts at 18 AWG in our Athene and Althea models, increasing to 16 AWG in the burlier Heracles, culminating in an unheard of 15 AWG in the new peerless AMEN providing new-found level of pellucidity in the top octaves AND huge bass slam!'
+    text: 'Unlike many other “pure” silver interconnects that only offer 19-24AWG total conductor mass, thus possibly reducing signal current, silver mass in AgPur starts at 18 AWG in our Athene (legacy) and new Althea models, increasing to 16 AWG in the Heracles (legacy) and culminating in an unheard of 15 AWG in the new peerless AMEN providing new-found level of pellucidity in the top octaves and huge bass slam!'
     type: core_tech
     enabled: true
   -
@@ -46,7 +61,7 @@ gallery:
   -
     id: loq4le8n
     image: neutrik-harmonie-1.jpg
-    caption: 'Harmonie...retired. Inquire for remaining inventory at reduced prices!'
+    caption: 'Harmonie (legacy). See Specials for remaining inventory.'
     type: product
     enabled: true
   -
