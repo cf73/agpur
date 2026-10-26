@@ -7,7 +7,7 @@ brief_description: 'Unparalleled quality, diminutive size'
 background_image: monobloc169.png
 parent: d773d704-5699-4af1-a19e-bc6f8f1ecc29
 updated_by: a00f84a2-73c3-4b20-bc6b-8ff14df49968
-updated_at: 1793029270
+updated_at: 1793029905
 hero_quote: 'The organic wholeness, the octave to octave balance, huge dynamics, and the detailed yet extremely smooth top end was fantastic, with soundstaging reality only GaN-FETs and Ag can provide.'
 hero_quote_attribution: 'Richard Colburn (Audioquest, Audience, Fidelis, Bluebird)'
 description:
@@ -117,12 +117,16 @@ description:
     type: paragraph
   -
     type: paragraph
-  -
-    type: paragraph
     content:
       -
         type: text
-        text: 'ALL INPUT, OUTPUT and POWER SUPPLY wiring comprises twisted-pair '
+        marks:
+          -
+            type: bold
+        text: 'ALL INPUT, OUTPUT and POWER SUPPLY '
+      -
+        type: text
+        text: 'wiring comprises twisted-pair '
       -
         type: text
         marks:
@@ -137,13 +141,28 @@ description:
     content:
       -
         type: text
-        text: 'MUNDORF SGO (Silver-Gold-Oil) premium capacitors are also used in the Monobloc and DUO critical output filter paths to provide even better resolution and soundstage realism compared to other GaN-FET and Class D designs. The musicality clearly equals best Class A but with utmost pellucidity to the source... plus the ultra-fast gut-wrenching bass grip Class D provides.'
+        marks:
+          -
+            type: italic
+        text: MUNDORF
+      -
+        type: text
+        text: ' SGO (Silver-Gold-Oil) premium capacitors are also used in the Monobloc and DUO critical output filter paths to provide even better resolution and soundstage realism compared to other GaN-FET and Class D designs. The musicality clearly equals best Class A but with utmost pellucidity to the source... plus the ultra-fast gut-wrenching bass grip Class D provides.'
   -
     type: paragraph
     content:
       -
         type: text
-        text: 'All Input and Output connectors are also silvered, as is the premium solder, providing a COMPLETE SILVER through-path!'
+        text: 'All input and output connectors are also silvered, as is the premium solder, providing a '
+      -
+        type: text
+        marks:
+          -
+            type: italic
+        text: 'COMPLETE SILVER '
+      -
+        type: text
+        text: through-path!
   -
     type: paragraph
     content:
@@ -313,15 +332,36 @@ description:
         marks:
           -
             type: bold
-        text: 'Introductory price is only $2975 for the true dual-mono construction!'
-  -
-    type: paragraph
+        text: IBIS
+      -
+        type: text
+        text: ' shares the same half-width chassis size as the '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'MONOBLOC,'
+      -
+        type: text
+        text: ' consuming only 20w at idle.'
   -
     type: paragraph
     content:
       -
         type: text
-        text: 'l '
+        marks:
+          -
+            type: bold
+        text: 'Introductory price is only $2975 for the true dual-mono construction! '
+      -
+        type: text
+        text: '(Normally $3275)'
+  -
+    type: paragraph
+  -
+    type: paragraph
+    content:
       -
         type: text
         marks:
@@ -372,7 +412,42 @@ description:
     content:
       -
         type: text
-        text: 'Performance is clearly improved with AgPur PC12 solid pure silver Power Cables, AgPur ALTHEA Interconnects and AgPur Speaker Cables. Please enquire for special bundle pricing!'
+        text: 'Performance is clearly improved with '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'AgPur PC12'
+      -
+        type: text
+        text: ' solid pure silver Power Cables, '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'AgPur ALTHEA'
+      -
+        type: text
+        text: ' Interconnects and'
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: ' AgPur '
+      -
+        type: text
+        text: 'Speaker Cables. Please enquire for special bundle pricing, or see '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+          -
+            type: italic
+        text: ' SPECIALS!'
   -
     type: paragraph
   -
@@ -391,6 +466,9 @@ description:
     content:
       -
         type: text
+        marks:
+          -
+            type: italic
         text: '"Which version should I get?" '
   -
     type: paragraph
@@ -490,7 +568,7 @@ description:
         text: ' DUO'
       -
         type: text
-        text: ' version easier to implement, and requiring only one power cable expense.  This setup may be true also if you use one central power conditioner and prefer not to send long power cables to separate speaker-area monos. See our '
+        text: ' version easier to implement, and requiring only one power cable expense!  This setup may be true also if you use one central power conditioner and prefer not to send long power cables to separate speaker-area monos. See our '
       -
         type: text
         marks:
