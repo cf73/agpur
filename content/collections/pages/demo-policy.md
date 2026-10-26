@@ -2,14 +2,34 @@
 id: 83615a55-6285-49ea-919f-74a979f40c84
 blueprint: simple_text_page
 template: simpletextpage
-title: 'Demo Policy'
+title: 'PURCHASE, PAYMENT AND DEMO POLICY'
 text:
   -
     type: paragraph
     content:
       -
         type: text
-        text: 'Standard ArgentPur constructions for Speaker Cables are 2.5M length, terminated with premium bananas AND spades. Standard Interconnects are 1M length.'
+        text: 'PURCHASE and PAYMENT'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: "If you have problems with this website's cart, purchase and payment software PLEASE contact me or use: Paypal at ernest_meunier@msn.com, personal check, or VENMO either at ArgentPur @erniemeunier or Ernest Meunier @Ernest-Meunier"
+  -
+    type: paragraph
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'DEMO Policy'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        text: 'Standard ArgentPur constructions for Speaker Cables are 2.5M length, terminated with premium bananas AND spades. Standard Interconnects are 1M length. Standard Power Cables are 1.5M length.'
   -
     type: paragraph
     content:
@@ -47,6 +67,6 @@ text:
         type: text
         text: 'International distribution enquiries are welcome.'
 updated_by: a00f84a2-73c3-4b20-bc6b-8ff14df49968
-updated_at: 1793030563
+updated_at: 1793031381
 parent: home
 ---
