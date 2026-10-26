@@ -7,7 +7,7 @@ brief_description: 'Unparalleled quality, diminutive size'
 background_image: monobloc169.png
 parent: d773d704-5699-4af1-a19e-bc6f8f1ecc29
 updated_by: a00f84a2-73c3-4b20-bc6b-8ff14df49968
-updated_at: 1792614731
+updated_at: 1793029270
 hero_quote: 'The organic wholeness, the octave to octave balance, huge dynamics, and the detailed yet extremely smooth top end was fantastic, with soundstaging reality only GaN-FETs and Ag can provide.'
 hero_quote_attribution: 'Richard Colburn (Audioquest, Audience, Fidelis, Bluebird)'
 description:
@@ -16,25 +16,122 @@ description:
     content:
       -
         type: text
-        text: 'ArgentPur has added GaN-FET Monoblocs, DUO dual-mono stereo and the smaller IBIS stereo power amp to its AgPur solid pure silver cable offerings!'
+        marks:
+          -
+            type: bold
+        text: ArgentPur
+      -
+        type: text
+        text: ' has added GaN-FET'
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: ' Monoblocs'
+      -
+        type: text
+        text: ','
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: ' DUO'
+      -
+        type: text
+        text: ' dual-mono stereo and the smaller'
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: ' IBIS'
+      -
+        type: text
+        text: '  dual-mono stereo power amp to its '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: AgPur
+      -
+        type: text
+        text: ' solid pure silver cable offerings!'
   -
     type: paragraph
     content:
       -
         type: text
-        text: 'The Monoblocs and stereo DUO compact amps offer 250w/8ohm (500w/4 ohm) power, using customized Orchard renowned ULTRA balanced modules, powered by custom 800w SMPSb with soft-start and ultra-high frequency switching for extremely low EMI and very high efficiency.'
+        text: 'The '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: Monoblocs
+      -
+        type: text
+        text: ' and stereo '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: DUO
+      -
+        type: text
+        text: ' compact amps offer 250w/8ohm (500w/4 ohm) power, using customized Orchard renowned'
+      -
+        type: text
+        marks:
+          -
+            type: italic
+        text: ' ULTRA'
+      -
+        type: text
+        text: ' balanced modules, powered by custom 800w SMPSb with soft-start and ultra-high frequency switching for extremely low EMI and very high efficiency.'
   -
     type: paragraph
     content:
       -
         type: text
-        text: 'The new IBIS offers 150w/ch 8ohm (200w 4ohm) using the new smaller Orchard Audio "25" GaN-FET modules, also with a true dual-mono topology at a very low introductory price of only $3275, or, tentatively a single ps for only $2975. (Please inquire)'
+        text: The
+      -
+        type: text
+        marks:
+          -
+            type: italic
+        text: ' new'
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: ' IBIS'
+      -
+        type: text
+        text: ' offers 150w/ch 8ohm (200w 4ohm) using the new smaller Orchard Audio "25" GaN-FET modules, also with a true dual-mono topology at a very low introductory price of only $2975 (will be $3250 in 2027). '
+  -
+    type: paragraph
+  -
+    type: paragraph
   -
     type: paragraph
     content:
       -
         type: text
-        text: 'ALL INPUT, OUTPUT and POWER SUPPLY wiring comprises twisted-pair ArgentPur SOLID PURE SILVER in Teflon air-tubes for peerless soundstage detail and holography... the ultimate transparency (WITHOUT brightness!) that both Gallium Nitride and Pure Silver are renowned.'
+        text: 'ALL INPUT, OUTPUT and POWER SUPPLY wiring comprises twisted-pair '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'ArgentPur '
+      -
+        type: text
+        text: 'SOLID PURE SILVER in Teflon air-tubes for peerless soundstage detail and holography... the ultimate transparency (WITHOUT brightness!) that both Gallium Nitride and Pure Silver are renowned.'
   -
     type: paragraph
     content:
@@ -75,13 +172,6 @@ description:
     type: paragraph
   -
     type: paragraph
-    content:
-      -
-        type: text
-        marks:
-          -
-            type: bold
-        text: ITERATIONS
   -
     type: paragraph
     content:
@@ -108,7 +198,7 @@ description:
     content:
       -
         type: text
-        text: 'Power consumption: 11W'
+        text: 'Power consumption: 11W idle'
   -
     type: paragraph
     content:
@@ -129,10 +219,7 @@ description:
         marks:
           -
             type: bold
-        text: DUO
-      -
-        type: text
-        text: ' dual-mono stereo version '
+        text: 'DUO dual-mono stereo version '
   -
     type: paragraph
     content:
@@ -189,22 +276,44 @@ description:
         text: '250wpc 8 ohms, 500wpc 4 oms, 250wpc 2 ohms'
   -
     type: paragraph
+  -
+    type: paragraph
     content:
       -
         type: text
         marks:
           -
             type: bold
-        text: 'The new stereo IBIS '
+          -
+            type: italic
+        text: New!
       -
         type: text
-        text: 'has 150w/ch 8 ohms, 200w/ch 4 ohms, and 100w/ch 2 ohms'
+        marks:
+          -
+            type: bold
+        text: '  IBIS  dual-mono stereo!'
   -
     type: paragraph
     content:
       -
         type: text
-        text: 'Introductory price is only $2975 (single PS) or true dual-mono construction (2 PS) for $3275.'
+        marks:
+          -
+            type: bold
+        text: 'IBIS '
+      -
+        type: text
+        text: ' is an even more compact (half chassis width) GaN-FET amp that has 150w/ch 8 ohms, 200w/ch 4 ohms, and 100w/ch 2 ohms. It is at this time NOT recommended for electrostatic loads.'
+  -
+    type: paragraph
+    content:
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'Introductory price is only $2975 for the true dual-mono construction!'
   -
     type: paragraph
   -
@@ -212,7 +321,7 @@ description:
     content:
       -
         type: text
-        text: 'All '
+        text: 'l '
       -
         type: text
         marks:
@@ -273,6 +382,8 @@ description:
         type: text
         marks:
           -
+            type: bold
+          -
             type: italic
         text: DISCUSSION
   -
@@ -286,19 +397,118 @@ description:
     content:
       -
         type: text
-        text: 'Well, appearance is nearly identical, with the DUO simply +2cm (3/4") larger in all 3 dimensions.'
+        text: 'Well, appearance is nearly identical, with the '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: DUO
+      -
+        type: text
+        text: ' simply +2cm (3/4") larger in all 3 dimensions than the similar '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: MONOBLOC
+      -
+        type: text
+        text: ' and '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: 'IBIS '
+      -
+        type: text
+        text: chassis.
   -
     type: paragraph
     content:
       -
         type: text
-        text: "Our preference is to use a separate MONOBLOC near each loudspeaker, linking with very affordable 0.25M AgPur13 cable-jumpers...and preferably with longer AgPur ALTHEA or AMEN XLR interconnects. This best practice effects a lower total cost,\_especially if short power cables can be sent from your room's sidewalls.  (Note: If long RCAs are required, custom-length SHIELDED AgPur RCAs are available for use to control single-ended noise issues. Yet note that AgPur RCAs employ a split-ground tri-braid that offers commode-mode noise suppression and tghus extremely low capacitance without the adverse effects of close-bound traditional shields)."
+        text: 'Our preference is to use a separate '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: MONOBLOC
+      -
+        type: text
+        text: ' near each loudspeaker, linking with very affordable 0.25M '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: AgPur13
+      -
+        type: text
+        text: ' cable-jumpers...and preferably with longer'
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: ' AgPur'
+      -
+        type: text
+        text: ' '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: ALTHEA
+      -
+        type: text
+        text: ' or '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: AMEN
+      -
+        type: text
+        text: " XLR interconnects. This best practice effects a lower total cost,\_especially if short power cables can be sent from your room's sidewalls.  (Note: If long RCAs are required, custom-length SHIELDED AgPur RCAs are available for use to control single-ended noise issues. Yet note that AgPur RCAs employ a split-ground tri-braid that offers commode-mode noise suppression and tghus extremely low capacitance without the adverse effects of close-bound traditional shields)."
   -
     type: paragraph
     content:
       -
         type: text
-        text: "But if you already have established, or prefer, a more traditional central rack components geometry using short ICs and longer speaker cables, you'll find the DUO version easier to implement, and requiring only one power cable expense.  This setup may be true also if you use one central power conditioner and prefer not to send long power cables to separate speaker-area monos. See our new PowerBox as a possibly helpful Ag power cable distributor (PoBox )for either scenario "
+        text: "But if you already have established, or prefer, a more traditional central rack  geometry using short ICs and longer speaker cables, you'll find the"
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: ' DUO'
+      -
+        type: text
+        text: ' version easier to implement, and requiring only one power cable expense.  This setup may be true also if you use one central power conditioner and prefer not to send long power cables to separate speaker-area monos. See our '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: AgPur
+      -
+        type: text
+        text: ' '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+        text: PowerBox
+      -
+        type: text
+        text: ' as a helpful Ag power cable distributor for either scenario .'
   -
     type: paragraph
     content:
