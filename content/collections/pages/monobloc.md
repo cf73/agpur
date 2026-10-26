@@ -7,7 +7,7 @@ brief_description: 'Unparalleled quality, diminutive size'
 background_image: monobloc169.png
 parent: d773d704-5699-4af1-a19e-bc6f8f1ecc29
 updated_by: a00f84a2-73c3-4b20-bc6b-8ff14df49968
-updated_at: 1793029905
+updated_at: 1793030332
 hero_quote: 'The organic wholeness, the octave to octave balance, huge dynamics, and the detailed yet extremely smooth top end was fantastic, with soundstaging reality only GaN-FETs and Ag can provide.'
 hero_quote_attribution: 'Richard Colburn (Audioquest, Audience, Fidelis, Bluebird)'
 description:
@@ -205,7 +205,7 @@ description:
     content:
       -
         type: text
-        text: 'Size:  8.5 x 12.5 x 3.5" (22 x 29 x 9 cm). (Two sit side-by-side on a 17" rack space if desired.)'
+        text: 'Size:  8.5 x 12.5 x 3.5" (22 x 29 x 9 cm). (Two sit side-by-side on a 17" rack space if desired.) '
   -
     type: paragraph
     content:
@@ -223,13 +223,9 @@ description:
     content:
       -
         type: text
-        text: '$6200/pr with choice of Black RICHLITE, Black polished Granite, or solid Aluminum custom floor stands. '
+        text: '$6200/pr with choice of Black RICHLITE, Black polished Granite, or solid Aluminum custom floor stands. $5900/pr without floor stands'
   -
     type: paragraph
-    content:
-      -
-        type: text
-        text: '$5900/pr without floor stands'
   -
     type: paragraph
     content:
@@ -244,13 +240,7 @@ description:
     content:
       -
         type: text
-        text: 'Size:  9.25 x 13.25 x 4.25 (24 x 31 x 11 cm)'
-  -
-    type: paragraph
-    content:
-      -
-        type: text
-        text: 'Weight: 13 lbs (5.9 kg)'
+        text: 'Size:  9.25 x 13.25 x 4.25 (24 x 31 x 11 cm).  Weight: 13 lbs (5.9 kg)'
   -
     type: paragraph
     content:
@@ -262,13 +252,47 @@ description:
     content:
       -
         type: text
-        text: $5300.
+        text: '$5300. (See '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+          -
+            type: italic
+        text: 'SPECIALS!  '
+      -
+        type: text
+        marks:
+          -
+            type: italic
+        text: 'for savings with '
+      -
+        type: text
+        marks:
+          -
+            type: bold
+          -
+            type: italic
+        text: 'AgPur PC12'
+      -
+        type: text
+        marks:
+          -
+            type: italic
+        text: ' Power Cable)'
   -
     type: paragraph
     content:
       -
         type: text
-        text: 'Performance specs for both'
+        marks:
+          -
+            type: bold
+        text: 'Power Sopecifications'
+      -
+        type: text
+        text: ' for both'
       -
         type: text
         marks:
