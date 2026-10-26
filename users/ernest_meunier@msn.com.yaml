@@ -10,3 +10,7 @@ preferences:
         pc9_noir:
           display: 'PC9 NOIR'
           query: 'PC9 NOIR'
+    pages:
+      filters:
+        purchase_and_payment:
+          display: 'PURCHASE AND PAYMENT'
