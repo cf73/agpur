@@ -5,7 +5,7 @@ template: interconnects
 title: Interconnects
 parent: d773d704-5699-4af1-a19e-bc6f8f1ecc29
 updated_by: a00f84a2-73c3-4b20-bc6b-8ff14df49968
-updated_at: 1793035219
+updated_at: 1793035604
 background_image: cf73_heracles_athene_and_harmonie_are_made_of_silver_metal_show_583295f2-b2fa-4f8b-8966-f48877eb394d.jpg
 brief_description: 'ArgentPur offers three tiers of Interconnects, available both single ended (RCA) and balanced (XLR).'
 hero_quote: 'There is something extraordinary going on here and amazingly beautiful... Could it be magic?'
@@ -81,4 +81,10 @@ gallery:
     type: product
     enabled: true
     caption: 'ALTHEA is my new affordable statement interconnect. It consists of the same 4-tier Ag strands matrix as the reference AMEN, but in a simplified but still a hefty 18AWG iteration.  Thus ALTHEA adds further top octave clarity and soundstage depth to the previous Athene...at the same price!'
+  -
+    id: mvpiw751
+    image: amen-1793035499.jpg
+    caption: 'AMEN ultimate statement interconnect for premium reference systems.  AMEN builds upon Heracles (legacy) vaunted performance by adding a pair of ultra-fine Ag strands that improve top octave resolution and soundstage depth to absolute top-tier performance. Often compared to solid pure Ag formulations at MANY times its cost, AMEN will be the last interconnect you will buy!  Its 4 tier 8 strands/leg (32 RCA, 48XLR!) comprises an unheard-of 15AWG solid pure Ag for the most demanding front end components.'
+    type: product
+    enabled: true
 ---
