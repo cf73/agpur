@@ -33,7 +33,7 @@ text:
     content:
       -
         type: text
-        text: 'Monobloc and stereo DUO GaN-FET amplifiers can also be auditioned following full pre-payment, if returned within the same 27 day window, less shipping costs.'
+        text: 'MONOBLOC and stereo DUO GaN-FET amplifiers can also be auditioned following full pre-payment, if returned within the same 27 day window, less shipping costs.'
   -
     type: paragraph
     content:
@@ -45,8 +45,8 @@ text:
     content:
       -
         type: text
-        text: 'International /distributor dealer enquiries are welcome.'
+        text: 'International distribution enquiries are welcome.'
 updated_by: a00f84a2-73c3-4b20-bc6b-8ff14df49968
-updated_at: 1760636192
+updated_at: 1793030563
 parent: home
 ---
