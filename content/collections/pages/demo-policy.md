@@ -2,7 +2,7 @@
 id: 83615a55-6285-49ea-919f-74a979f40c84
 blueprint: simple_text_page
 template: simpletextpage
-title: 'PURCHASE, PAYMENT AND DEMO POLICY'
+title: 'PURCHASE, PAYMENT and DEMO POLICY'
 text:
   -
     type: paragraph
@@ -67,6 +67,6 @@ text:
         type: text
         text: 'International distribution enquiries are welcome.'
 updated_by: a00f84a2-73c3-4b20-bc6b-8ff14df49968
-updated_at: 1793031381
+updated_at: 1793031412
 parent: home
 ---
